@@ -1,0 +1,30 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
+const L = require('./learning.js');
+const context = {window:{}};
+vm.runInNewContext(fs.readFileSync('data.js','utf8'),context);
+const data=context.window.EXAM_DATA, ids=data.questions.map(q=>q.id);
+assert.equal(ids.length,61);assert.equal(new Set(ids).size,61);
+for(const y of [2023,2024])assert.equal(new Set(data.questions.filter(q=>q.year===y).map(q=>q.original)).size,20);
+for(const q of data.questions){assert(q.answer.length>20);for(const src of q.sources)assert(data.sources[src]?.url.startsWith('https://'));}
+const now=1000000,day=86400000;
+let review;
+for(const days of [1,3,7,14,30,30]){review=L.schedule(review,'known',now);assert.equal(review.due,now+days*day)}
+review=L.schedule(review,'hard',now);assert.equal(review.streak,0);assert.equal(review.due,now+day);
+assert.equal(L.schedule(review,'known',now).due,now+day);
+const legacy={ratings:{[ids[0]]:'hard'},drafts:{[ids[0]]:'Mitt äldre svar'},stars:[ids[0]],session:{ids:[ids[0]],index:0,answers:{},mode:'Test'}};
+const restored=L.normalize(legacy,ids);assert.equal(restored.session.answers[ids[0]].draft,'Mitt äldre svar');assert.equal(restored.ratings[ids[0]],'hard');
+assert.equal(L.normalize({...legacy,session:{ids:['missing'],index:0}},ids).session,null);
+assert.equal(L.normalize({...legacy,session:{ids:[ids[0]],index:-1}},ids).session,null);
+assert.throws(()=>L.normalize({},ids));
+const roundtrip=L.normalize(JSON.parse(JSON.stringify({...restored,reviews:{[ids[0]]:review}})),ids);
+assert.deepEqual(roundtrip.reviews[ids[0]],review);assert.equal(roundtrip.session.answers[ids[0]].draft,'Mitt äldre svar');
+const app=fs.readFileSync('app.js','utf8');
+const functionText=app.slice(app.indexOf('function requiredLicense('),app.indexOf('function calc()'));
+const calcContext={};vm.runInNewContext(functionText,calcContext);
+for(const [c,t,result] of [[3500,750,'B'],[2500,1000,'B'],[2500,1001,'B96'],[3500,751,'BE'],[3000,1250,'B96'],[3000,1251,'BE'],[3500,3500,'BE'],[0,750,null],[3501,750,null],[3000,750.5,null]])assert.equal(calcContext.requiredLicense(c,t),result);
+for(const f of ['index.html','app.js','data.js','sw.js','learning.js'])assert(!fs.readFileSync(f,'utf8').includes('\ufffd'));
+assert(fs.readFileSync('index.html','utf8').includes('data-version="'+data.version+'"'));
+assert(fs.readFileSync('sw.js','utf8').includes('trafiktenta-'+data.version));
+console.log('PASS: 61 exercises, 40 source questions, references, repetition intervals, migration, invalid files, roundtrip, 10 licence boundaries, version/encoding.');

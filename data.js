@@ -1,6 +1,6 @@
 window.EXAM_DATA = {
-  "version": "1.1.0",
-  "reviewed": "2026-09-08",
+  "version": "1.2.0",
+  "reviewed": "2026-09-14",
   "sources": {
     "kkl": {
       "title": "Körkortslagen (1998:488)",
@@ -129,6 +129,14 @@ window.EXAM_DATA = {
     "polis": {
       "title": "Polisen – aktuellt publikt trafiksäkerhetsarbete",
       "url": "https://polisen.se/om-polisen/polisens-arbete/trafikbrott/"
+    },
+    "hd2025": {
+      "title": "HD – NJA 2025 s. 211, B 4573-24 (19 mars 2025)",
+      "url": "https://www.domstol.se/globalassets/filer/domstol/hogstadomstolen/avgoranden/2025/b-4573-24.pdf"
+    },
+    "hdkruse": {
+      "title": "HD – Kollisionen på Krusegatan, NJA 2025 s. 1006",
+      "url": "https://www.domstol.se/nyheter/2025/10/bilkorning-under-abstinens-var-oaktsam/"
     }
   },
   "questions": [
@@ -622,14 +630,14 @@ window.EXAM_DATA = {
       "category": "Trafikbrott",
       "title": "Rött ljus och skadad motorcyklist",
       "prompt": "Föraren accelererar mot en korsning och passerar rött efter 3–5 sekunder. En motorcyklist skadas allvarligt. Föraren trodde sig hinna. Bedöm möjliga brott.",
-      "answer": "Om utredningen styrker medvetet risktagande eller annars väsentlig oaktsamhet: vårdslöshet i trafik enligt TBL 1 §. Utred också vållande till kroppsskada enligt BrB 3 kap. 8 §, orsakssamband och eventuell grov grad. Allvarlig skada gör inte automatiskt brottet grovt. Rapportera för utredning; en vanlig rödljusbot räcker inte när dessa brott aktualiseras. Åklagarmyndighetens vägledning behandlar bland annat NJA 1996 s. 764 och gränsen mot tillfällig ouppmärksamhet.",
+      "answer": "Om utredningen styrker medvetet risktagande eller annars väsentlig oaktsamhet: vårdslöshet i trafik enligt TBL 1 §. Utred också vållande till kroppsskada enligt BrB 3 kap. 8 §, orsakssamband och eventuell grov grad. Allvarlig skada gör inte automatiskt brottet grovt. Rapportera för utredning; en vanlig rödljusbot räcker inte när dessa brott aktualiseras. RäV 2023:18 avsnitt 4.2 hänvisar till NJA 1996 s. 590 om att vållandebrott har ett annat oaktsamhetskrav än vårdslöshet i trafik. Pröva brotten var för sig.",
       "sources": [
         "tbl",
         "brb",
         "rav"
       ],
       "choices": [],
-      "change": "",
+      "change": " Granskning 2026-09-14: den tidigare hänvisningen till NJA 1996 s. 764 som innehåll i vägledningen var felaktig och har ersatts med den verifierade hänvisningen till NJA 1996 s. 590.",
       "note": ""
     },
     {
@@ -775,7 +783,7 @@ window.EXAM_DATA = {
       "category": "Trafikbrott",
       "title": "Rätt eller fel – vårdslöshet",
       "prompt": "Flera personer kan samtidigt anses som förare.",
-      "answer": "Förarbegreppet avgörs av faktisk påverkan på framförandet och särskilda regler, inte bara vem som sitter vid ratten. Vid godkänd övningskörning anses handledaren som förare enligt KKF 4 kap. 7 §. Bedöm personernas roller i det enskilda fallet.",
+      "answer": "Förarbegreppet avgörs av faktisk påverkan på framförandet och särskilda regler, inte bara vem som sitter vid ratten. Vid godkänd övningskörning anses handledaren som förare enligt KKF 4 kap. 7 §. Bedöm personernas roller i det enskilda fallet. RH 1995:90, återgivet i RäV 2023:18 avsnitt 2.2.3, visar att både handledare och elev kan dömas för rattfylleribrott. Handledarregeln befriar inte generellt eleven från straffansvar.",
       "sources": [
         "tbl",
         "kkf",
@@ -1008,10 +1016,11 @@ window.EXAM_DATA = {
       "category": "Trafikbrott",
       "title": "Rätt eller fel – rattfylleri",
       "prompt": "Vårdslös körning och rattfylleri leder alltid till ansvar för två separata brott.",
-      "answer": "Konkurrensen beror på graderna och om det vårdslösa beteendet är kopplat till berusningen. Man kan i vissa fall dömas för båda, men inte automatiskt. Den gamla frågans formulering ”kan” är därför för bred för ett ovillkorligt fel-svar; se aktuell RäV 2023:18.",
+      "answer": "Konkurrensen beror på graderna och om det vårdslösa beteendet är kopplat till berusningen. Man kan i vissa fall dömas för båda, men inte automatiskt. Den gamla frågans formulering ”kan” är därför för bred för ett ovillkorligt fel-svar; se aktuell RäV 2023:18. Vägledningens konkurrenstabell utgår uttryckligen från alkohol. Den ska inte utan vidare föras över till drograttfylleri; jämför NJA 2025 s. 211.",
       "sources": [
         "tbl",
-        "rav"
+        "rav",
+        "hd2025"
       ],
       "choices": [
         "Fel",
@@ -1059,13 +1068,13 @@ window.EXAM_DATA = {
       "category": "Ordningsbot",
       "title": "Glömd övningskörningsskylt",
       "prompt": "Privat övningskörning är i övrigt laglig men skylten saknas. Eleven och den godkända handledaren medger slarv. Vem ansvarar?",
-      "answer": "Den som har uppsikt över övningskörningen anses som förare enligt KKF 4 kap. 7 § och ska se till att användningen anges enligt 4 kap. 4 § andra stycket. Ansvar i 9 kap. 3 §. Ordningsbot 1 000 kr enligt bilaga 1F nr 1 riktas mot handledaren, inte rutinmässigt mot både elev och handledare.",
+      "answer": "Den som har uppsikt över övningskörningen anses som förare enligt KKF 4 kap. 7 § och ska se till att användningen anges enligt 4 kap. 5 § (privat övningskörning). Ansvar i 9 kap. 3 §. Ordningsbot 1 000 kr enligt bilaga 1F nr 1 riktas mot handledaren, inte rutinmässigt mot både elev och handledare.",
       "sources": [
         "kkf",
         "1f"
       ],
       "choices": [],
-      "change": "",
+      "change": "Rättat lagrum: privat övningskörning omfattas av KKF 4 kap. 5 §. 4 kap. 4 § avser den reglerade utbildningsformen. Ansvar följer av 9 kap. 3 §.",
       "note": ""
     },
     {
@@ -1177,13 +1186,15 @@ window.EXAM_DATA = {
       "category": "Trafikbrott",
       "title": "Läkemedel, extra dos och dubbelseende",
       "prompt": "En förare tar fyra extra tabletter utöver ordination av ett narkotikaklassat läkemedel och kör trots yrsel, stark trötthet och dubbelseende. Bedöm.",
-      "answer": "Utred drograttfylleri enligt TBL 4 § andra stycket: narkotiskt ämne i blodet och intag utanför ordinationen. Utred också kliniskt rattfylleri enligt tredje stycket utifrån påverkansgraden. Ordinationsundantaget är ingen rätt att köra trafikfarligt. Bedöm grovt rattfylleri enligt 4 a § vid avsevärd påverkan eller påtaglig trafikfara; prov, observationer, doser och körningens förlopp behövs. Överväg vårdslöshet och konkurrens enligt rättslig vägledning, inte automatiskt dubbla brott.",
+      "answer": "Utred drograttfylleri enligt TBL 4 § andra stycket: narkotiskt ämne i blodet och intag utanför ordinationen. Utred också kliniskt rattfylleri enligt tredje stycket utifrån påverkansgraden. Ordinationsundantaget är ingen rätt att köra trafikfarligt. Bedöm grovt rattfylleri enligt 4 a § vid avsevärd påverkan eller påtaglig trafikfara; prov, observationer, doser och körningens förlopp behövs. Överväg vårdslöshet och konkurrens enligt rättslig vägledning, inte automatiskt dubbla brott. NJA 2025 s. 211 (B 4573-24), punkterna 14 och 19: när körningen inneburit påtaglig trafikfara krävs inte ett bevisat orsakssamband mellan narkotikapåverkan och faran för grov rubricering. Samtliga omständigheter ska ändå vägas in. Om en person skadas ska vållande till kroppsskada prövas separat. NJA 2025 s. 1006 illustrerar ansvar vid omedveten oaktsamhet och en förutsebar anfallsrisk; det målet avsåg abstinens, inte en extra läkemedelsdos.",
       "sources": [
         "tbl",
-        "rav"
+        "rav",
+        "hd2025",
+        "hdkruse"
       ],
       "choices": [],
-      "change": "",
+      "change": "Förtydligat med HD:s avgörande från 2025 om grovt drograttfylleri.",
       "note": ""
     },
     {
@@ -1192,7 +1203,7 @@ window.EXAM_DATA = {
       "original": "18",
       "category": "Ordningsbot",
       "title": "Avställd, oförsäkrad och obetald skatt",
-      "prompt": "Lås datum till originalets 28 maj 2024. Personbil körs från shopping med halvljus och dimljus samtidigt. Bilen är avställd på ägarens begäran, oförsäkrad och har användningsförbud på grund av skatt som förföll 30 april. Föraren är ägare.",
+      "prompt": "Öva med dagens regler och bötesbelopp. Behåll originalets kalenderläge: körning den 28 maj och skatt förfallen den 30 april. Personbil körs från shopping med halvljus och dimljus samtidigt. Bilen är avställd på ägarens begäran, oförsäkrad och har användningsförbud på grund av skatt som förföll 30 april. Föraren är ägare.",
       "answer": "Otillåten samtidig användning av halvljus och dimljus: TrF 3 kap. 71 § tredje stycket, bilaga 1A nr 2.63, 500 kr. Brukande av avställd personbil högst 3,5 ton: LFRA 10 § och 23 §, bilaga 1C nr 3, 1 200 kr. Brukande av avställt oförsäkrat fordon aktualiserar TSL 36 § (500 kr enligt ordningsbotskatalogens trafikskadepost). Skatteförbudet ska dokumenteras; VTSL 6 kap. 1 § gäller skattepliktiga fordon och avställda fordon är normalt inte skattepliktiga enligt 2 kap. 1 §. Särregeln i 6 kap. 4 § andra stycket gäller om registreringsskyltarna redan tagits om hand; det anges inte i detta fall. Lägg inte automatiskt på ytterligare skattebot. Med dessa tre normalposter blir gemensam bot 1 700 kr. Shopping är inte besiktningsundantaget.",
       "sources": [
         "trf",
