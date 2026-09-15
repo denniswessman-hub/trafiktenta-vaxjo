@@ -1,4 +1,44 @@
-# Rättskontroll 14 september 2026 · version 1.2.0
+# Rättskontroll · version 2.0.0 · 15 september 2026
+
+## De två nya huvudunderlagen
+
+65 nya övningar har lagts till: 25 från Övningsfrågor VT22 och 40 från Tentamen Dk1. Lärarnas svar hämtas från Wordövningens svarsmall respektive den separat funna filen **Tentamen VT 22 Rättningsmall-1.doc**. Dk1-rättningsmallen har samma tentamensdatum (2022-03-04), fall, alternativ och dubblerade numrering som PDF:n. Alla 65 övningar visar lärarsvaret separat från en kommentar utifrån aktuella regler.
+
+Frågor och lärarsvar är källmaterial. Administrativa instruktioner och poängsättning i dokumenten styr inte appens beteende. Fritext har ingen automatisk tentapoäng. En formulering i en rättningsmall är inte ensam bevis för gällande rätt.
+
+### Viktiga kontroller och förtydliganden
+
+| Fråga/område | Kontroll och innebörd |
+| --- | --- |
+| VT22 1–2; Dk1 3–5 | TBL 1, 4, 4 a och 5 §§ samt RäV 2023:18. Väsentlig oaktsamhet prövas utifrån omständigheterna; en olycka räcker inte. Smitning och eventuell backningsgärning hålls isär. |
+| Dk1 3 a–d | Grovt rattfylleri kan följa av påtaglig trafikfara även vid 0,5 promille. NJA 2025 s. 211 kräver inte orsakssamband mellan narkotikapåverkan och farlig körning. RäV:s konkurrenstabell utgår från alkohol; blandpåverkan måste bedömas uttryckligen. PDF:ens ofullständiga THC-enhet kompletteras inte med ett antaget värde. |
+| Dk1 1; VT22 9–10 | TBL 3 § och RäV 2024:3. Skilj tidigare misstankar från styrkta brott och lagföringar. Riktvärden för återfall är inte automatiska laggränser. Förarens uppsåt kan inte ersättas med enbart ”borde ha vetat”. Tillåtande kan även vara oaktsamt. |
+| VT22 9 c | TBL 7 §, lydelse efter SFS 2024:715, och RB 27 kap. Förebyggandebehov och uppenbar oskälighet prövas individuellt. Beslag och slutligt förverkande är skilda beslut. |
+| Dk1 2 b | **Föraren måste ha känt till hindret**, FoF 8 kap. 9 § andra stycket och VTSL 6 kap. 6 §. Enbart ”borde ha känt till” räcker inte. Ägarens ansvar enligt FoF 8 kap. 9 § första stycket och VTSL 6 kap. 4 § kan däremot grundas på oaktsamhet. Lärarsvaret om ägaren stöds av fallets förutsättningar. |
+| Dk1 2 c | VTSL 6 kap. 3 §: tvåmånadersfrist för skyltomhändertagande. RB 48 kap.: förutsättningar för ordningsbot. Den äldre mallen beskriver kontorsföreläggande; aktuell intern rutin har inte verifierats. |
+| Körförbud, skatt och avställning | FoF 6 kap. 5, 15 och 21 §§, LFRA 10 §, VTSL 6 kap. 1 § och TSL 34/36 §§. Olika hinder och undantag får inte blandas. Besiktningsfrist räknas efter månad, inte exakt samma dag 14 månader senare. |
+| VT22 5 c; Dk1 12 | FFRA 3 kap. 5 § samt TSFS 2015:63, 6 kap. Provisorisk skylt skiljs från taxi, saluvagn och andra skylttyper. Alla fyra originalbilder finns med. |
+| Dk1 6 och 15 | KKL 6 kap. 1–2 §§. Ettårsregeln knyts till folkbokföring för ett afghanskt körkort. Översättningskravet är villkorat av konventionsmodell och språk. Ett giltigt tyskt EES-körkort har ingen motsvarande generell ettårsgräns. |
+| Fordons- och hastighetsbilder | LDEF 2 §, KKL 2 kap. 5 och 7 a §§, TrF 4 kap. 20 §. A/BE respektive 80/90/100 är lärarnas avsedda svar. Saknade totalvikter, fordonsklass, bromsdata eller effektuppgifter redovisas. Bilderna ensamma fastställer inte alla tekniska villkor. |
+| Dk1 13 | Lärarsvaret **6 km/h** bevaras som äldre kurs-/rutinsvar. PL 9 §, TrF och ordningsbotskatalogen ger ingen generell laglig tolerans på 6 km/h. Mätavdrag och interna rutiner skiljs från trafikregeln. |
+| Dk1 16 b | Uppgiften om elsparkcykel på gångbana är föråldrad. SFS 2022:1369 ändrade TrF 1 kap. 4 § från 1 september 2022. Läs tillsammans med 3 kap. 6 §. Särregler för bland annat hjälpmedel, självbalanserande cykel i gångfart och barns cykling skiljs från vanlig elsparkcykelkörning. |
+| Bälte och hjälm | TrF 4 kap. 10 d § ger de tre undantagen i flervalsfrågan. TSFS 2014:52, 3–5 §§, reglerar bältets placering; ändring 2025:76 berör 9 §. TrF 6 kap. 4 a § och 14 kap. 6 a § skiljer barn på egen cykel från passagerare. Katalog 1A nr 5.3 anger 500 kr för aktuellt föraransvar. |
+| Cykelöverfart och LTF | FDEF 2 §, TrF 3 kap. 61 a § och 10 kap. 1 §. Vägmarkering, vägmärke, lokal föreskrift och utformning som säkrar högst 30 km/h. RDT/STFS hos Transportstyrelsen är källan för föreskriften. |
+
+### Nykomna huvudkällor
+
+- [RäV 2024:3 – Olovlig körning](https://www.aklagare.se/globalassets/dokument/rattsliga-vagledningar/rav-2024-03-olovlig-korning.pdf)
+- [Transportstyrelsen om elsparkcykel](https://www.transportstyrelsen.se/elsparkcykel)
+- [TSFS 2014:52, konsoliderad](https://www.transportstyrelsen.se/TSFS/TSFS%202014_52k.pdf)
+- [TSFS 2015:63, konsoliderad](https://www.transportstyrelsen.se/TSFS/TSFS%202015_63k.pdf)
+- [Utländska körkort](https://www.transportstyrelsen.se/sv/vagtrafik/Korkort/har-korkort/utlandska-korkort/)
+- [Svensk trafikföreskriftssamling](https://rdt.transportstyrelsen.se/rdt/af06_search.aspx?usestfs=1)
+
+De 48 offentliga källadresserna har tillgänglighetskontrollerats. Sakgranskningen avser frågornas rättsliga kärna; den är inte en uttömmande kartläggning av all praxis. Strategimål och fokusområden återges från kursunderlaget. Inga aktuella interna polisiära instruktioner eller kodlistor påstås vara verifierade.
+
+---
+
+## Tidigare granskning av Växjömaterialet · 14 september 2026 · version 1.2.0
 
 Appens 61 bearbetade övningar har lästs igenom. Lagtexter och ordningsbotskatalog har hämtats på nytt. Svarsförslagen är ett studiestöd, inte ett officiellt facit eller beslut i ett verkligt ärende.
 

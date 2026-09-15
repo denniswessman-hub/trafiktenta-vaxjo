@@ -5,9 +5,20 @@ const L = require('./learning.js');
 const context = {window:{}};
 vm.runInNewContext(fs.readFileSync('data.js','utf8'),context);
 const data=context.window.EXAM_DATA, ids=data.questions.map(q=>q.id);
-assert.equal(ids.length,61);assert.equal(new Set(ids).size,61);
+assert.equal(ids.length,126);assert.equal(new Set(ids).size,126);
+assert.equal(data.questions.filter(q=>q.exam==='vt22').length,25);
+assert.equal(data.questions.filter(q=>q.exam==='dk1').length,40);
+assert.equal(data.exams.filter(e=>e.primary).length,2);
+assert.equal(data.questions.filter(q=>data.exams.find(e=>e.id===q.exam)?.primary).length,65);
 for(const y of [2023,2024])assert.equal(new Set(data.questions.filter(q=>q.year===y).map(q=>q.original)).size,20);
-for(const q of data.questions){assert(q.answer.length>20);for(const src of q.sources)assert(data.sources[src]?.url.startsWith('https://'));}
+for(const q of data.questions){assert(q.answer.length>20);assert(q.prompt.length>15);assert(data.exams.some(e=>e.id===q.exam));for(const src of q.sources)assert(data.sources[src]?.url.startsWith('https://'));if(q.exam==='vt22')assert(q.teacher?.length>0);if(q.exam==='dk1'){assert(q.teacher?.length>0);assert.equal(q.teacherSource,'Tentamen VT 22 Rättningsmall-1.doc');assert(q.sourcePage>=3&&q.sourcePage<=17);}for(const im of q.images||[]){assert(fs.existsSync(im.src));assert(im.width>0&&im.height>0);}}
+const images=[...new Set(data.questions.flatMap(q=>(q.images||[]).map(i=>i.src)))];assert.equal(images.length,20);
+const sw=fs.readFileSync('sw.js','utf8');for(const path of images)assert(sw.includes('./'+path));
+const multi=data.questions.find(q=>q.id==='dk1-18');assert.equal(multi.choices.length,6);assert.deepEqual(Array.from(multi.correct),[1,2,4]);
+assert(L.isCorrect(multi,{selected:[4,1,2]}));
+for(const selected of [[],[1],[1,2],[1,2,4,5],[1,2,2],[0,3,5]])assert(!L.isCorrect(multi,{selected}));
+assert(!L.isCorrect(multi,{choice:1}));assert(L.isCorrect({choices:['A','B']},{choice:0}));
+assert(!L.isCorrect({choices:['A','B']},{choice:1}));
 const now=1000000,day=86400000;
 let review;
 for(const days of [1,3,7,14,30,30]){review=L.schedule(review,'known',now);assert.equal(review.due,now+days*day)}
@@ -20,6 +31,12 @@ assert.equal(L.normalize({...legacy,session:{ids:[ids[0]],index:-1}},ids).sessio
 assert.throws(()=>L.normalize({},ids));
 const roundtrip=L.normalize(JSON.parse(JSON.stringify({...restored,reviews:{[ids[0]]:review}})),ids);
 assert.deepEqual(roundtrip.reviews[ids[0]],review);assert.equal(roundtrip.session.answers[ids[0]].draft,'Mitt äldre svar');
+const multiSaved={...restored,session:{ids:['dk1-18'],index:0,answers:{'dk1-18':{selected:[1,2,4],checked:[0,1],revealed:true}},mode:'Dk1'}};
+const multiRestored=L.normalize(JSON.parse(JSON.stringify(multiSaved)),ids);
+assert.deepEqual(multiRestored.session.answers['dk1-18'].selected,[1,2,4]);assert(L.isCorrect(multi,multiRestored.session.answers['dk1-18']));assert.deepEqual(multiRestored.session.answers['dk1-18'].checked,[0,1]);
+const oldId=data.questions.find(q=>q.year===2023).id;
+const oldProgress=L.normalize({ratings:{[oldId]:'known'},drafts:{[oldId]:'Tidigare Växjösvar'},stars:[oldId],session:{ids:[oldId],index:0,mode:'2023',answers:{}}},ids);
+assert.equal(oldProgress.ratings[oldId],'known');assert.equal(oldProgress.session.answers[oldId].draft,'Tidigare Växjösvar');
 const app=fs.readFileSync('app.js','utf8');
 const functionText=app.slice(app.indexOf('function requiredLicense('),app.indexOf('function calc()'));
 const calcContext={};vm.runInNewContext(functionText,calcContext);
@@ -27,4 +44,4 @@ for(const [c,t,result] of [[3500,750,'B'],[2500,1000,'B'],[2500,1001,'B96'],[350
 for(const f of ['index.html','app.js','data.js','sw.js','learning.js'])assert(!fs.readFileSync(f,'utf8').includes('\ufffd'));
 assert(fs.readFileSync('index.html','utf8').includes('data-version="'+data.version+'"'));
 assert(fs.readFileSync('sw.js','utf8').includes('trafiktenta-'+data.version));
-console.log('PASS: 61 exercises, 40 source questions, references, repetition intervals, migration, invalid files, roundtrip, 10 licence boundaries, version/encoding.');
+console.log('PASS: 126 exercises (65 new + 61 legacy), teacher/source labels, 20 images and offline assets, exact multi-answer scoring, saved selections/checklists, legacy migration, repetition intervals, invalid imports, licence boundaries, version/encoding.');

@@ -1,6 +1,14 @@
 'use strict';
 // Pure helpers shared by the interface and regression tests.
 const Learning = {
+  correctIndices(question) {
+    return question.correct || [0];
+  },
+  isCorrect(question, answer = {}) {
+    const expected = this.correctIndices(question);
+    const selected = question.correct ? (answer.selected || []) : (Number.isInteger(answer.choice) ? [answer.choice] : []);
+    return selected.length === expected.length && new Set(selected).size === selected.length && expected.every(i => selected.includes(i));
+  },
   schedule(previous, rating, now = Date.now()) {
     const streak = rating === 'known' ? Math.min(5, (previous?.streak || 0) + 1) : 0;
     const days = rating === 'known' ? [1, 3, 7, 14, 30][streak - 1] : 1;
@@ -26,6 +34,8 @@ const Learning = {
         }
         answers[id] = { revealed: a.revealed === true };
         if (Number.isInteger(a.choice) && a.choice >= 0 && a.choice < 20) answers[id].choice = a.choice;
+        if (Array.isArray(a.selected)) answers[id].selected = [...new Set(a.selected.filter(i => Number.isInteger(i) && i >= 0 && i < 20))];
+        if (Array.isArray(a.checked)) answers[id].checked = [...new Set(a.checked.filter(i => Number.isInteger(i) && i >= 0 && i < 20))];
         if (['known','hard'].includes(a.rating)) answers[id].rating = a.rating;
         if (typeof a.draft === 'string') answers[id].draft = a.draft.slice(0,20000);
         else if (!raw.reviews && typeof raw.drafts[id] === 'string') answers[id].draft = raw.drafts[id].slice(0,20000);

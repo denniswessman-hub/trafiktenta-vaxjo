@@ -1,1 +1,24 @@
-{"name": "Trafiktenta · Växjö", "short_name": "Trafiktenta", "lang": "sv", "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#f3f2eb", "theme_color": "#102d36", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}]}
+{
+  "name": "Trafiktenta · Polisiärt arbete i trafikmiljö",
+  "short_name": "Trafiktenta",
+  "lang": "sv",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f2eb",
+  "theme_color": "#102d36",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
