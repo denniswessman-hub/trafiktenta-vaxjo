@@ -1,3 +1,16 @@
+# Testprotokoll · snabbquiz 2.1.0 · 16 september 2026
+
+- 171 unika övningar: tidigare 126 poster har jämförts mot version 2.0.0 och är helt oförändrade. De fyra tidigare underlagens metadata är också oförändrade.
+- 45 egna snabbquizfrågor, 31 markerade undantags-/gränsfrågor, 19 TBL-frågor med täckning av 1, 2, 3, 4, 4 a, 5, 6 och 7 §§. Alla har tre olika svarsalternativ, förklaring, kontrolltidpunkt och giltiga källreferenser.
+- Kodtester verifierar urval (blandat, undantag, TBL, ämne, svåra, förfallna), rätt/fel, tidigare flervalsfråga, sparformat, repetitionsintervall, 20 befintliga bilder och cachelistan, viktgränser samt versionsmarkörer.
+- Webbläsartest: femfrågors TBL-pass med ett rätt, ett fel och tre överhoppade gav 1/2 rätt, en svår och tre överhoppade. Upprepa svåra startade ett enskilt repetitionskort.
+- Inget valt svar gav uppmaning att välja. Fel svar och avslöjad förklaring fanns kvar efter omladdning. Tomt repetitionsurval hade inaktiverad startknapp.
+- Undantagsurvalet visade 31/31 i helt pass. Frågebanken visade 45 snabbquizfrågor och en träff på ”ordinerad”. Quizets framstegslänk öppnade rätt underlag.
+- Mobilvy med 390 × 844 viewportinställning: visuellt kontrollerad quizstart, ingen horisontell överrinning i frågan (DOM-bredd och scrollbredd 375 px efter webbläsarens scrollbar). Inga fel eller varningar i webbläsarloggen under testet.
+- Ingen fysisk mobil användes. Föregående versions offlineprov återges nedan; den nya quizdatan ingår i samma redan cachade datafil och serviceworker-versionen är uppdaterad.
+
+---
+
 # Testprotokoll · 2.0.0 · 15 september 2026
 
 ## Nya huvudunderlag

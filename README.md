@@ -2,7 +2,7 @@
 
 [Öppna appen](https://denniswessman-hub.github.io/trafiktenta-vaxjo/)
 
-Mobilanpassad tentaträning med **65 övningar från två nya huvudunderlag**, lärarsvar och 20 frågebilder. De 61 tidigare Växjöövningarna finns kvar som extra träning. Version 2.0.0, 15 september 2026.
+Mobilanpassad tentaträning med **65 övningar från två nya huvudunderlag**, lärarsvar och 20 frågebilder. De 61 tidigare Växjöövningarna finns kvar som extra träning. Som komplement finns **45 snabbquizfrågor**, varav 31 om undantag och gränsfall. Version 2.1.0, 16 september 2026.
 
 ## Underlag och svar
 
@@ -16,6 +16,10 @@ Mobilanpassad tentaträning med **65 övningar från två nya huvudunderlag**, l
 Dk1-PDF:n innehåller inget ifyllt facit. Den separata rättningsmallen har matchats mot datumet 4 mars 2022, fallen och den dubbla numreringen. Lärarnas svar återges separat från appens kommentarer utifrån dagens regler. Underlagens poänganvisningar återges som källtext och används inte för automatisk bedömning av fritext.
 
 Dk1 kallar hastighetsblocket ”19” på sida 15 och ”20 a–c” på sida 16. Därefter följer ytterligare fråga 19 och 20 på sida 17. Appen skiljer dessa åt med sidreferenser. Frågorna har delats upp och formaterats för mobilen; bilder och svarsalternativ hör till respektive originalfråga.
+
+## Snabbquiz
+
+[Öppna snabbquizet](https://denniswessman-hub.github.io/trafiktenta-vaxjo/#quiz). Välj 5, 10, 20 eller alla frågor i ett urval: blandat, undantag, TBL 1–7 §§ inklusive 4 a §, ämne, svåra frågor eller dagens repetition. Alla 45 är egna övningsfrågor med tre alternativ, förklaring och lagstöd. De 19 TBL-frågorna täcker varje paragraf, inklusive att 6 § är upphävd. Rättskontroll: 16 september 2026.
 
 ## Träna
 

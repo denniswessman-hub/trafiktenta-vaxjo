@@ -1,5 +1,5 @@
 window.EXAM_DATA = {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "reviewed": "2026-09-15",
   "sources": {
     "kkl": {
@@ -3290,6 +3290,1097 @@ window.EXAM_DATA = {
       "note": "Pedagogiskt svarsförslag; den gamla elevtexten är inte ett fullständigt facit.",
       "exam": "vaxjo-2024",
       "reviewed": "2026-09-14"
+    },
+    {
+      "id": "quick-01",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "1",
+      "category": "Regelverk",
+      "title": "Välj rätt regelverk",
+      "prompt": "Vilket regelverk avgör i första hand om föraren har rätt körkortsbehörighet?",
+      "choices": [
+        "KKL och KKF",
+        "TSL och VTSL",
+        "LFRA och FFRA"
+      ],
+      "answer": "Körkortslagen och körkortsförordningen styr behörigheten. Fordonets registrering, försäkring, skatt och tekniska skick måste kontrolleras separat. KKL 2 kap.",
+      "sources": [
+        "kkl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": false,
+      "tblSection": null
+    },
+    {
+      "id": "quick-02",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "2",
+      "category": "Regelverk",
+      "title": "Flera hinder samtidigt",
+      "prompt": "En färd omfattas av ett undantag från körförbud. Bilen är också avställd. Vad krävs?",
+      "choices": [
+        "Även avställningsreglerna och övriga hinder måste prövas",
+        "Körförbudsundantaget räcker för hela färden",
+        "Föraren får välja det mest förmånliga regelverket"
+      ],
+      "answer": "Ett undantag gäller det hinder som bestämmelsen reglerar. Pröva körförbud enligt FoF, avställning enligt LFRA, försäkring enligt TSL och eventuellt skatteförbud enligt VTSL var för sig.",
+      "sources": [
+        "fof",
+        "lfra",
+        "tsl",
+        "vtsl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-03",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "3",
+      "category": "Körförbud",
+      "title": "Missad besiktning",
+      "prompt": "Bilen är trafiksäker men har inte kontrollbesiktigats inom föreskriven tid. Kan körförbud ändå inträda?",
+      "choices": [
+        "Ja, tidsfristen kan utlösa körförbud utan påvisad farlig brist",
+        "Nej, en polis måste först hitta en farlig brist",
+        "Nej, körförbud kräver alltid ett särskilt beslut"
+      ],
+      "answer": "FoF 6 kap. 15 §: körförbud inträder från kalendermånaden efter den månad då periodisk kontrollbesiktning senast skulle ha skett. Inträtt förbud skiljer sig från meddelat förbud på grund av uppenbar trafikfara.",
+      "sources": [
+        "fof"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": false,
+      "tblSection": null
+    },
+    {
+      "id": "quick-04",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "4",
+      "category": "Körförbud",
+      "title": "Till verkstaden",
+      "prompt": "En påställd, försäkrad bil har endast inträtt körförbud efter missad periodisk kontrollbesiktning. Vilken färd medger FoF?",
+      "choices": [
+        "Kortaste lämpliga väg till reparationsverkstad för reparation",
+        "Valfri provtur för att hitta eventuella fel",
+        "Bara färd till den verkstad som ligger närmast i kilometer"
+      ],
+      "answer": "FoF 6 kap. 21 § medger färd kortaste lämpliga väg till besiktningsorgan för besiktning och, vid detta slags förbud, till reparationsverkstad för reparation. Det är inte ett generellt tillstånd att använda bilen. Övriga regler måste vara uppfyllda.",
+      "sources": [
+        "fof"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-05",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "5",
+      "category": "Körförbud",
+      "title": "Direkt förbud vid inspektion",
+      "prompt": "En bil får körförbud enligt FoF 6 kap. 26 § vid flygande inspektion på grund av uppenbar trafikfara. Får den normalt köras därifrån till verkstad?",
+      "choices": [
+        "Nej, verkstadsundantaget gäller inte denna bil",
+        "Ja, om verkstaden ligger högst fem kilometer bort",
+        "Ja, om föraren håller högst 30 km/tim"
+      ],
+      "answer": "FoF 6 kap. 32 § medger inte färd till verkstad för en bil med förbud enligt 26 §. Där anges däremot kortaste lämpliga väg från platsen där reparation utförts till besiktningsorgan. Särregeln om olastad släpvagn är en annan situation.",
+      "sources": [
+        "fof"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-06",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "6",
+      "category": "Körförbud",
+      "title": "Olastat släp med bromsbrist",
+      "prompt": "Ett olastat släp har fått direkt körförbud på grund av bromsbrist. Vilket särskilt verkstadsundantag finns?",
+      "choices": [
+        "Kortaste lämpliga väg till reparation, högst 30 km/tim",
+        "Till valfri destination om farten är högst 30 km/tim",
+        "Till verkstad i högst 50 km/tim om släpet är tomt"
+      ],
+      "answer": "FoF 6 kap. 21 och 32 §§: olastad släpvagn med körförbud enligt 16 respektive 26 § på grund av brist i bromssystemet får föras kortaste lämpliga väg till reparationsverkstad i högst 30 km/tim. Alla villkor måste vara uppfyllda; regeln gäller inte lastat släp eller varje sorts brist.",
+      "sources": [
+        "fof"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-07",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "7",
+      "category": "Körförbud",
+      "title": "Två olika besiktningsundantag",
+      "prompt": "Vilken skillnad finns i ordalydelsen mellan FoF 6 kap. 21 och 32 §§ om färd till besiktning trots körförbud?",
+      "choices": [
+        "32 § anger färd från reparationsplatsen; 21 § anger färd till besiktningsorgan",
+        "Båda kräver uttryckligen färd från reparationsplatsen",
+        "21 § medger alltid färd hem efter besiktningen"
+      ],
+      "answer": "21 §, som hör till kontrollbesiktning, anger kortaste lämpliga väg till ett besiktningsorgan. 32 §, som hör till flygande inspektion, anger kortaste lämpliga väg från den plats där reparation utförts till besiktningsorgan. Sammanställningens gemensamma formulering om meddelat körförbud är alltså för grov. Övriga krav på fordon och färd gäller fortfarande.",
+      "sources": [
+        "fof"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-08",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "8",
+      "category": "Registrering och avställning",
+      "title": "Oregistrerad bil",
+      "prompt": "Vilken färd omfattas normalt av LFRA 6 § första stycket 3 för en oregistrerad bil?",
+      "choices": [
+        "Kortaste lämpliga väg till eller från registreringsbesiktning",
+        "En valfri resa till vanlig service",
+        "Varje resa till kontrollbesiktning, oavsett omständigheter"
+      ],
+      "answer": "Undantaget gäller registreringsbesiktning och provning inför enskilt godkännande. Kontrollbesiktning omfattas här bara för den särskilda kategorin fordon som förts in i Sverige för testkörning. Föreskriven försäkring krävs också.",
+      "sources": [
+        "lfra",
+        "tsl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-09",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "9",
+      "category": "Registrering och avställning",
+      "title": "Bokning som kan styrkas",
+      "prompt": "Du använder en oregistrerad bil med stöd av besiktningsundantaget i LFRA 6 § första stycket 3. Vad ska medföras?",
+      "choices": [
+        "Handling som visar avtalad tid hos besiktnings- eller provningsorganet",
+        "Endast en muntlig uppgift om att du tänker boka tid",
+        "En verkstadsfaktura ersätter alltid bokningshandlingen"
+      ],
+      "answer": "LFRA 6 § andra stycket kräver att handlingar som visar avtalad tid medförs och på tillsägelse visas för polisman eller bilinspektör. Det räcker inte att färdens mål påstås vara besiktning.",
+      "sources": [
+        "lfra"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-10",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "10",
+      "category": "Registrering och avställning",
+      "title": "Avställd till besiktning",
+      "prompt": "Bilen är avställd på ägarens begäran och har inga andra hinder. Vilken färd medges av LFRA 10 § 4?",
+      "choices": [
+        "Kortaste lämpliga väg till eller från närmaste besiktningsorgan för besiktning",
+        "Kortaste väg till valfri verkstad för service",
+        "Valfri väg till den billigaste besiktningsstationen"
+      ],
+      "answer": "Undantaget gäller närmaste besiktningsorgan och kortaste lämpliga väg. Vissa skatte- och avgiftshinder som räknas upp i 10 § 4 utesluter undantaget. Bilen behöver trafikförsäkring när den brukas i trafik enligt TSL 2 §. Andra kör- eller användningsförbud prövas också.",
+      "sources": [
+        "lfra",
+        "tsl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-11",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "11",
+      "category": "Registrering och avställning",
+      "title": "Avställd till verkstad",
+      "prompt": "En privatperson vill köra sin avställda bil till verkstad enbart för service. Inget särskilt tillstånd eller annat undantag finns. Räcker verkstadsändamålet?",
+      "choices": [
+        "Nej, avställningsreglerna har inget allmänt verkstadsundantag",
+        "Ja, om färden är kortaste lämpliga väg",
+        "Ja, om verkstaden har bokat en tid"
+      ],
+      "answer": "LFRA 10 § 4 gäller besiktning, inte en fristående servicefärd. Blanda inte ihop avställning med inträtt körförbud enligt FoF. Andra särskilda undantag, exempelvis giltig saluvagnsanvändning, måste ha eget stöd.",
+      "sources": [
+        "lfra",
+        "fof"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-12",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "12",
+      "category": "Registrering och avställning",
+      "title": "Avställd och försäkring",
+      "prompt": "En avställd privat bil ska köras på en i övrigt tillåten besiktningsfärd. Behövs trafikförsäkring?",
+      "choices": [
+        "Ja, bilen brukas i trafik",
+        "Nej, avställning befriar alltid från försäkring",
+        "Nej, besiktningsbokningen fungerar som försäkring"
+      ],
+      "answer": "TSL 2 § kräver trafikförsäkring för annat motordrivet fordon som brukas i trafik, vilket omfattar en avställd bil under färden. Avställning är ingen försäkring.",
+      "sources": [
+        "tsl",
+        "lfra"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-13",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "13",
+      "category": "Registrering och avställning",
+      "title": "Tillfällig registrering",
+      "prompt": "Hur bör tillfällig registrering beskrivas?",
+      "choices": [
+        "En särskild registreringsform med egna villkor",
+        "Ett bevis på att bilen är helt oregistrerad",
+        "Ett undantag från alla försäkrings- och säkerhetskrav"
+      ],
+      "answer": "LFRA 15–22 §§ reglerar tillfällig registrering. Tillåtna färder beror bland annat på vilket slags tillfällig registrering som gäller. Det är inte ett generellt frikort för användning eller ett bortfall av andra skyldigheter.",
+      "sources": [
+        "lfra"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-14",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "14",
+      "category": "Saluvagn",
+      "title": "Saluvagn och privat resa",
+      "prompt": "En bilhandlare har giltig saluvagnslicens. Omfattar den en privat semesterresa med en avställd bil?",
+      "choices": [
+        "Nej, resan måste omfattas av licensens tillåtna ändamål",
+        "Ja, så länge grön skylt sitter på bilen",
+        "Ja, om handlaren själv kör"
+      ],
+      "answer": "LFRA 11 § anger särskilda ändamål: bland annat prov- och testkörning, vissa transporter, besiktning och demonstration eller försäljning. Privat semesterresa ingår inte.",
+      "sources": [
+        "lfra"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-15",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "15",
+      "category": "Saluvagn",
+      "title": "Vem kan få licens?",
+      "prompt": "En verkstad reparerar bara kunders bilar. Ger enbart sådan reparationsverksamhet automatiskt rätt till saluvagnslicens?",
+      "choices": [
+        "Nej, förutsättningarna i LFRA 12 § måste vara uppfyllda",
+        "Ja, alla reparationsverkstäder har automatiskt licens",
+        "Ja, om verkstaden köper en grön skylt"
+      ],
+      "answer": "LFRA 12 § räknar bland annat upp yrkesmässig tillverkning, transport, handel, komponenttillverkning och vissa testverksamheter. Enbart vanlig reparationsverksamhet är inte en självständig kategori där. Provkörning vid reparation är ett användningsändamål i 11 §, vilket inte är samma sak som vem som får licens.",
+      "sources": [
+        "lfra"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-16",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "16",
+      "category": "Skatt och skyltar",
+      "title": "Obetald skatt",
+      "prompt": "Bilen har användningsförbud enligt VTSL 6 kap. 1 §. Ger en bokad besiktning i sig rätt att köra?",
+      "choices": [
+        "Nej, något allmänt besiktningsundantag finns inte där",
+        "Ja, på kortaste lämpliga väg",
+        "Ja, men bara om bilen också är avställd"
+      ],
+      "answer": "Användningsförbud på grund av obetald skatt är ett eget hinder. VTSL 6 kap. 1–2 §§ har särskilda undantag, men ingen allmän rätt att köra till besiktning eller verkstad.",
+      "sources": [
+        "vtsl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-17",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "17",
+      "category": "Skatt och skyltar",
+      "title": "Anstånd med skatten",
+      "prompt": "Den enda obetalda fordonsskatten omfattas av ett giltigt anstånd. Vad gäller enligt VTSL 6 kap. 1 §?",
+      "choices": [
+        "Den skatten hindrar inte användning enligt bestämmelsen",
+        "Fordonet är alltid förbjudet att använda tills betalning skett",
+        "Anstånd gäller bara om fordonet körs till besiktning"
+      ],
+      "answer": "VTSL 6 kap. 1 § andra stycket 3 undantar skatt för vilken anstånd med betalningen gäller. Ett faktiskt giltigt anstånd krävs; en ansökan eller önskan räcker inte. Övriga hinder prövas separat.",
+      "sources": [
+        "vtsl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-18",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "18",
+      "category": "Skatt och skyltar",
+      "title": "Äldre skatteskuld",
+      "prompt": "Den enda obetalda skatten avser tid före det närmast föregående skatteåret. Medför just den skatten användningsförbud enligt VTSL 6 kap. 1 §?",
+      "choices": [
+        "Nej, den omfattas av ett uttryckligt undantag",
+        "Ja, varje historisk skatteskuld medför alltid förbud",
+        "Nej, eftersom alla skatteskulder försvinner efter ett år"
+      ],
+      "answer": "VTSL 6 kap. 1 § andra stycket 1 undantar skatt för tid före det närmast föregående skatteåret från användningshindret. Det betyder inte att själva skulden är avskriven.",
+      "sources": [
+        "vtsl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-19",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "19",
+      "category": "Skatt och skyltar",
+      "title": "Ägarbyte och skatt",
+      "prompt": "Försvinner ett skattebaserat användningsförbud alltid vid ett vanligt privat ägarbyte?",
+      "choices": [
+        "Nej, ett vanligt ägarbyte räcker inte",
+        "Ja, alla gamla skulder saknar betydelse för användningen",
+        "Ja, om köparen inte kände till skulden"
+      ],
+      "answer": "VTSL 6 kap. 1 § har ett avgränsat undantag för tidigare ägares efterbeskattning eller ytterligare skatt beslutad efter ägarbytet. 2 § har särskilda regler för bland annat exekutiv försäljning och försäljning av konkursbo. Ett vanligt privat köp omfattas inte automatiskt.",
+      "sources": [
+        "vtsl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-20",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "20",
+      "category": "Skatt och skyltar",
+      "title": "Särskilda skäl",
+      "prompt": "Vem ska medge användning trots VTSL 6 kap. 1 § första stycket om särskilda skäl finns?",
+      "choices": [
+        "Skatteverket",
+        "Besiktningsföretaget",
+        "Bilverkstaden"
+      ],
+      "answer": "VTSL 6 kap. 1 § tredje stycket anger Skatteverket. Förarens egen bedömning att resan är angelägen ersätter inte ett medgivande. Polisens begränsade möjlighet efter avskyltning enligt 3 § är en annan regel.",
+      "sources": [
+        "vtsl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-21",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "21",
+      "category": "Skatt och skyltar",
+      "title": "Utan registreringsskylt",
+      "prompt": "Bilen saknar skylt men har inga andra användningshinder. Vilken färd medger FFRA 3 kap. 5 § uttryckligen?",
+      "choices": [
+        "Kortaste lämpliga väg till Polismyndigheten för att få provisorisk skylt",
+        "Alla resor medan en ersättningsskylt är beställd",
+        "Valfri resa till polisen, oavsett ärende"
+      ],
+      "answer": "Undantaget har ett bestämt syfte: fordonet ska förses med provisorisk registreringsskylt. Det medger inte vanliga resor eller färd till polisen för ett annat ärende. Villkoren för utlämning, bland annat i 3 kap. 15 §, måste beaktas.",
+      "sources": [
+        "ffra"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-22",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "22",
+      "category": "Skatt och skyltar",
+      "title": "Skymd skylt",
+      "prompt": "En cykelhållare skymmer bilens bakre skylt. Vilket skyltundantag kan användas?",
+      "choices": [
+        "Föreskriven extra registreringsskylt som kan avläsas, tillsammans med den andra ordinarie skylten",
+        "En handskriven pappskylt är alltid tillräcklig",
+        "Det räcker att främre skylten syns"
+      ],
+      "answer": "FFRA 3 kap. 7 § andra stycket 2 medger en extra registreringsskylt enligt 13 §. Den extra skylten och bilens andra ordinarie skylt ska gå att avläsa. Det finns även ett särskilt undantag för redskap vid väghållningsarbete; inte ett generellt lastundantag.",
+      "sources": [
+        "ffra"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-23",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "23",
+      "category": "Släp och behörighet",
+      "title": "750-kilosgränsen",
+      "prompt": "Bilen har totalvikt 3 500 kg och släpet 750 kg. Är släpet lätt enligt LDEF och räcker B enligt huvudregeln?",
+      "choices": [
+        "Ja, släpet är lätt och B räcker för dessa totalvikter",
+        "Nej, summan kräver alltid B96",
+        "Släpet är tungt men B räcker"
+      ],
+      "answer": "LDEF 2 §: släp med totalvikt högst 750 kg är lätt. KKL 2 kap. 5 § medger detta släp till en bil inom B-gränsen, även när summan blir 4 250 kg. Bilens draggräns, koppling och aktuell last kontrolleras separat.",
+      "sources": [
+        "ldef",
+        "kkl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-24",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "24",
+      "category": "Släp och behörighet",
+      "title": "Lasta ur släpet",
+      "prompt": "Bilens totalvikt är 2 500 kg och släpets 1 200 kg. Blir kombinationen tillåten på enbart B om släpet körs tomt?",
+      "choices": [
+        "Nej, behörighetsberäkningen använder totalvikterna",
+        "Ja, tomt släp räknas alltid som 750 kg",
+        "Ja, tjänstevikten ersätter totalvikten när släpet är tomt"
+      ],
+      "answer": "Summan är 3 700 kg och släpet överstiger 750 kg. B96 eller BE behövs enligt nuvarande huvudregler för dessa fordon. Totalvikten ändras inte genom urlastning. Bruttovikt och tekniska draggränser är separata frågor. KKL 2 kap. 5 och 7 a §§; LDEF 2 §.",
+      "sources": [
+        "ldef",
+        "kkl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": false,
+      "tblSection": null
+    },
+    {
+      "id": "quick-25",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "25",
+      "category": "Släp och behörighet",
+      "title": "B96 och definitionen",
+      "prompt": "Bil 3 000 kg och släp 1 000 kg i totalvikt: blir släpet ett lätt släpfordon bara för att föraren har B96?",
+      "choices": [
+        "Nej, behörigheten ändrar inte definitionen",
+        "Ja, B96 höjer definitionens gräns till 4 250 kg",
+        "Ja, alla släp under 3 500 kg är lätta"
+      ],
+      "answer": "LDEF 2 § använder 750 kg eller sammanlagd totalvikt högst 3 500 kg för tyngre släp. Här är släpet tungt enligt definitionen, men B96 räcker för kombinationens totalvikt 4 000 kg. Behörighet och fordonsdefinition är skilda frågor.",
+      "sources": [
+        "ldef",
+        "kkl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": null
+    },
+    {
+      "id": "quick-26",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "26",
+      "category": "TBL 1 §",
+      "title": "En olycka räcker inte",
+      "prompt": "Är varje trafikolycka automatiskt vårdslöshet i trafik?",
+      "choices": [
+        "Nej, det krävs bland annat en väsentlig brist i omsorg och varsamhet",
+        "Ja, om något fordon har skadats",
+        "Ja, om föraren brutit mot någon trafikregel"
+      ],
+      "answer": "TBL 1 § kräver att trafikanten i väsentlig mån brustit i den omsorg och varsamhet som omständigheterna kräver för att förebygga trafikolycka. En olycka eller en regelöverträdelse är inte ensam tillräcklig.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": false,
+      "tblSection": "1"
+    },
+    {
+      "id": "quick-27",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "27",
+      "category": "TBL 1 §",
+      "title": "Cyklistens ansvar",
+      "prompt": "Kan en cyklist omfattas av vårdslöshet i trafik enligt TBL 1 § första stycket?",
+      "choices": [
+        "Ja, cyklisten är vägtrafikant",
+        "Nej, endast körkortspliktiga förare omfattas",
+        "Ja, men bara på motorväg"
+      ],
+      "answer": "Första stycket omfattar vägtrafikanter. Bestämmelsen om grov vårdslöshet i andra stycket har däremot en snävare krets: förare av motordrivet fordon eller spårvagn. En vanlig cyklist omfattas inte av just det andra stycket.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": "1"
+    },
+    {
+      "id": "quick-28",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "28",
+      "category": "TBL 1 §",
+      "title": "Grov vårdslöshet",
+      "prompt": "Vad kräver TBL 1 § andra stycket för en förare av motordrivet fordon?",
+      "choices": [
+        "Grov oaktsamhet eller uppenbar likgiltighet för andra människors liv eller egendom",
+        "Att vilken trafikregel som helst har överträtts två gånger",
+        "Att en personskada alltid har uppkommit"
+      ],
+      "answer": "Grov vårdslöshet i trafik kräver grov oaktsamhet eller uppenbar likgiltighet för andra människors liv eller egendom. En inträffad skada är inte ett obligatoriskt rekvisit. Straffskalan är fängelse i högst två år.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": false,
+      "tblSection": "1"
+    },
+    {
+      "id": "quick-29",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "29",
+      "category": "TBL 2 §",
+      "title": "Hindra trafiken",
+      "prompt": "Vilket beteende avses i TBL 2 §?",
+      "choices": [
+        "Att onödigtvis i väsentlig mån hindra eller störa trafiken på väg",
+        "Varje tillfälligt stopp vid ett övergångsställe",
+        "All långsam körning oavsett anledning"
+      ],
+      "answer": "TBL 2 § gäller vägtrafikant eller spårvagnsförare som onödigtvis i väsentlig mån hindrar eller stör vägtrafiken. Nödvändiga stopp omfattas inte bara för att andra får vänta. Bestämmelsen är subsidiär till 1 §.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": false,
+      "tblSection": "2"
+    },
+    {
+      "id": "quick-30",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "30",
+      "category": "TBL 2 §",
+      "title": "1 eller 2 §?",
+      "prompt": "Samma gärning är belagd med straff enligt TBL 1 §. Ska TBL 2 § ändå tillämpas på gärningen?",
+      "choices": [
+        "Nej, 2 § undantar gärningar som är belagda med straff enligt 1 §",
+        "Ja, båda ska alltid användas för samma gärning",
+        "Nej, 2 § är helt upphävd"
+      ],
+      "answer": "TBL 2 § anger uttryckligen att bestämmelsen gäller där gärningen inte är belagd med straff enligt 1 §. Det är en subsidiaritetsregel, inte att 2 § saknar giltighet.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": "2"
+    },
+    {
+      "id": "quick-31",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "31",
+      "category": "TBL 3 §",
+      "title": "Olovlig körning",
+      "prompt": "Vilket skuldkrav anges för grundfallet att föra körkortspliktigt fordon utan rätt enligt TBL 3 § första stycket?",
+      "choices": [
+        "Uppsåt",
+        "Enbart att föraren borde ha förstått",
+        "Inget skuldkrav alls"
+      ],
+      "answer": "TBL 3 § första stycket kräver uppsåtligt förande utan rätt. Andra och tredje styckena, om körkortsvillkor respektive tillåtande av olovlig körning, omfattar även oaktsamhet. Håll isär fallen.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": false,
+      "tblSection": "3"
+    },
+    {
+      "id": "quick-32",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "32",
+      "category": "TBL 3 §",
+      "title": "Låna ut bilen",
+      "prompt": "Kan den som av oaktsamhet låter en obehörig person köra en bil dömas enligt TBL 3 §?",
+      "choices": [
+        "Ja, tillåtandefallet omfattar även oaktsamhet",
+        "Nej, bara den som själv sitter bakom ratten kan dömas",
+        "Nej, utlånaren måste alltid ha haft uppsåt"
+      ],
+      "answer": "TBL 3 § tredje stycket omfattar den som uppsåtligen eller av oaktsamhet anställer eller brukar någon som förare, eller annars tillåter körning, utan att personen är berättigad. Utlånarens ansvar prövas för sig.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": "3"
+    },
+    {
+      "id": "quick-33",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "33",
+      "category": "TBL 3 §",
+      "title": "Grov olovlig körning",
+      "prompt": "Vilken omständighet anges särskilt i TBL 3 § vid bedömningen av ett grovt fall?",
+      "choices": [
+        "Att föraren vanemässigt för fordon utan rätt",
+        "Att bilens skatt är betald för sent",
+        "Att föraren inte har sitt fysiska körkort med sig"
+      ],
+      "answer": "Bestämmelsen nämner tidigare återkallat körkort, vanemässigt förande och annat skäl att anse brottet grovt. Gör en bedömning av omständigheterna; att glömma körkortshandlingen är inte samma sak som att sakna behörighet. Fängelse i högst sex månader kan dömas ut vid grovt brott.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": false,
+      "tblSection": "3"
+    },
+    {
+      "id": "quick-34",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "34",
+      "category": "TBL 4 §",
+      "title": "Alkoholgränser",
+      "prompt": "Vilka gränser anges för rattfylleri enligt TBL 4 § första stycket?",
+      "choices": [
+        "Minst 0,2 promille i blod eller 0,10 mg/l i utandningsluft",
+        "Minst 0,5 promille eller 0,25 mg/l",
+        "Minst 1,0 promille eller 0,50 mg/l"
+      ],
+      "answer": "Gränserna är 0,2 promille i blod eller 0,10 milligram per liter utandningsluft under eller efter färden. Paragrafen gäller motordrivet fordon eller spårvagn och innehåller särskilda undantag. Kliniskt rattfylleri enligt tredje stycket är en separat grund.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": false,
+      "tblSection": "4"
+    },
+    {
+      "id": "quick-35",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "35",
+      "category": "TBL 4 §",
+      "title": "Ordinerad narkotika",
+      "prompt": "Narkotika finns i en bilförares blod efter intag helt enligt behörig förskrivares ordination. Är nollgränsregeln i TBL 4 § andra stycket tillämplig?",
+      "choices": [
+        "Nej, ordinationsundantaget gäller den regeln",
+        "Ja, alla narkotikafynd innebär alltid rattfylleri",
+        "Nej, därför kan föraren aldrig dömas för rattfylleri"
+      ],
+      "answer": "Andra stycket undantar narkotika som intagits enligt behörig receptutfärdares ordination. Men tredje stycket kan ändå ge ansvar om föraren är så påverkad att betryggande körning inte kan antas. Ordination är ingen generell rätt att köra påverkad.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": "4"
+    },
+    {
+      "id": "quick-36",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "36",
+      "category": "TBL 4 §",
+      "title": "Under promillegränsen",
+      "prompt": "En bilförare har 0,15 promille men är så alkoholpåverkad att betryggande körning inte kan antas. Kan rattfylleri bli aktuellt?",
+      "choices": [
+        "Ja, enligt regeln om kliniskt rattfylleri",
+        "Nej, 0,2 promille är en absolut gräns för allt ansvar",
+        "Bara om en olycka redan har inträffat"
+      ],
+      "answer": "TBL 4 § tredje stycket kan tillämpas vid sådan påverkan även om gränsen i första stycket inte uppnåtts. Motsvarande gäller påverkan av annat medel. En inträffad olycka krävs inte.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": "4"
+    },
+    {
+      "id": "quick-37",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "37",
+      "category": "TBL 4 §",
+      "title": "Fordon avsett för gående",
+      "prompt": "Vilka delar av TBL 4 § undantas för ett motordrivet fordon som är avsett att föras av gående?",
+      "choices": [
+        "Första och andra stycket; kliniskt rattfylleri kan fortfarande aktualiseras",
+        "Hela paragrafen utan undantag",
+        "Endast regeln om narkotika"
+      ],
+      "answer": "TBL 4 § fjärde stycket undantar första och andra styckena för denna fordonstyp. Tredje styckets påverkan som hindrar betryggande körning är inte undantagen. Fordonets avsedda konstruktion är avgörande, inte att föraren råkar gå långsamt.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": "4"
+    },
+    {
+      "id": "quick-38",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "38",
+      "category": "TBL 4 §",
+      "title": "Vetenskapligt försök",
+      "prompt": "Vilken särskild försöksverksamhet undantas från TBL 4 § första–tredje styckena?",
+      "choices": [
+        "Verksamhet med tillstånd av regeringen eller den myndighet regeringen bestämmer",
+        "Varje privat prov som kallas vetenskapligt",
+        "All provkörning som utförs på en verkstad"
+      ],
+      "answer": "Femte stycket gäller vetenskaplig eller därmed jämförlig undersökning med föreskrivet tillstånd. Att själv kalla en körning ett experiment är inte tillräckligt.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": "4"
+    },
+    {
+      "id": "quick-39",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "39",
+      "category": "TBL 4a §",
+      "title": "Grovhetsbedömningen",
+      "prompt": "Måste alkoholhalten nå 1,0 promille för att rattfylleri ska kunna vara grovt?",
+      "choices": [
+        "Nej, avsevärd påverkan eller påtaglig trafikfara kan också tala för grovt brott",
+        "Ja, utan 1,0 promille är brottet aldrig grovt",
+        "Nej, varje narkotikafynd gör automatiskt brottet grovt"
+      ],
+      "answer": "TBL 4 a § anger tre omständigheter att särskilt beakta: minst 1,0 promille/0,50 mg/l, avsevärd påverkan eller påtaglig fara för trafiksäkerheten. Helheten bedöms. Narkotikafynd ensamt betyder inte automatiskt grovt rattfylleri.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": "4a"
+    },
+    {
+      "id": "quick-40",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "40",
+      "category": "TBL 5 §",
+      "title": "Inte ditt fel",
+      "prompt": "Du vet att du har haft del i en trafikolycka men anser att den andra föraren orsakade den. Kan smitningsansvar ändå aktualiseras?",
+      "choices": [
+        "Ja, det krävs inte att du orsakade olyckan",
+        "Nej, bara den vållande föraren har skyldigheter",
+        "Bara om polisen redan har kommit"
+      ],
+      "answer": "TBL 5 § omfattar vägtrafikant som med eller utan skuld haft del i olyckans uppkomst. Att genom avlägsnande undandra sig skäliga åtgärder eller undandra sig identitets- och händelseuppgifter kan medföra ansvar. Skuld till olyckan och ansvar för att lämna platsen är skilda frågor.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": true,
+      "tblSection": "5"
+    },
+    {
+      "id": "quick-41",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "41",
+      "category": "TBL 5 §",
+      "title": "Vilka skyldigheter?",
+      "prompt": "Vilket är det mest fullständiga svaret om TBL 5 § efter en trafikolycka?",
+      "choices": [
+        "Medverka efter förmåga och lämna de uppgifter som bestämmelsen kräver",
+        "Lämna bara registreringsnumret och åk alltid direkt",
+        "Vänta bara om någon uttryckligen kräver det"
+      ],
+      "answer": "Bestämmelsen avser att inte undandra sig att efter förmåga medverka till de åtgärder olyckan skäligen föranleder eller att uppge namn och hemvist samt lämna upplysningar om händelsen. Ansvar är inte automatiskt vid varje avfärd; gärningen och uppsåtet måste prövas.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": false,
+      "tblSection": "5"
+    },
+    {
+      "id": "quick-42",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "42",
+      "category": "TBL 6 §",
+      "title": "Vad gäller i 6 §?",
+      "prompt": "Vilket innehåll har TBL 6 § i gällande lag?",
+      "choices": [
+        "Paragrafen är upphävd",
+        "Den kriminaliserar olovligt brukande av fordon",
+        "Den anger gränsen för grovt rattfylleri"
+      ],
+      "answer": "TBL 6 § är upphävd genom SFS 1988:944. Den ska därför inte läras in som en nu gällande brottsbestämmelse. Grovt rattfylleri finns i 4 a § och förverkande i 7 §.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": false,
+      "tblSection": "6"
+    },
+    {
+      "id": "quick-43",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "43",
+      "category": "TBL 7 §",
+      "title": "Förverkande",
+      "prompt": "Vilket är ett centralt villkor för förverkande av ett fordon som använts vid brott enligt TBL 7 §?",
+      "choices": [
+        "Det behövs för att förebygga fortsatt sådan brottslighet och är inte uppenbart oskäligt",
+        "Det sker automatiskt vid varje trafikförseelse",
+        "Fordonet måste alltid vara värt mindre än 50 000 kronor"
+      ],
+      "answer": "TBL 7 § medger förverkande av ett fordon använt vid brott enligt lagen om det behövs för att förebygga fortsatt sådan brottslighet och inte är uppenbart oskäligt. Paragrafen omfattar också annan hjälpmedelsegendom under angivna villkor. Förverkande är en särskild rättsverkan, inte namnet på ett trafikbrott.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": false,
+      "tblSection": "7"
+    },
+    {
+      "id": "quick-44",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "44",
+      "category": "TBL 7 §",
+      "title": "Tidigare brott",
+      "prompt": "Vad ska enligt TBL 7 § särskilt beaktas vid behovsbedömningen?",
+      "choices": [
+        "Tidigare olovlig körning eller rattfylleribrott hos gärningsmannen",
+        "Endast hur länge bilen varit registrerad",
+        "Enbart hur många parkeringsavgifter som betalats"
+      ],
+      "answer": "Tidigare olovlig körning, rattfylleri eller grovt rattfylleri ska särskilt beaktas. De övriga förutsättningarna, inklusive att förverkande inte får vara uppenbart oskäligt, måste fortfarande prövas. Tidigare brott innebär alltså inte ett automatiskt förverkande.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": false,
+      "tblSection": "7"
+    },
+    {
+      "id": "quick-45",
+      "exam": "quickquiz",
+      "year": 2026,
+      "original": "45",
+      "category": "Regelverk",
+      "title": "Olovligt brukande",
+      "prompt": "Var finns brottet olovligt brukande, som nämns i sammanställningen?",
+      "choices": [
+        "Brottsbalken 10 kap. 7 §",
+        "TBL 6 §",
+        "TBL 7 §"
+      ],
+      "answer": "Sammanställningens placering i TBL är fel. Olovligt brukande regleras i BrB 10 kap. 7 § och ska skiljas från olovlig körning enligt TBL 3 §. TBL 6 § är upphävd och 7 § gäller förverkande.",
+      "sources": [
+        "brb",
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-16",
+      "exception": false,
+      "tblSection": null
     }
   ],
   "exams": [
@@ -3328,6 +4419,15 @@ window.EXAM_DATA = {
       "primary": false,
       "mainCount": 20,
       "teacherKey": false
+    },
+    {
+      "id": "quickquiz",
+      "title": "Snabbquiz · regler och undantag",
+      "subtitle": "Komplement från trafikgenomgången och TBL 1–7 §§.",
+      "primary": false,
+      "kind": "quiz",
+      "mainCount": 45
     }
-  ]
+  ],
+  "quickQuizReviewed": "2026-09-16"
 };

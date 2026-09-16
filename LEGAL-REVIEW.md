@@ -1,3 +1,22 @@
+# Rättskontroll · snabbquiz 2.1.0 · 16 september 2026
+
+45 egna kompletterande frågor bygger på den inklistrade trafikgenomgången, med tillägg om TBL 1–7 §§ inklusive 4 a §. 31 frågor tränar undantag eller gränsdragningar. De är inte lärarfrågor eller ett officiellt facit. De tidigare 126 frågeposterna är oförändrade och har kvar sina kontrolltidpunkter nedan.
+
+| Område | Kontroller och preciseringar |
+| --- | --- |
+| TBL 1–3 §§ | Väsentlig oaktsamhet; cyklistens ställning; snävare personkrets vid grov vårdslöshet; subsidiaritet i 2 §; uppsåt vid olovlig körning och även oaktsamhet vid tillåtande. |
+| TBL 4 och 4 a §§ | Alkoholgränser, narkotika och ordinationsundantag; kliniskt rattfylleri även under alkoholgränsen eller trots ordination; fordon avsedda att föras av gående; tillståndskrävande försöksverksamhet; alternativa grovhetsgrunder. |
+| TBL 5–7 §§ | Olycksdelaktighet utan vållande; skyldigheter efter olycka; 6 § upphävd genom SFS 1988:944; 7 § förverkande enligt lydelsen efter SFS 2024:715. Olovligt brukande finns i BrB 10 kap. 7 §, inte i TBL. |
+| FoF 6 kap. 15–21, 26–32 §§ | Inträtt respektive meddelat körförbud. 21 § anger färd till besiktningsorgan; 32 § anger färd från reparationsplats till besiktningsorgan. Sammanställningens gemensamma formulering för direkt körförbud är därför för bred. Olastad bromsbristdrabbad släpvagn: kortaste lämpliga väg till reparation, högst 30 km/tim. |
+| LFRA 5–6, 10–12, 15–22 §§ | Registreringsbesiktning skiljs från vanlig kontrollbesiktning; bokningshandling ska medföras. Avställningsundantaget i 10 § 4 avser närmaste besiktningsorgan och har angivna skatte-/avgiftsvillkor. Inget allmänt serviceundantag. Saluvagnens tillåtna ändamål i 11 § skiljs från licenskretsen i 12 §; vanlig reparationsverksamhet är inte ensam en kategori där. Tillfällig registrering är en registreringsform. |
+| VTSL 6 kap. 1–3 §§ | Inget allmänt verkstads-/besiktningsundantag. Anstånd, äldre skatt och avgränsade fall av tidigare ägares skatt; särskilda försäljningsfall i 2 §. Skatteverket prövar särskilda skäl. |
+| FFRA 3 kap. 5–7, 13–15 §§ | Uttryckligt undantag för kortaste lämpliga väg till polisen för provisorisk skylt. Extra skylt kan användas när föreskrivna skyltar går att avläsa; väghållningsundantag är särskilt. |
+| TSL 2 §; LDEF 2 §; KKL 2 kap. | Avställd bil i trafik behöver försäkring. Totalvikt skiljs från bruttovikt. B96 ändrar inte definitionen av lätt släpfordon. |
+
+Källor: [TBL](https://data.riksdagen.se/dokument/sfs-1951-649.html), [FoF](https://data.riksdagen.se/dokument/sfs-2009-211.html), [LFRA](https://data.riksdagen.se/dokument/sfs-2019-370.html), [FFRA](https://data.riksdagen.se/dokument/sfs-2019-383.html), [VTSL](https://data.riksdagen.se/dokument/sfs-2006-227.html), [TSL](https://data.riksdagen.se/dokument/sfs-1975-1410.html), [LDEF](https://data.riksdagen.se/dokument/sfs-2001-559.html), [KKL](https://data.riksdagen.se/dokument/sfs-1998-488.html), [BrB](https://data.riksdagen.se/dokument/sfs-1962-700.html). Lagrum anges även i varje förklaring. Frågorna är avgränsade studiesituationer, inte en uttömmande katalog över alla undantag. Ingen automatisk rättsbevakning.
+
+---
+
 # Rättskontroll · version 2.0.0 · 15 september 2026
 
 ## De två nya huvudunderlagen
