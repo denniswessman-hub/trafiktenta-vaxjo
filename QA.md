@@ -1,3 +1,16 @@
+# Snabbquiz2 · testprotokoll 2.2.0 · 18 september 2026
+
+- 216 unika frågor. Alla 171 tidigare frågeposter och fem underlag jämförda med föregående gitversion och oförändrade.
+- 45 nya frågor, 23 ordningsbot och 22 avrapportering. Manual, sidnummer, tre distinkta alternativ och kontrolltidpunkt validerade.
+- Kodtester: urval för båda manualerna, separat manual, svåra och förfallna frågor, rätt/fel samt befintliga tester för första quizet, tidigare tentor, sparformat, repetition och bilder godkända.
+- Webbläsare: hela 45-frågorspasset genomgånget med 45 unika rubriker och korrekt resultat för 45 överhoppade. Ett separat trefrågorspass gav ett rätt, ett fel och ett överhoppat; resultatet visade 1/2 rätt.
+- Val av 45 frågor för en manual begränsades till 23 respektive 22 utan upprepning och med tydlig information. Enfrågorspass testat. Tomt repetitionsurval inaktiverar start.
+- Ingen vald knapp gav uppmaning att välja. Svar och förklaring fanns kvar efter omladdning. Sidreferens visas efter svar. Resultatlänken leder tillbaka till Snabbquiz2.
+- Framstegslänk väljer Snabbquiz2. Frågebanken visar 45 nya frågor. Inga konsolfel eller varningar i testet.
+- Mobilvy 390 × 844 inställd och visuellt granskad. Frågesidan hade lika scroll- och klientbredd (375 px); ingen horisontell överrinning. Ingen fysisk mobil testad. Tidigare offlineprov är historik; ingen ny offlineomladdning utförd. Quizdata ingår i befintlig cachefil och cacheversionen är uppdaterad.
+
+---
+
 # Testprotokoll · snabbquiz 2.1.0 · 16 september 2026
 
 - 171 unika övningar: tidigare 126 poster har jämförts mot version 2.0.0 och är helt oförändrade. De fyra tidigare underlagens metadata är också oförändrade.

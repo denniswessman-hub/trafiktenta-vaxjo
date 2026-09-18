@@ -1,5 +1,5 @@
 window.EXAM_DATA = {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "reviewed": "2026-09-15",
   "sources": {
     "kkl": {
@@ -193,6 +193,26 @@ window.EXAM_DATA = {
     "elspark": {
       "title": "Transportstyrelsen – elsparkcykel",
       "url": "https://www.transportstyrelsen.se/elsparkcykel"
+    },
+    "obotfap": {
+      "title": "FAP 261-1 · PMFS 2020:9",
+      "url": "https://polisen.se/siteassets/forfattningssamling/fap-nummer/fap261-01-pmfs2020-09/"
+    },
+    "obotpay": {
+      "title": "Polisen · betalning av ordningsbot",
+      "url": "https://polisen.se/lagar-och-regler/boter/ordningsbot/"
+    },
+    "fukq2": {
+      "title": "Förundersökningskungörelsen",
+      "url": "https://data.riksdagen.se/dokument/sfs-1947-948.html"
+    },
+    "foreignq2": {
+      "title": "Transportstyrelsen · utländska körkort",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/har-korkort/utlandska-korkort/"
+    },
+    "plq2": {
+      "title": "Polislagen",
+      "url": "https://data.riksdagen.se/dokument/sfs-1984-387.html"
     }
   },
   "questions": [
@@ -4381,6 +4401,1091 @@ window.EXAM_DATA = {
       "reviewed": "2026-09-16",
       "exception": false,
       "tblSection": null
+    },
+    {
+      "id": "quick2-01",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "1",
+      "category": "Förutsättningar",
+      "title": "Godkännandets verkan",
+      "prompt": "Vad innebär ett godkänt föreläggande av ordningsbot?",
+      "choices": [
+        "Det gäller som en lagakraftvunnen dom",
+        "Det är bara ett förslag till åklagaren",
+        "Det gäller först när hela beloppet betalats"
+      ],
+      "answer": "Innehållet och följderna måste förklaras före godkännande. Rättsverkan följer av RB 48 kap. 3 §.",
+      "sources": [
+        "rb"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 2,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-02",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "2",
+      "category": "Förutsättningar",
+      "title": "Styrkt identitet",
+      "prompt": "Personen vill godkänna men identiteten är osäker. Vad gör du?",
+      "choices": [
+        "Klarlägger identiteten före utfärdandet",
+        "Utfärdar ändå om personen uppger en adress",
+        "Låter underskriften ersätta identitetskontrollen"
+      ],
+      "answer": "FAP 261-1, 3 § kräver styrkt identitet och att kontrollsättet anges. Ett erkännande ersätter inte detta.",
+      "sources": [
+        "obotfap"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 2,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-03",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "3",
+      "category": "Förutsättningar",
+      "title": "Förnekar men vill skriva under",
+      "prompt": "Personen förnekar gärningen men vill skriva under för att slippa mer arbete. Får ordningsbot utfärdas?",
+      "choices": [
+        "Nej, förnekandet är ett hinder",
+        "Ja, viljan att skriva under räcker",
+        "Ja, om beloppet är lågt"
+      ],
+      "answer": "RB 48 kap. 15 § förbjuder ordningsbot vid förnekande. Klarlägg inställningen och säkra utredningen för fortsatt handläggning.",
+      "sources": [
+        "rb"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 3,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-04",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "4",
+      "category": "Förutsättningar",
+      "title": "Alla kända brott",
+      "prompt": "Du känner till flera brott som föreligger till bedömning. Får du avsluta bara det lindrigaste med ordningsbot och lämna resten utanför?",
+      "choices": [
+        "Nej, pröva hela situationen innan föreläggande",
+        "Ja, varje förseelse måste alltid hanteras för sig",
+        "Ja, om personen erkänner den lindrigaste"
+      ],
+      "answer": "RB 48 kap. 15 § kräver att föreläggandet upptar alla brott som enligt polismannens vetskap föreligger till bedömning. Finns hinder behöver annan handläggning väljas.",
+      "sources": [
+        "rb"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 3,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-05",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "5",
+      "category": "Förutsättningar",
+      "title": "Enskilt anspråk",
+      "prompt": "Det finns anledning att anta att talan om enskilt anspråk kommer att föras efter en trafikolycka. Vad gäller?",
+      "choices": [
+        "Ordningsbot får inte utfärdas",
+        "Ordningsbot får alltid utfärdas vid erkännande",
+        "Skadeståndet kan ignoreras vid lågt bötesbelopp"
+      ],
+      "answer": "Detta är ett uttryckligt hinder enligt RB 48 kap. 15 §. Utred frågan och välj rätt handläggning.",
+      "sources": [
+        "rb"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 3,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-06",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "6",
+      "category": "Förutsättningar",
+      "title": "Hinder på plats",
+      "prompt": "Personen är märkbart berusad. Vad anger FAP om ordningsbot på plats?",
+      "choices": [
+        "Den får inte utfärdas på plats; annan föreskriven handläggning behövs",
+        "Den får utfärdas om personen kan hålla i pennan",
+        "Alla möjligheter att senare utreda brottet upphör"
+      ],
+      "answer": "FAP 9 § skiljer detta från generella hinder. Kontorsföreläggande eller rapport till åklagare anges; även övriga förutsättningar måste vara uppfyllda.",
+      "sources": [
+        "obotfap"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 3,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-07",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "7",
+      "category": "Förutsättningar",
+      "title": "Fordonsbrist med inspektionsprotokoll",
+      "prompt": "En behörig bilinspektör har konstaterat och protokollfört en brist vid flygande inspektion. Måste samma person utfärda ordningsboten?",
+      "choices": [
+        "Nej, en annan behörig polisman kan utfärda den med underlaget",
+        "Ja, endast den som såg bristen får utfärda",
+        "Nej, vem som helst får utfärda den"
+      ],
+      "answer": "FAP 6 § medger annan polisman. Krav på utbildning och övriga förutsättningar för ordningsbot kvarstår. Bristen måste omfattas av inspektörens förordnande.",
+      "sources": [
+        "obotfap"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 4,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-08",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "8",
+      "category": "Blankett och dokumentation",
+      "title": "Tid för gärningen",
+      "prompt": "Vilken tid ska anges som gärningstid?",
+      "choices": [
+        "Tiden då förseelsen inträffade",
+        "Tiden då blanketten blev klar",
+        "Tiden då patrullen började sitt pass"
+      ],
+      "answer": "Manualen betonar att gärningstid inte är skrivtid. Vid mätning ska tiden stämma med mätunderlaget.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 5,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-09",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "9",
+      "category": "Blankett och dokumentation",
+      "title": "Rätt plats",
+      "prompt": "Hastigheten mättes på huvudvägen men bilen stoppades på en sidogata. Vilken är gärningsplatsen?",
+      "choices": [
+        "Platsen där hastighetsöverträdelsen skedde",
+        "Sidogatan där boten skrivs",
+        "Närmaste polisstation"
+      ],
+      "answer": "Platsen ska vara entydig och kopplas till mätprotokollet. Stopp- och skrivplats kan vara andra platser.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 5,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-10",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "10",
+      "category": "Blankett och dokumentation",
+      "title": "Postadressen",
+      "prompt": "Ett register visar en adress. Vad rekommenderar manualen?",
+      "choices": [
+        "Kontrollera att personen faktiskt tar emot post där",
+        "Använd alltid registeradressen utan frågor",
+        "Ersätt adressen med telefonnummer"
+      ],
+      "answer": "En användbar aktuell postadress behövs. Folkbokföringsadress och faktisk postadress kan skilja sig. Fyll inte i obekräftade uppgifter.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 5,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-11",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "11",
+      "category": "Blankett och dokumentation",
+      "title": "Personens roll",
+      "prompt": "Varför behöver förare, ägare och passagerare hållas isär?",
+      "choices": [
+        "Ansvar prövas utifrån den roll och de rekvisit som gäller",
+        "Rollerna har bara betydelse för statistiken",
+        "Föraren ansvarar automatiskt för alla andras förseelser"
+      ],
+      "answer": "Utred den aktuella rollen. Att någon kör bevisar inte automatiskt ägar- eller brukaransvar. Manualen tar upp separata rollfält.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 6,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-12",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "12",
+      "category": "Blankett och dokumentation",
+      "title": "Bil med släp",
+      "prompt": "Ekipaget får köra högst 80 km/tim på en väg skyltad 90. Vilken tillåten hastighet anges för gärningen?",
+      "choices": [
+        "80 km/tim",
+        "90 km/tim",
+        "Medelvärdet 85 km/tim"
+      ],
+      "answer": "Förutsättningen i frågan är att ekipagets gräns är 80. Vägens 90-gräns redovisas separat i trafikmiljön enligt manualen.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 7,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-13",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "13",
+      "category": "Blankett och dokumentation",
+      "title": "Gärning saknas i förtrycket",
+      "prompt": "Hur beskriver manualen hantering av en gärning som inte är förtryckt på kopian?",
+      "choices": [
+        "Ange aktuell katalogs gärningsbeskrivning i klartext och rätt kod",
+        "Skriv en valfri kortform utan kontroll",
+        "Lämna gärningsbeskrivningen tom"
+      ],
+      "answer": "Kontrollera kod, gärning, roll och belopp mot aktuell katalog. Manualens fältanvisningar gäller den beskrivna pappersblanketten; dagens blankett och systemrutin kontrolleras i tjänsten.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 7,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-14",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "14",
+      "category": "Blankett och dokumentation",
+      "title": "Räkneövning",
+      "prompt": "Enligt manualens räkneprincip: vad blir 2 000, 1 500 och 1 000 kronor sammanlagt efter reduktion?",
+      "choices": [
+        "3 250 kronor",
+        "4 500 kronor",
+        "2 250 kronor"
+      ],
+      "answer": "Räkneövning: högsta beloppet helt och övriga till hälften ger 2 000 + 750 + 500 = 3 250. Beloppen avser inga bestämda brott. Kontrollera alltid aktuell katalog och sammanläggningsregler inför ett verkligt beslut.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 7,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-15",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "15",
+      "category": "Godkännande och rättelse",
+      "title": "Omedelbart eller kontor?",
+      "prompt": "Personen är närvarande på stationen och godkänner direkt. Vilket förfarande beskriver manualen?",
+      "choices": [
+        "Omedelbart föreläggande",
+        "Kontorsföreläggande enbart för att det sker på stationen",
+        "Rådrum även om personen godkänner direkt"
+      ],
+      "answer": "Kontorsföreläggande avser utfärdande i personens frånvaro. Rummets placering avgör inte förfarandet.",
+      "sources": [
+        "obotfap"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 8,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-16",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "16",
+      "category": "Godkännande och rättelse",
+      "title": "Rådrum",
+      "prompt": "Vad betyder rådrum?",
+      "choices": [
+        "Betänketid före godkännande",
+        "Förlängd betalningstid efter en dom",
+        "Tillstånd att utfärda trots förnekande"
+      ],
+      "answer": "Rådrum är möjlighet att senare ta ställning. FAP 11 § anger åtta dagar för godkännande. Ett förnekande får inte kringgås genom rådrum.",
+      "sources": [
+        "obotfap",
+        "rb"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 8,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-17",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "17",
+      "category": "Godkännande och rättelse",
+      "title": "Nordisk anknytning",
+      "prompt": "Vilken anknytning kräver FAP för rådrum och kontorsföreläggande?",
+      "choices": [
+        "Boende eller stadigvarande vistelse i Sverige eller annat nordiskt land",
+        "Nordiskt medborgarskap oavsett vistelse",
+        "En semesterbokning i valfritt EU-land"
+      ],
+      "answer": "FAP 11–12 §§ anger boende eller stadigvarande uppehåll i Sverige eller annat nordiskt land. Medborgarskap är inte det angivna kriteriet.",
+      "sources": [
+        "obotfap"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 8,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-18",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "18",
+      "category": "Godkännande och rättelse",
+      "title": "Betalning och förverkande",
+      "prompt": "Ett föreläggande omfattar förverkande. Kan det godkännas genom enbart full betalning enligt FAP:s regler om rådrum?",
+      "choices": [
+        "Nej, betalningssättet för godkännande gäller inte då",
+        "Ja, betalning godkänner alltid allt",
+        "Ja, om förverkad egendom har lågt värde"
+      ],
+      "answer": "FAP 11–12 §§ undantar förverkande från godkännande genom betalning. Skilj också full betalning som godkännande från delbetalning av en redan skriftligt godkänd bot.",
+      "sources": [
+        "obotfap"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 8,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-19",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "19",
+      "category": "Godkännande och rättelse",
+      "title": "Utredning vid rådrum",
+      "prompt": "Varför ska bevisning säkras även när personen sannolikt kommer att godkänna senare?",
+      "choices": [
+        "Ärendet måste kunna hanteras vidare om godkännande uteblir",
+        "Bevisningen kan alltid samlas in först flera månader senare",
+        "Rådrum innebär att brottet redan är slutligt avgjort"
+      ],
+      "answer": "Manualen betonar anmälan, förhör och nödvändiga utredningsåtgärder vid rådrum och kontorsföreläggande. Ett väntat godkännande är inte ett faktiskt godkännande.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 8,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-20",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "20",
+      "category": "Godkännande och rättelse",
+      "title": "Betalningsfrist",
+      "prompt": "Hur lång är ordinarie betalningstid från godkännandet enligt Polisens information?",
+      "choices": [
+        "Tre månader",
+        "Åtta dagar",
+        "Alltid exakt 90 dagar"
+      ],
+      "answer": "Polisen anger tre månader från godkännandet. Åtta dagar för rådrum är en annan tidsfrist. Tre kalendermånader ska inte ersättas med ett generellt antal dagar.",
+      "sources": [
+        "obotpay"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 9,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-21",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "21",
+      "category": "Godkännande och rättelse",
+      "title": "Förlängd betalning",
+      "prompt": "Vad krävs enligt Polisens information för ytterligare tre månaders betalningstid?",
+      "choices": [
+        "Skriftligt godkännande och minst halva beloppet betalt inom tre månader",
+        "En valfri delbetalning när som helst",
+        "Enbart ett muntligt löfte att betala"
+      ],
+      "answer": "Efter skriftligt godkännande ger betalning av minst hälften inom tre månader ytterligare tre månader för resten. Det är inte samma sak som att godkänna genom full betalning.",
+      "sources": [
+        "obotpay"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 9,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-22",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "22",
+      "category": "Blankett och dokumentation",
+      "title": "Mätmetoden",
+      "prompt": "När ska använd mätmetod anges enligt manualen?",
+      "choices": [
+        "När hastighet rapporteras, även utan stjärnmarkering",
+        "Endast vid stjärnmarkerade brott",
+        "Endast när föraren förnekar"
+      ],
+      "answer": "Metoden behövs för att förstå underlaget. Laser, genomsnittsmätning och efterföljande får inte blandas ihop. Stjärnmarkeringen styr andra kompletterande uppgifter.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 10,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-23",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "23",
+      "category": "Godkännande och rättelse",
+      "title": "Fel efter godkännande",
+      "prompt": "Du upptäcker ett sakfel efter godkännande. Vad är rätt första hantering?",
+      "choices": [
+        "Dokumentera felet och lämna till behörig funktion för bedömning",
+        "Ändra framsidan själv så att den ser riktig ut",
+        "Höj beloppet om katalogen visar ett högre belopp"
+      ],
+      "answer": "FAP 13–14 §§ kräver särskilt utbildad beslutsfattare för rättelse. Rättelse får inte höja straffet. Skilj rättelse från återtagande av godkännande och undanröjande.",
+      "sources": [
+        "obotfap",
+        "rb"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för att skriva ordningsbot",
+      "manualPage": 11,
+      "manual": "O"
+    },
+    {
+      "id": "quick2-24",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "24",
+      "category": "Utredning och förhör",
+      "title": "Tillräckligt underlag",
+      "prompt": "Minskar förenklad handläggning kravet på att gärningen är tillräckligt utredd?",
+      "choices": [
+        "Nej, underlaget måste fortfarande räcka",
+        "Ja, ett ärendenummer räcker",
+        "Ja, om föraren är samarbetsvillig"
+      ],
+      "answer": "Manualens arbetsgång börjar med händelse, roll och val av handläggning. Ett förenklat arbetssätt ersätter inte bevisning om gärningen.",
+      "sources": [
+        "rb"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 2,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-25",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "25",
+      "category": "Utredning och förhör",
+      "title": "Två olika arbetssätt",
+      "prompt": "Är snabbare lagföring samma sak som förenklad utredning enligt RB 23 kap. 22 §?",
+      "choices": [
+        "Nej, snabbare lagföring kan innefatta en förundersökning",
+        "Ja, uttrycken betyder exakt samma sak",
+        "Ja, båda innebär att förhör alltid saknas"
+      ],
+      "answer": "Snabbare lagföring är en arbetsmetod. RB 23:22 är en regel om när förundersökning inte behöver genomföras. Tillräckliga skäl för åtal och bestämmelsens övriga villkor krävs.",
+      "sources": [
+        "rb"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 3,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-26",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "26",
+      "category": "Utredning och förhör",
+      "title": "Delgivning",
+      "prompt": "Vad avser förenklad delgivning?",
+      "choices": [
+        "Hur handlingar delges",
+        "Att ingen brottsutredning behövs",
+        "Hur bötesbeloppet reduceras"
+      ],
+      "answer": "Manualen skiljer mellan utredningsform och delgivningsform. Tillgänglighetsdelgivning inom snabbare lagföring är dessutom en egen delgivningsform.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 3,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-27",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "27",
+      "category": "Utredning och förhör",
+      "title": "Vem observerade?",
+      "prompt": "Kollegan såg förseelsen, men du skriver anmälan. Hur bör det framgå?",
+      "choices": [
+        "Kollegans observation dokumenteras som kollegans uppgift",
+        "Skriv observationen som din egen",
+        "Utelämna observatören om ni satt i samma bil"
+      ],
+      "answer": "Manualen anger att kollegan dokumenterar sina iakttagelser. Håll egna observationer, andras uppgifter och registeruppgifter åtskilda.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 4,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-28",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "28",
+      "category": "Utredning och förhör",
+      "title": "Rätt till försvarare",
+      "prompt": "Är information om försvarare enbart vid en eventuell rättegång tillräcklig?",
+      "choices": [
+        "Nej, rättigheterna gäller också under utredningen",
+        "Ja, försvarare kan aldrig biträda vid förhör",
+        "Ja, om personen redan erkänt"
+      ],
+      "answer": "Manualen preciserar den äldre formuleringen. FUK 12 § omfattar bland annat försvarare, rätten att inte yttra sig och relevant information på ett språk personen förstår.",
+      "sources": [
+        "fukq2"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 4,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-29",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "29",
+      "category": "Utredning och förhör",
+      "title": "Dagsbotsuppgifter",
+      "prompt": "Varför behövs ekonomiska uppgifter vid dagsböter?",
+      "choices": [
+        "Beloppet per dagsbot påverkas av personens ekonomiska förhållanden",
+        "Alla penningböter räknas om till dagsböter",
+        "Ekonomin avgör ensam om ett brott har begåtts"
+      ],
+      "answer": "Skilj dagsböter från penningböter. Manualen anger dagsbotsuppgifter när de behövs, exempelvis vid olovlig körning, inte som rutin för rena penningbotsbrott.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 4,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-30",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "30",
+      "category": "Bevisning och mätning",
+      "title": "Säkra registerbilden",
+      "prompt": "Varför bör relevant utdrag ur vägtrafikregistret sparas direkt?",
+      "choices": [
+        "Registerförhållandena kan ändras efter kontrollen",
+        "Ett utdrag bevisar automatiskt alla rekvisit",
+        "Minnesbilden blir alltid starkare bevis än utdraget"
+      ],
+      "answer": "Knyt utdraget till fordon och kontrolltid. Påställning eller besiktning kan ändra uppgifterna senare. Förbudsgrund, roll, kunskap och undantag behöver fortfarande utredas.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 5,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-31",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "31",
+      "category": "Bevisning och mätning",
+      "title": "Brukaransvar",
+      "prompt": "Räcker anteckningen ”brukare” för att utreda personens roll?",
+      "choices": [
+        "Nej, beskriv disposition, användning och relevant ansvar",
+        "Ja, om personen sitter i förarsätet",
+        "Ja, det är alltid samma sak som registrerad ägare"
+      ],
+      "answer": "Manualen föreslår frågor om vem som disponerar fordonet, hur länge och med vilket ansvar. Anpassa frågorna till den aktuella bestämmelsens rekvisit.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 5,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-32",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "32",
+      "category": "Bevisning och mätning",
+      "title": "Däckbrist",
+      "prompt": "Vilket underlag är mest användbart vid rapport om otillräckligt mönsterdjup?",
+      "choices": [
+        "Mätvärde, mätställe och identifierat däck på rätt fordon",
+        "Enbart formuleringen ”dåliga däck”",
+        "Enbart bilens färg"
+      ],
+      "answer": "Manualen betonar konkret beskrivning, mätning där det behövs och fotografier när de hjälper. Uppgifter ska knytas till rätt fordon och del.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 6,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-33",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "33",
+      "category": "Bevisning och mätning",
+      "title": "Bältesobservation",
+      "prompt": "Vilken beskrivning stöder bäst påståendet att bälte inte användes?",
+      "choices": [
+        "Position, avstånd, sikt och hur avsaknaden kunde observeras",
+        "Enbart slutsatsen ”saknade bälte”",
+        "En standardtext om ett hängande spänne som ingen såg"
+      ],
+      "answer": "Beskriv det som faktiskt observerades, exempelvis kontrast och rörelse när det har betydelse. En icke observerad detalj får inte läggas till för att stärka underlaget.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 6,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-34",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "34",
+      "category": "Bevisning och mätning",
+      "title": "Gällande hastighetsregel",
+      "prompt": "Räcker det alltid att bifoga en lokal trafikföreskrift vid hastighetsrapportering?",
+      "choices": [
+        "Nej, identifiera den regel som faktiskt styr fordonet på platsen och tiden",
+        "Ja, även när föreskriften avser en annan gata",
+        "Ja, oavsett fordonsanknuten hastighetsgräns"
+      ],
+      "answer": "Kontrollera sträcka, riktning när relevant och giltighetstid. En fordonsanknuten gräns kan vara avgörande. Mätning, stopp och kontrollerad förare ska gå att koppla ihop.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 7,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-35",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "35",
+      "category": "Bevisning och mätning",
+      "title": "Efterföljande enligt kursen",
+      "prompt": "Hur ska manualens uppgifter om 500 meter och minst 10 procents avdrag användas?",
+      "choices": [
+        "Som kursuppgifter; aktuell fullständig mätanvisning måste kontrolleras",
+        "Som en universell regel för alla mätmetoder",
+        "Som bevis för att ingen kontrollmätning behövs"
+      ],
+      "answer": "Manualen anger uttryckligen att dessa siffror och metodvillkor inte är verifierade som en fullständig operativ instruktion. De ska inte överföras till exempelvis lasermätning.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 8,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-36",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "36",
+      "category": "Bevisning och mätning",
+      "title": "Komplettering återstår",
+      "prompt": "En nödvändig kontrollmätning återstår enligt det beskrivna upplägget. Är utredningen komplett?",
+      "choices": [
+        "Nej, återstående åtgärd måste hanteras före redovisning som komplett",
+        "Ja, om ärendet rubriceras snabbare lagföring",
+        "Ja, om den misstänkte vill betala"
+      ],
+      "answer": "Manualen beskriver kontakt med förundersökningsledaren och hantering av komplettering samt tillämplig slutunderrättelse. Ett namn på arbetsmetoden gör inte bevisningen färdig.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 8,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-37",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "37",
+      "category": "Olovlig körning",
+      "title": "Utreda uppsåt",
+      "prompt": "Vilken fråga är särskilt relevant när rätt att köra saknas?",
+      "choices": [
+        "Vad grundar personen sin uppfattning om behörigheten på?",
+        "Vilken färg personen föredrar på bilen?",
+        "Om personen kan betala böterna omedelbart?"
+      ],
+      "answer": "TBL 3 § första stycket kräver uppsåt. Följ upp uppgifter om behörighet, återkallelse, spärrtid och mottagen information. En erkännandemarkering ersätter inte rekvisitprövningen.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 9,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-38",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "38",
+      "category": "Olovlig körning",
+      "title": "Tidigare körningar",
+      "prompt": "Bevisar flera registerträffar automatiskt grov olovlig körning?",
+      "choices": [
+        "Nej, utred gärningar och relevant tidigare lagföring",
+        "Ja, varje träff är en bevisad körning",
+        "Ja, även om träffarna gäller samma händelse"
+      ],
+      "answer": "Manualen skiljer återfall från vanemässighet. Riktvärden är bedömningsstöd, inte automatiska laggränser. Obestyrkta uppgifter eller träffantal räcker inte ensamma.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 9,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-39",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "39",
+      "category": "Olovlig körning",
+      "title": "Ettårsregeln",
+      "prompt": "Vilken uppgift är central för ettårsregeln för körkort från länder utanför EES?",
+      "choices": [
+        "Tid som folkbokförd i Sverige, med prövning av undantag",
+        "Enbart dagen för senaste semesterinresan",
+        "Antalet gånger körkortet har visats för polis"
+      ],
+      "answer": "Regeln gäller inte alla utländska körkort. Förenade kungariket och Färöarna är undantagna från just ettårsgränsen; kontrollera även andra giltighetsvillkor och individuella undantag.",
+      "sources": [
+        "foreignq2"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 10,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-40",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "40",
+      "category": "Rattfylleri och åtgärder",
+      "title": "Eftersupning utesluten?",
+      "prompt": "När är det rimligt att skriva att eftersupning är utesluten?",
+      "choices": [
+        "När dokumenterade iakttagelser och tidsföljd stöder slutsatsen",
+        "Alltid när personen stoppats i närheten av bilen",
+        "Alltid när sållningsprovet är positivt"
+      ],
+      "answer": "Manualen kräver att uppsikt och avbrott redovisas. En standardfras ska inte ersätta faktiska observationer om körningen och tiden efter den.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 11,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-41",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "41",
+      "category": "Rattfylleri och åtgärder",
+      "title": "Blodprov och grovt brott",
+      "prompt": "Gör blodprov i stället för utandningsprov automatiskt rattfylleriet grovt?",
+      "choices": [
+        "Nej, grovheten bedöms utifrån relevanta omständigheter",
+        "Ja, provtypen avgör rubriceringen",
+        "Ja, om utandningsprov inte kan genomföras"
+      ],
+      "answer": "TBL 4 a § tar upp alkoholkoncentration, avsevärd påverkan och påtaglig trafikfara. Valet av provtyp är inte i sig en grovhetsgrund.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 11,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-42",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "42",
+      "category": "Rattfylleri och åtgärder",
+      "title": "Tidslinje vid eftersupning",
+      "prompt": "Vilka tider är särskilt viktiga att koppla ihop?",
+      "choices": [
+        "Körning, stopp, uppgivna intag och provtagning",
+        "Enbart patrullens arbetspass",
+        "Enbart tiden då anmälan skrevs"
+      ],
+      "answer": "Säkra också vittnesuppgifter, dryck, mängd, styrka och observationer. Redovisa vad som är uppgift respektive observation. Rättskemisk tolkning kräver sakkunnigt underlag.",
+      "sources": [],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 12,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-43",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "43",
+      "category": "Rattfylleri och åtgärder",
+      "title": "Urin ersätter blod?",
+      "prompt": "Kan ett urinresultat ensamt ersätta blodförekomst för nollgränsregeln om drograttfylleri?",
+      "choices": [
+        "Nej, bestämmelsen avser narkotiskt ämne i blodet",
+        "Ja, alla prover har samma rättsliga innebörd",
+        "Ja, om urinprovet är tydligt positivt"
+      ],
+      "answer": "TBL 4 § andra stycket gäller narkotika i blodet och har ordinationsundantag. Urinprov kan ge underlag för eget bruk men ersätter inte blodrekvisitet. Kliniskt rattfylleri är en separat grund.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 13,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-44",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "44",
+      "category": "Rattfylleri och åtgärder",
+      "title": "Två olika brottstider",
+      "prompt": "Varför ska körning och narkotikaintag dokumenteras var för sig?",
+      "choices": [
+        "Drograttfylleri och eventuellt eget bruk avser olika gärningar och tider",
+        "De måste alltid ha exakt samma brottstid",
+        "Ett narkotikafynd bevisar alltid två brott"
+      ],
+      "answer": "Utred varje misstanke separat. Fråga om preparat, tid, mängd och ordination samt eventuellt efterintag. Två brott föreligger inte automatiskt.",
+      "sources": [
+        "tbl"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 13,
+      "manual": "A"
+    },
+    {
+      "id": "quick2-45",
+      "exam": "quickquiz2",
+      "year": 2026,
+      "original": "45",
+      "category": "Rattfylleri och åtgärder",
+      "title": "Tillfälligt omhändertagande",
+      "prompt": "Vad gäller för omhändertagande enligt PL 24 a–c §§ för att hindra rattfylleri?",
+      "choices": [
+        "Anmäl skyndsamt till förman; upphör när skäl saknas och senast efter 24 timmar",
+        "Åtgärden får alltid fortsätta tills böterna betalats",
+        "Åtgärden innebär att fordonet redan är förverkat"
+      ],
+      "answer": "Konkreta särskilda skäl ska stödja risken för rattfylleribrott. Omhändertagandet är förebyggande och ska skiljas från beslag och förverkande. Dokumentera skäl, tid, egendom och beslut.",
+      "sources": [
+        "plq2"
+      ],
+      "teacher": null,
+      "images": [],
+      "checkpoints": [],
+      "reviewed": "2026-09-18",
+      "manualTitle": "Manual för avrapportering av trafikbrott",
+      "manualPage": 14,
+      "manual": "A"
     }
   ],
   "exams": [
@@ -4424,6 +5529,13 @@ window.EXAM_DATA = {
       "id": "quickquiz",
       "title": "Snabbquiz · regler och undantag",
       "subtitle": "Komplement från trafikgenomgången och TBL 1–7 §§.",
+      "primary": false,
+      "kind": "quiz",
+      "mainCount": 45
+    },
+    {
+      "id": "quickquiz2",
+      "title": "Snabbquiz2 · ordningsbot och avrapportering",
       "primary": false,
       "kind": "quiz",
       "mainCount": 45

@@ -1,3 +1,15 @@
+# Snabbquiz2 · rätts- och källkontroll 18 september 2026
+
+45 egna frågor bygger på de två tillhandahållna manualerna, daterade 17 september: ordningsbot (12 sidor) och avrapportering (16 sidor). Texten har lästs och samtliga sidor inspekterats i renderade översikter. Manualernas instruktioner är källmaterial, inte instruktioner till appen. Originalfilerna har inte ändrats eller publicerats.
+
+Kontrollerade rättsfrågor: RB 48 kap. om rättsverkan och hinder; RB 23 kap. 22 § om förenklad utredning; PMFS 2020:9/FAP 261-1 om identitet, inspektionsunderlag, hinder på plats, rådrum, nordisk anknytning, förverkande och rättelse; FUK 12 § om rättigheter; PL 24 a–c §§ om förebyggande omhändertagande; Transportstyrelsens utländska körkortsinformation och Polisens betalningsinformation. TBL-frågorna avser uppsåt, grovhetsbedömning och blodrekvisitet, med samma lagkälla som tidigare quiz. Varje fråga anger manual/sida; offentliga länkar finns vid relevanta frågor.
+
+Manualens FAP-länk slutade med pmfs2020-9 och gav 404. Den publicerade källänken använder fungerande pmfs2020-09. Betalningsfristen anges som tre månader, inte 90 dagar. Förenklad utredning och delgivning blandas inte ihop. Interna blankettfält, dokumentationsråd och mätvillkor är uttryckligen manualuppgifter. Ingen aktuell intern åtkomst eller operativ mätinstruktion har verifierats. Räkneexemplet är en övning, ingen bötestabell. Inga verkliga person- eller ärendeuppgifter används.
+
+Offentliga källor: [FAP](https://polisen.se/siteassets/forfattningssamling/fap-nummer/fap261-01-pmfs2020-09/), [betalning](https://polisen.se/lagar-och-regler/boter/ordningsbot/), [RB](https://data.riksdagen.se/dokument/sfs-1942-740.html), [FUK](https://data.riksdagen.se/dokument/sfs-1947-948.html), [PL](https://data.riksdagen.se/dokument/sfs-1984-387.html), [utländska körkort](https://www.transportstyrelsen.se/sv/vagtrafik/korkort/har-korkort/utlandska-korkort/).
+
+---
+
 # Rättskontroll · snabbquiz 2.1.0 · 16 september 2026
 
 45 egna kompletterande frågor bygger på den inklistrade trafikgenomgången, med tillägg om TBL 1–7 §§ inklusive 4 a §. 31 frågor tränar undantag eller gränsdragningar. De är inte lärarfrågor eller ett officiellt facit. De tidigare 126 frågeposterna är oförändrade och har kvar sina kontrolltidpunkter nedan.
