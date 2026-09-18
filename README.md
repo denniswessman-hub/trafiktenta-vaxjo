@@ -2,11 +2,17 @@
 
 [Öppna appen](https://denniswessman-hub.github.io/trafiktenta-vaxjo/)
 
-Mobilanpassad tentaträning med **65 övningar från två nya huvudunderlag**, lärarsvar och 20 frågebilder. De 61 tidigare Växjöövningarna finns kvar som extra träning. Som komplement finns **45 snabbquizfrågor**, varav 31 om undantag och gränsfall. Version 2.2.0, 18 september 2026.
+Mobilanpassad tentaträning med **65 övningar från två nya huvudunderlag**, lärarsvar och 20 frågebilder. De 61 tidigare Växjöövningarna finns kvar som extra träning. Som komplement finns **45 snabbquizfrågor**, varav 31 om undantag och gränsfall. Version 2.3.0, 18 september 2026.
 
 ## Snabbquiz2
 
 [Öppna Snabbquiz2](https://denniswessman-hub.github.io/trafiktenta-vaxjo/#quiz2). 45 kompletterande frågor: 23 från Manual för att skriva ordningsbot och 22 från Manual för avrapportering av trafikbrott (17 september 2026). Välj 1–45 frågor, en manual, ett ämne, svåra frågor eller dagens repetition. Varje förklaring anger manual och sida. Lagberoende frågor har offentliga kontrollkällor. Interna rutiner och mätvillkor märks som kursunderlag, inte verifierad tjänsteinstruktion.
+
+## Snabbquiz3
+
+[Öppna Snabbquiz3](https://denniswessman-hub.github.io/trafiktenta-vaxjo/#quiz3). 45 frågor utifrån **Trafikförordningen m.m PNF 1.pdf**, kompendiet om tätortskörning. Välj **1–45 frågor**, ämne, **19 undantags- och gränsfrågor**, **fem bildfrågor**, svåra frågor eller dagens repetition. Varje svar visar förklaring, lagstöd och PDF-sida. Vägmärkesbilderna kommer från kompendiets sida 11 och kan förstoras. Rättskontroll: 18 september 2026. Det är egna övningsfrågor, inte en lärarsvarsmall.
+
+Totalt finns 261 övningar i appen. Huvudtentorna, Växjömaterialet, tidigare snabbquiz och sparformatet är bevarade.
 
 ## Underlag och svar
 

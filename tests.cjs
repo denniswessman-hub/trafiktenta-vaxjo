@@ -5,7 +5,7 @@ const L = require('./learning.js');
 const context = {window:{}};
 vm.runInNewContext(fs.readFileSync('data.js','utf8'),context);
 const data=context.window.EXAM_DATA, ids=data.questions.map(q=>q.id);
-assert.equal(ids.length,216);assert.equal(new Set(ids).size,216);
+assert.equal(ids.length,261);assert.equal(new Set(ids).size,261);
 assert.equal(data.questions.filter(q=>q.exam==='vt22').length,25);
 assert.equal(data.questions.filter(q=>q.exam==='dk1').length,40);
 assert.equal(data.exams.filter(e=>e.primary).length,2);
@@ -19,7 +19,10 @@ for(const q of quick){assert.equal(q.choices.length,3);assert.equal(new Set(q.ch
 const quick2=data.questions.filter(q=>q.exam==='quickquiz2');assert.equal(quick2.length,45);
 assert.equal(quick2.filter(q=>q.manual==='O').length,23);assert.equal(quick2.filter(q=>q.manual==='A').length,22);
 for(const q of quick2){assert.equal(q.choices.length,3);assert.equal(new Set(q.choices).size,3);assert(q.manualTitle);assert(q.manualPage>=2&&q.manualPage<=(q.manual==='O'?11:14));assert.equal(q.reviewed,'2026-09-18');assert(L.isCorrect(q,{choice:0}));assert(!L.isCorrect(q,{choice:2}));}
-const images=[...new Set(data.questions.flatMap(q=>(q.images||[]).map(i=>i.src)))];assert.equal(images.length,20);
+const quick3=data.questions.filter(q=>q.exam==='quickquiz3');assert.equal(quick3.length,45);
+assert.equal(quick3.filter(q=>q.exception).length,19);assert.equal(quick3.filter(q=>q.images?.length).length,5);
+for(const q of quick3){assert.equal(q.choices.length,3);assert.equal(new Set(q.choices).size,3);assert.equal(q.sourceDocument,'Trafikförordningen m.m PNF 1.pdf');assert(q.sourcePage>=2&&q.sourcePage<=12);assert.equal(q.reviewed,'2026-09-18');assert(!q.teacher);assert(L.isCorrect(q,{choice:0}));assert(!L.isCorrect(q,{choice:1}));}
+const images=[...new Set(data.questions.flatMap(q=>(q.images||[]).map(i=>i.src)))];assert.equal(images.length,25);
 const sw=fs.readFileSync('sw.js','utf8');for(const path of images)assert(sw.includes('./'+path));
 const multi=data.questions.find(q=>q.id==='dk1-18');assert.equal(multi.choices.length,6);assert.deepEqual(Array.from(multi.correct),[1,2,4]);
 assert(L.isCorrect(multi,{selected:[4,1,2]}));
@@ -54,10 +57,15 @@ assert(selectContext.quickSelection('exceptions').every(q=>q.exception));
 const select2Text=app.slice(app.indexOf('function quick2Selection('),app.indexOf('function quiz2()'));
 const select2Context={QUICK2:quick2,state:{ratings:{'quick2-01':'hard'}},dueQuestions:()=>[]};vm.runInNewContext(select2Text,select2Context);
 for(const [topic,n] of [['all',45],['O',23],['A',22],['hard',1],['due',0]])assert.equal(select2Context.quick2Selection(topic).length,n);
+const select3Text=app.slice(app.indexOf('function quick3Selection('),app.indexOf('function quiz3()'));
+const select3Context={QUICK3:quick3,state:{ratings:{'quick3-01':'hard'}},dueQuestions:()=>[quick3[1]]};vm.runInNewContext(select3Text,select3Context);
+for(const [topic,n] of [['all',45],['exceptions',19],['images',5],['hard',1],['due',1],['Hastighet',5]])assert.equal(select3Context.quick3Selection(topic).length,n);
+assert(select3Context.quick3Selection('exceptions').every(q=>q.exception));assert(select3Context.quick3Selection('images').every(q=>q.images.length===1));
+assert.equal(select3Context.quick3Selection('due')[0].id,quick3[1].id);
 const functionText=app.slice(app.indexOf('function requiredLicense('),app.indexOf('function calc()'));
 const calcContext={};vm.runInNewContext(functionText,calcContext);
 for(const [c,t,result] of [[3500,750,'B'],[2500,1000,'B'],[2500,1001,'B96'],[3500,751,'BE'],[3000,1250,'B96'],[3000,1251,'BE'],[3500,3500,'BE'],[0,750,null],[3501,750,null],[3000,750.5,null]])assert.equal(calcContext.requiredLicense(c,t),result);
 for(const f of ['index.html','app.js','data.js','sw.js','learning.js'])assert(!fs.readFileSync(f,'utf8').includes('\ufffd'));
 assert(fs.readFileSync('index.html','utf8').includes('data-version="'+data.version+'"'));
 assert(fs.readFileSync('sw.js','utf8').includes('trafiktenta-'+data.version));
-console.log('PASS: 216 exercises (65 primary + 61 legacy + 45 quick quiz + 45 quickquiz2), all TBL sections and 31 exception questions, teacher/source labels, 20 images and offline assets, exact multi-answer scoring, saved selections/checklists, legacy migration, repetition intervals, invalid imports, licence boundaries, version/encoding.');
+console.log('PASS: 261 exercises (65 primary + 61 legacy + three quizzes of 45), all quiz filters, source/page labels, 25 images and offline assets, exact multi-answer scoring, saved selections/checklists, legacy migration, repetition intervals, invalid imports, licence boundaries, version/encoding.');

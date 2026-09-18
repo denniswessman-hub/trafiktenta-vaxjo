@@ -1,5 +1,5 @@
 window.EXAM_DATA = {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "reviewed": "2026-09-15",
   "sources": {
     "kkl": {
@@ -5486,6 +5486,997 @@ window.EXAM_DATA = {
       "manualTitle": "Manual för avrapportering av trafikbrott",
       "manualPage": 14,
       "manual": "A"
+    },
+    {
+      "id": "quick3-01",
+      "exam": "quickquiz3",
+      "original": "1",
+      "category": "Grunder och anvisningar",
+      "title": "Hitta reglerna",
+      "prompt": "Vilken beskrivning av trafikförordningen (TrF) är riktig?",
+      "choices": [
+        "En förordning med regler för trafik på väg och i terräng",
+        "En lag som enbart gäller motordrivna fordon på allmän väg",
+        "En vägledning som bara gäller inom tättbebyggt område"
+      ],
+      "answer": "TrF 1 kap. 1 § anger tillämpningsområdet. TrF är en förordning. Alla kapitel gäller inte alla trafikanter: vissa regler riktar sig exempelvis särskilt till fordonsförare eller till gående.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 2,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-02",
+      "exam": "quickquiz3",
+      "original": "2",
+      "category": "Grunder och anvisningar",
+      "title": "Omsorg och straffansvar",
+      "prompt": "Betyder en brist i omsorg enligt TrF 2 kap. 1 § första stycket automatiskt att föraren gjort sig skyldig till vårdslöshet i trafik?",
+      "choices": [
+        "Nej, trafikbrottslagens egna förutsättningar måste vara uppfyllda",
+        "Ja, varje brist i omsorg är vårdslöshet i trafik",
+        "Nej, eftersom trafikförordningen helt saknar straffbestämmelser"
+      ],
+      "answer": "TrF 2 kap. 1 § första stycket ställer krav på omsorg, varsamhet och särskild hänsyn. Vårdslöshet i trafik enligt TBL 1 § kräver en väsentlig brist; en regelöverträdelse eller olycka räcker inte ensam. Första stycket är inte direkt straffbelagt i TrF 14 kap. Det betyder inte att hela paragrafen eller förordningen saknar straffansvar: terrängregeln i fjärde stycket omfattas av 14 kap. 3 och 6 §§.",
+      "sources": [
+        "trf",
+        "tbl"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 3,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-03",
+      "exam": "quickquiz3",
+      "original": "3",
+      "category": "Grunder och anvisningar",
+      "title": "Grönt och stoppskylt",
+      "prompt": "En fungerande trafiksignal visar fast grönt ljus. Vid samma korsning finns en stoppskylt. Vilken anvisning gäller framför skylten?",
+      "choices": [
+        "Trafiksignalen med fast ljus",
+        "Stoppskylten, eftersom den alltid har högst rang",
+        "Den anvisning som placerats närmast körbanan"
+      ],
+      "answer": "TrF 2 kap. 2 § ger en anvisning genom fast sken i trafiksignal företräde framför vägmärke om stopp- eller väjningsplikt. Grönt undanröjer inte andra skyldigheter, exempelvis att låta gående som rätt gått ut passera enligt 3 kap. 60 §.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 3,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-04",
+      "exam": "quickquiz3",
+      "original": "4",
+      "category": "Grunder och anvisningar",
+      "title": "Polismannens anvisning",
+      "prompt": "En polisman dirigerar trafiken och ger en anvisning som avviker från signalen. Vad ska trafikanten följa?",
+      "choices": [
+        "Polismannens anvisning",
+        "Trafiksignalen så länge den fungerar",
+        "Vägmärkena, om de är permanenta"
+      ],
+      "answer": "TrF 2 kap. 3 § kräver att trafikanten följer en polismans anvisning för trafiken. Den gäller framför trafikregler och anvisningar enligt 2 §. Detta är ett kompletterande lagförtydligande till kompendiets genomgång av anvisningar.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 3,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-05",
+      "exam": "quickquiz3",
+      "original": "5",
+      "category": "Föraren och körsättet",
+      "title": "Trött bakom ratten",
+      "prompt": "Föraren är mycket trött och kan inte köra på ett betryggande sätt. Vad gäller även om alkohol saknas?",
+      "choices": [
+        "Fordonet får inte föras i det tillståndet",
+        "Föraren får köra om hastigheten halveras",
+        "Förbudet gäller bara vid konstaterad sjukdom"
+      ],
+      "answer": "TrF 3 kap. 1 § omfattar bland annat sjukdom, uttröttning och påverkan. Avgörande är om föraren kan köra betryggande. Bestämmelsen innebär inte att varje trött förare automatiskt uppfyller rekvisiten för ett visst trafikbrott.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 4,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-06",
+      "exam": "quickquiz3",
+      "original": "6",
+      "category": "Föraren och körsättet",
+      "title": "Avstånd framåt",
+      "prompt": "Hur ska avståndet till fordonet framför anpassas?",
+      "choices": [
+        "Så att påkörning inte riskeras om det saktar in eller stannar",
+        "Så att det alltid är exakt två billängder",
+        "Så att avståndet blir så kort som vägens hastighetsgräns medger"
+      ],
+      "answer": "TrF 3 kap. 2 § kräver avstånd som förebygger påkörning vid inbromsning eller stopp. Avståndet ska också underlätta andras omkörning. Väglag, sikt och hastighet påverkar vilket avstånd som behövs.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 4,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-07",
+      "exam": "quickquiz3",
+      "original": "7",
+      "category": "Linjer och placering",
+      "title": "Hinder vid heldragen linje",
+      "prompt": "Ett hinder blockerar körbanan. Får en heldragen mittlinje korsas för att passera?",
+      "choices": [
+        "Ja, om det behövs och särskild försiktighet iakttas",
+        "Nej, en heldragen mittlinje får aldrig korsas",
+        "Ja, men bara om hindret har stått där i minst tio minuter"
+      ],
+      "answer": "TrF 3 kap. 11 § medger att en heldragen linje korsas när det behövs för att passera ett hinder, under särskild försiktighet. Ett långsamt fordon ger inte i sig ett fritt undantag för vanlig omkörning. För heldragen kantlinje finns en särskild begränsning i samma paragraf.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 4,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-08",
+      "exam": "quickquiz3",
+      "original": "8",
+      "category": "Linjer och placering",
+      "title": "In till fastigheten",
+      "prompt": "Du behöver korsa en heldragen mittlinje för att köra till en fastighet. Vad gäller?",
+      "choices": [
+        "Det är tillåtet under särskild försiktighet",
+        "Det är tillåtet bara om fastigheten är din egen",
+        "Det är alltid förbjudet, även om infarten inte kan nås annars"
+      ],
+      "answer": "TrF 3 kap. 11 § tar uttryckligen upp färd till eller från en fastighet. Undantaget gäller att korsa linjen under särskild försiktighet, inte ett allmänt tillstånd att köra i motsatt körfält. Kontrollera även övriga regler och anvisningar.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 4,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-09",
+      "exam": "quickquiz3",
+      "original": "9",
+      "category": "Linjer och placering",
+      "title": "Två linjer bredvid varandra",
+      "prompt": "En streckad linje löper omedelbart till höger om en heldragen linje i din färdriktning. Vad säger TrF om att korsa den heldragna linjen?",
+      "choices": [
+        "Det får ske under särskild försiktighet",
+        "Det får ske endast av buss i linjetrafik",
+        "Det får aldrig ske, oavsett den streckade linjen"
+      ],
+      "answer": "Detta är ett av undantagen i TrF 3 kap. 11 §. Den streckade linjens placering i förhållande till den heldragna och din färdriktning är avgörande. Att linjen får korsas innebär inte att exempelvis en omkörning är säker eller i övrigt tillåten.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 4,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-10",
+      "exam": "quickquiz3",
+      "original": "10",
+      "category": "Hastighet",
+      "title": "Skyltad fart och sikt",
+      "prompt": "Du håller skyltad hastighet men kan inte stanna inom den vägsträcka du kan överblicka. Vad gäller?",
+      "choices": [
+        "Hastigheten måste sänkas även om hastighetsgränsen inte överskrids",
+        "Körningen är tillåten eftersom skylten följs",
+        "Det räcker att slå på helljuset och fortsätta i samma fart"
+      ],
+      "answer": "TrF 3 kap. 14 § kräver anpassning efter trafiksäkerheten. Föraren ska behålla kontrollen och kunna stanna inom överblickbar sträcka och före förutsebara hinder. Hastighetsgränsen är en övre gräns, inte en rekommenderad fart i alla lägen.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 5,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-11",
+      "exam": "quickquiz3",
+      "original": "11",
+      "category": "Hastighet",
+      "title": "Nedsatt sikt",
+      "prompt": "Vilket krav gäller när sikten försämras av dimma eller mörker?",
+      "choices": [
+        "Håll tillräckligt låg hastighet med hänsyn till omständigheterna",
+        "Sänk hastigheten med exakt 10 km/h i alla lägen",
+        "Håll skyltad hastighet så länge bilen har fungerande belysning"
+      ],
+      "answer": "TrF 3 kap. 15 § punkt 2 kräver tillräckligt låg hastighet vid nedsatt sikt på grund av ljus eller väder. Även 3 kap. 14 § gäller. Det finns ingen generell avräkning i km/h som ersätter bedömningen.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 5,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-12",
+      "exam": "quickquiz3",
+      "original": "12",
+      "category": "Hastighet",
+      "title": "Barn vid skolskjuts",
+      "prompt": "Du närmar dig barn intill vägen och en skolskjuts som stannat för avstigning. Vad krävs?",
+      "choices": [
+        "Tillräckligt låg hastighet och särskild hänsyn till barnen",
+        "Lägre fart först när ett barn har gått ut framför bilen",
+        "Oförändrad fart om du inte ser något övergångsställe"
+      ],
+      "answer": "TrF 3 kap. 15 § punkterna 10–11 kräver låg nog hastighet vid bland annat stannad skolskjuts och barn på eller bredvid vägen. TrF 2 kap. 1 § kräver särskild hänsyn till barn. Räkna med att situationen kan ändras snabbt.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 5,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-13",
+      "exam": "quickquiz3",
+      "original": "13",
+      "category": "Hastighet",
+      "title": "Grundregler om hastighet",
+      "prompt": "Vilka hastigheter anges som grundregler i TrF 3 kap. 17 §, när inga andra tillämpliga hastighetsregler gäller?",
+      "choices": [
+        "50 km/h inom och 70 km/h utom tättbebyggt område",
+        "40 km/h inom och 80 km/h utom tättbebyggt område",
+        "50 km/h inom och 90 km/h utom tättbebyggt område"
+      ],
+      "answer": "TrF 3 kap. 17 § anger 50 respektive 70 km/h. Andra föreskrifter, vägmärken och särskilda fordonsregler kan ändra den tillåtna hastigheten. Den måste dessutom anpassas enligt 14–15 §§.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 6,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-14",
+      "exam": "quickquiz3",
+      "original": "14",
+      "category": "Hastighet",
+      "title": "Brådskande polisuppdrag",
+      "prompt": "En polisman kör i brådskande yrkesutövning och omfattas av hastighetsundantaget. Vad gäller fortfarande?",
+      "choices": [
+        "Kraven på kontroll och hastighetsanpassning i TrF 3 kap. 14–15 §§",
+        "Endast den egna bedömningen av hur fort bilen klarar att köras",
+        "Inga hastighetsrelaterade krav så länge blåljuset är tänt"
+      ],
+      "answer": "TrF 11 kap. 10 § undantar bland annat brådskande yrkesutövning av polis från vissa högsta tillåtna hastigheter. Den upphäver inte kraven i 3 kap. 14–15 §§. Brådskande yrkesutövning ska inte blandas ihop med trängande fall eller en generell rätt att bryta mot alla regler.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 6,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-15",
+      "exam": "quickquiz3",
+      "original": "15",
+      "category": "Väjningsplikt och korsningar",
+      "title": "Visa att du väjer",
+      "prompt": "Hur ska du visa att du tänker fullgöra väjningsplikt?",
+      "choices": [
+        "Sänk hastigheten eller stanna i god tid och tydligt",
+        "Fortsätt i samma fart och blinka med helljuset",
+        "Stanna alltid minst tio meter före korsningen"
+      ],
+      "answer": "TrF 3 kap. 5 § kräver tydligt visad avsikt genom att sänka farten eller stanna i god tid. Kör vidare endast om andra fordons placering, avstånd och hastighet gör det möjligt utan fara eller hinder. Väjningsplikt är inte alltid stopplikt.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 6,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-16",
+      "exam": "quickquiz3",
+      "original": "16",
+      "category": "Väjningsplikt och korsningar",
+      "title": "Högerregeln",
+      "prompt": "Två fordons kurser skär varandra. Inga anvisningar eller undantag påverkar situationen. Vem ska väja?",
+      "choices": [
+        "Föraren som har det andra fordonet till höger",
+        "Föraren som kör på den smalare vägen",
+        "Föraren som kom sist fram till korsningen"
+      ],
+      "answer": "TrF 3 kap. 18 § är högerregeln. Bland annat reglerna i 21–23 §§ kan ge en annan bedömning, liksom tillämpliga anvisningar. Vägens bredd eller vilken förare som kom först avgör inte i sig väjningsplikten.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 6,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-17",
+      "exam": "quickquiz3",
+      "original": "17",
+      "category": "Väjningsplikt och korsningar",
+      "title": "Var ska du stanna?",
+      "prompt": "Du har stopplikt och det finns en stopplinje. Var ska du stanna?",
+      "choices": [
+        "Vid stopplinjen",
+        "Vid märket, även om linjen ligger på annan plats",
+        "Först där sikten är bäst, utan att stanna vid linjen"
+      ],
+      "answer": "TrF 3 kap. 19 § anger stopp vid stopplinjen. Saknas linje stannar du omedelbart före signalen eller före infart på korsande väg, led eller spårområde. Dålig sikt kan kräva ytterligare försiktighet efter stoppet; den tar inte bort stoppet vid linjen.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 6,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-18",
+      "exam": "quickquiz3",
+      "original": "18",
+      "category": "Väjningsplikt och korsningar",
+      "title": "Kö efter korsningen",
+      "prompt": "Det är kö direkt efter korsningen. Du riskerar att bli stående och blockera korsande trafik. Vad bör ditt körsätt säkerställa?",
+      "choices": [
+        "Att onödigt hinder för korsande trafik undviks",
+        "Att du utnyttjar grönt ljus och kör in ändå",
+        "Att du stannar mitt i korsningen och släpper förbi bakomvarande"
+      ],
+      "answer": "TrF 3 kap. 20 § kräver att körsättet anpassas så att onödigt hinder inte uppstår på den korsande vägen om du tvingas stanna. Bedöm utrymmet innan du kör in. Grönt ljus är inte ett besked om att kön framför ger plats.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 7,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-19",
+      "exam": "quickquiz3",
+      "original": "19",
+      "category": "Väjningsplikt och korsningar",
+      "title": "Ut från parkeringen",
+      "prompt": "Du kör från en parkeringsplats ut på en väg. Ett fordon kommer från vänster. Vad gäller?",
+      "choices": [
+        "Du har väjningsplikt när fordonets kurs skär din",
+        "Fordonet från vänster ska väja enligt högerregeln",
+        "Du har väjningsplikt endast om en väjningsskylt finns"
+      ],
+      "answer": "Utfartsregeln i TrF 3 kap. 21 § andra stycket omfattar bland annat parkeringsplats, fastighet och bensinstation. Du väjer mot varje fordon vars kurs skär din, oavsett om det kommer från höger eller vänster.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 7,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-20",
+      "exam": "quickquiz3",
+      "original": "20",
+      "category": "Väjningsplikt och korsningar",
+      "title": "Eget körfält in på huvudled",
+      "prompt": "Du kommer från en väg in på en huvudled utan accelerationsfält och fortsätter i ett eget körfält utan körfältsbyte. Gäller väjningsplikten enbart på grund av infarten enligt 3 kap. 21 § första stycket?",
+      "choices": [
+        "Nej, paragrafen undantar just infart utan körfältsbyte",
+        "Ja, varje infart på huvudled har den väjningsplikten",
+        "Nej, och därför får du genast byta till valfritt körfält"
+      ],
+      "answer": "TrF 3 kap. 21 § första stycket innehåller detta undantag. Det är inte ett generellt företräde. Vid senare körfältsbyte gäller bland annat 3 kap. 43 §: byt endast utan fara eller onödigt hinder för andra.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 7,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-21",
+      "exam": "quickquiz3",
+      "original": "21",
+      "category": "Väjningsplikt och korsningar",
+      "title": "In i cirkulationen",
+      "prompt": "Mot vilka har du väjningsplikt när du kör in i en cirkulationsplats?",
+      "choices": [
+        "Varje fordon som redan befinner sig i cirkulationen",
+        "Endast fordon i körfältet närmast rondellen",
+        "Endast fordon som visar vänster körriktningstecken"
+      ],
+      "answer": "TrF 3 kap. 22 § gäller mot varje fordon i cirkulationen. Körriktningstecken ersätter inte bedömningen av det faktiska körsättet. Andra regler blir aktuella vid körfältsbyte och utfart.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 7,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-22",
+      "exam": "quickquiz3",
+      "original": "22",
+      "category": "Föraren och körsättet",
+      "title": "Omkörning vid passage",
+      "prompt": "Var är omkörning förbjuden enligt TrF 3 kap. 40 §?",
+      "choices": [
+        "Strax före eller på obevakat övergångsställe, obevakad cykelpassage och cykelöverfart",
+        "Bara på övergångsställen där en gående redan befinner sig",
+        "Bara vid bevakade övergångsställen med röd signal"
+      ],
+      "answer": "Förbudet i TrF 3 kap. 40 § gäller dessa tre platser, även när du inte just då ser någon på passagen. Bestämmelser om körning förbi i andra körfält finns också i 41 §; ett extra körfält gör inte en riskfylld passage fri.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 7,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-23",
+      "exam": "quickquiz3",
+      "original": "23",
+      "category": "Bussar",
+      "title": "Bussen vill lämna hållplatsen",
+      "prompt": "På en väg med högst 50 km/h visar en buss att den vill köra ut från hållplatsen. Vad ska en förare som närmar sig göra?",
+      "choices": [
+        "Sakta ner och ge bussen möjlighet att lämna hållplatsen, stanna om det behövs",
+        "Fortsätta oförändrat eftersom bussen alltid har utfartsregeln mot sig",
+        "Stanna bara om bussen redan helt lämnat hållplatsen"
+      ],
+      "answer": "TrF 3 kap. 45 § gäller där högsta tillåtna hastigheten är 50 km/h eller lägre. Föraren ska ge bussen möjlighet att lämna hållplatsen och stanna om det behövs. Paragrafen ger inte motsvarande särskilda skyldighet på en 70-väg, men omsorgskrav gäller även där.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 7,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-24",
+      "exam": "quickquiz3",
+      "original": "24",
+      "category": "Bussar",
+      "title": "Bussförarens ansvar",
+      "prompt": "Bussen visar tecken för att lämna hållplatsen på en 40-väg. Vilket ansvar har bussföraren?",
+      "choices": [
+        "Vara särskilt försiktig så att fara eller onödig olägenhet inte uppstår",
+        "Köra ut direkt eftersom andra alltid måste hinna stanna",
+        "Invänta ett muntligt klartecken från bakomvarande förare"
+      ],
+      "answer": "TrF 3 kap. 45 § har skyldigheter för båda förarna. Andras skyldighet att underlätta utfarten befriar inte bussföraren från särskild försiktighet. Teckengivning skapar inte ett ovillkorligt företräde.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 7,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-25",
+      "exam": "quickquiz3",
+      "original": "25",
+      "category": "Gående och cyklande",
+      "title": "Grönt för bilen",
+      "prompt": "Du får grönt vid ett bevakat övergångsställe. En gående som gick ut på rätt sätt är fortfarande kvar. Vad gäller?",
+      "choices": [
+        "Låt den gående passera",
+        "Kör eftersom gående alltid måste lämna vägen när du får grönt",
+        "Använd signalhorn så att den gående skyndar sig"
+      ],
+      "answer": "TrF 3 kap. 60 § skyddar den som på rätt sätt har gått ut på det bevakade övergångsstället. Skyldigheten kvarstår även om du själv får korsa enligt trafiksignal eller tecken av polisman.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 8,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-26",
+      "exam": "quickquiz3",
+      "original": "26",
+      "category": "Gående och cyklande",
+      "title": "Efter svängen",
+      "prompt": "Du har svängt i en korsning och ska passera ett bevakat övergångsställe. En gående ska just gå ut på rätt sätt. Vad gäller?",
+      "choices": [
+        "Kör med låg hastighet och lämna företräde",
+        "Väj bara om den gående redan står mitt på övergångsstället",
+        "Håll oförändrad hastighet så att gående kan bedöma farten"
+      ],
+      "answer": "TrF 3 kap. 60 § andra stycket kräver låg hastighet och väjningsplikt mot gående som på rätt sätt gått ut eller just ska gå ut. Motsvarande skyldigheter gäller cyklande och moped klass II vid bevakade cykelpassager.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 8,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-27",
+      "exam": "quickquiz3",
+      "original": "27",
+      "category": "Gående och cyklande",
+      "title": "Obevakat övergångsställe",
+      "prompt": "En gående ska just gå ut på ett obevakat övergångsställe. Vilken skyldighet har fordonsföraren?",
+      "choices": [
+        "Väjningsplikt mot den gående",
+        "Väjningsplikt först när personen passerat vägens mitt",
+        "Ingen särskild skyldighet om föraren håller skyltad fart"
+      ],
+      "answer": "TrF 3 kap. 61 § första stycket gäller gående som gått ut eller just ska gå ut. Anpassa farten så att du kan fullgöra väjningsplikten. En person som cyklar över är inte gående; den som leder cykeln behandlas som gående enligt 1 kap. 4 §.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 8,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-28",
+      "exam": "quickquiz3",
+      "original": "28",
+      "category": "Gående och cyklande",
+      "title": "Cykelpassage rakt fram",
+      "prompt": "Du kör rakt fram mot en obevakad cykelpassage, utan annan väjningsanvisning. Vad kräver just 3 kap. 61 § andra stycket?",
+      "choices": [
+        "Anpassa hastigheten så att cyklande som är ute på passagen inte utsätts för fara",
+        "Väj alltid mot varje cyklist som närmar sig, precis som vid cykelöverfart",
+        "Håll hastigheten eftersom ansvaret enbart ligger på cyklisten"
+      ],
+      "answer": "En obevakad cykelpassage ska skiljas från en cykelöverfart. TrF 3 kap. 61 § andra stycket kräver hastighetsanpassning för dem som är ute på passagen. Cyklistens skyldigheter enligt 6 kap. 6 § gäller också. Efter sväng eller vid utfart ur cirkulationsplats finns en särskild regel i 61 § tredje stycket.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 8,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-29",
+      "exam": "quickquiz3",
+      "original": "29",
+      "category": "Gående och cyklande",
+      "title": "Cykelpassage efter cirkulation",
+      "prompt": "Du ska köra ut ur en cirkulationsplats över en obevakad cykelpassage. En cyklist ska just färdas ut. Vad gäller?",
+      "choices": [
+        "Låg hastighet och ge cyklisten tillfälle att passera",
+        "Samma handlingsregel som vid rak färd: bara skydda dem som redan är ute",
+        "Cyklisten måste vänta tills alla bilar lämnat cirkulationsplatsen"
+      ],
+      "answer": "TrF 3 kap. 61 § tredje stycket omfattar cyklande och mopedförare som är ute på eller just ska färdas ut. Regeln gäller både utfart ur cirkulationsplats och passage efter sväng i en vägkorsning. Cyklistens egna skyldigheter försvinner inte.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 8,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-30",
+      "exam": "quickquiz3",
+      "original": "30",
+      "category": "Gående och cyklande",
+      "title": "Cykelöverfart",
+      "prompt": "En förare av moped klass II ska just färdas ut på en cykelöverfart. Vad gäller för en bilförare som ska korsa den?",
+      "choices": [
+        "Bilföraren har väjningsplikt",
+        "Väjningsplikten gäller bara mot cyklar, inte mopeder",
+        "Bilföraren behöver väja först när mopeden är mitt framför bilen"
+      ],
+      "answer": "TrF 3 kap. 61 a § gäller både cyklande och förare av moped klass II som är ute på eller just ska färdas ut på cykelöverfarten. De ska i sin tur ta hänsyn till närmande fordons avstånd och hastighet enligt 6 kap. 6 §.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 8,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-31",
+      "exam": "quickquiz3",
+      "original": "31",
+      "category": "Gående och cyklande",
+      "title": "Stopp på passagen",
+      "prompt": "Kön framför gör att du riskerar att bli stående på ett övergångsställe. Hur ska du agera?",
+      "choices": [
+        "Anpassa körsättet för att undvika att stanna på övergångsstället",
+        "Kör fram på markeringen för att hålla ihop kön",
+        "Stanna på övergångsstället om inga gående syns just nu"
+      ],
+      "answer": "TrF 3 kap. 62 § kräver anpassning så att du inte tvingas stanna på övergångsstället. Samma regel omfattar cykelpassager och cykelöverfarter. Lämna utrymme innan du kör fram.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 8,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-32",
+      "exam": "quickquiz3",
+      "original": "32",
+      "category": "Föraren och körsättet",
+      "title": "Tecken för kontroll",
+      "prompt": "En myndighetsförordnad kontrollant ger tecken åt en förare av motordrivet fordon att stanna för kontroll. Vad gäller?",
+      "choices": [
+        "Föraren ska stanna",
+        "Föraren behöver stanna endast om ett brott misstänks",
+        "Föraren får själv välja om kontrollen ska ske vid nästa resa"
+      ],
+      "answer": "TrF 4 kap. 1 § kräver stopp på tecken av en person som myndighet förordnat att kontrollera fordon eller förare. Kompendiet påminner om att regeln även gäller när polisen själv är förare. För övriga trafikanvisningar av polis finns 2 kap. 3 §.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 9,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-33",
+      "exam": "quickquiz3",
+      "original": "33",
+      "category": "Bälte och kommunikation",
+      "title": "Barn i personbil",
+      "prompt": "Vilken längdgräns används i huvudregeln om särskild skyddsanordning för barn i personbil?",
+      "choices": [
+        "Barn kortare än 135 cm",
+        "Barn kortare än 150 cm",
+        "Barn kortare än 120 cm"
+      ],
+      "answer": "TrF 4 kap. 10 § kräver bilbarnstol, bälteskudde eller annan särskild skyddsanordning för barn kortare än 135 cm, i stället för eller tillsammans med bilbältet. Undantagen för tillfälliga korta transporter är begränsade och beror bland annat på ålder.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 9,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-34",
+      "exam": "quickquiz3",
+      "original": "34",
+      "category": "Bälte och kommunikation",
+      "title": "Fyraåring utan barnskydd",
+      "prompt": "Ett fyraårigt barn under 135 cm ska tillfälligt åka en kort sträcka i en personbil där särskilt barnskydd inte kan användas. Vilka villkor gäller för undantaget?",
+      "choices": [
+        "Bilbälte när det är möjligt och ingen färd i framsätet",
+        "Valfritt säte om en vuxen sitter bredvid",
+        "Undantaget gäller bara om barnet fyllt sju år"
+      ],
+      "answer": "TrF 4 kap. 10 § punkt 2 omfattar barn som är minst tre år och kortare än 135 cm. Transporten ska vara tillfällig och kort. Barnet använder bälte när det är möjligt och får inte sitta fram i personbil eller lätt lastbil. Detta är inte en lösning för regelbundna transporter.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 9,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-35",
+      "exam": "quickquiz3",
+      "original": "35",
+      "category": "Bälte och kommunikation",
+      "title": "Tvååring utan barnskydd",
+      "prompt": "Vilket undantag anger TrF för ett barn under tre år när särskild skyddsanordning inte kan användas?",
+      "choices": [
+        "Tillfällig taxifärd en kort sträcka, utan placering i framsätet",
+        "Alla korta resor i privatbil om barnet sitter i knät",
+        "Alla resor i taxi om en vuxen följer med"
+      ],
+      "answer": "TrF 4 kap. 10 § punkt 3 kräver tillfällig färd i taxi under kort sträcka och förbjuder placering i framsätet. Undantaget för barn från tre år får inte användas för ett yngre barn. En privatbil blir inte taxi för att resan är kort.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 9,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-36",
+      "exam": "quickquiz3",
+      "original": "36",
+      "category": "Bälte och kommunikation",
+      "title": "Telefon vid vanlig körning",
+      "prompt": "Du kör privat på väg och använder telefonen medan du håller den i handen. Vilket påstående är rätt?",
+      "choices": [
+        "Det är förbjudet även om du anser att körningen inte påverkas",
+        "Det är tillåtet om du bara läser navigeringen",
+        "Det är tillåtet om du håller telefonen under rattens överkant"
+      ],
+      "answer": "TrF 4 kap. 10 e § förbjuder handhållen användning av mobil och annan kommunikationsutrustning under färd på väg med motordrivet fordon. Även utan handhållen utrustning får användningen inte inverka menligt på körningen. Ett tjänsteundantag gör inte privat användning tillåten.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 9,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-37",
+      "exam": "quickquiz3",
+      "original": "37",
+      "category": "Bälte och kommunikation",
+      "title": "Polisens kommunikationsutrustning",
+      "prompt": "Kan en polisman i tjänsteutövning omfattas av undantag från förbudet mot handhållen kommunikationsutrustning?",
+      "choices": [
+        "Ja, om omständigheterna kräver det och särskild försiktighet iakttas",
+        "Ja, all handhållen användning är tillåten under hela arbetspasset",
+        "Nej, förbudet saknar undantag för polis i tjänsteutövning"
+      ],
+      "answer": "TrF 11 kap. 10 a § medger under dessa villkor undantag från 4 kap. 10 e § andra meningen. Kravet i första meningen att användningen inte får inverka menligt på körningen kvarstår. Frågan är en komplettering av kompendiets hänvisning till polisundantagen.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 12,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-38",
+      "exam": "quickquiz3",
+      "original": "38",
+      "category": "Särskilda gator och körfält",
+      "title": "Gångfartsområde",
+      "prompt": "Vilken kombination gäller som grundregel för fordon på ett gångfartsområde?",
+      "choices": [
+        "Gångfart och väjningsplikt mot gående",
+        "Högst 30 km/h och högerregel mot gående",
+        "Gångfart men gående ska väja för motorfordon"
+      ],
+      "answer": "TrF 8 kap. 1 § kräver högst gångfart och väjningsplikt mot gående både på gågata och i gångfartsområde. Paragrafen förbjuder även parkering; tillåtna platser kan regleras särskilt genom lokala trafikföreskrifter. Gångfart anges inte som ett bestämt tal i km/h i paragrafen.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 10,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false
+    },
+    {
+      "id": "quick3-39",
+      "exam": "quickquiz3",
+      "original": "39",
+      "category": "Särskilda gator och körfält",
+      "title": "Transport på gågata",
+      "prompt": "Vilken av dessa transporter omfattas av ett uttryckligt undantag från förbudet mot annan motorfordonsfärd än att korsa en gågata?",
+      "choices": [
+        "Transport av en boende vid gågatan till eller från adressen",
+        "Genomfart för att huvudgatan har bilkö",
+        "Besöksresa till en butik enbart för att parkeringen är närmare"
+      ],
+      "answer": "TrF 8 kap. 1 § medger bland annat varuleveranser, transporter för boende till eller från adress, hotellgäster och sjuka eller rörelsehindrade till eller från adress vid gågatan. Kraven på gångfart och väjningsplikt mot gående kvarstår. Andra anvisningar och föreskrifter måste också följas.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 10,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-40",
+      "exam": "quickquiz3",
+      "original": "40",
+      "category": "Särskilda gator och körfält",
+      "title": "Körfält för linjetrafik",
+      "prompt": "Ett körfält för fordon i linjetrafik ligger till höger i färdriktningen. Vilka får dessutom använda det enligt grundregeln?",
+      "choices": [
+        "Cyklande och förare av moped klass II",
+        "Alla motorcyklar och mopeder",
+        "Alla personbilar med minst tre personer"
+      ],
+      "answer": "TrF 8 kap. 2 § tillåter som huvudregel bara fordon i linjetrafik. När körfältet eller körbanan ligger till höger får även cykel och moped klass II föras där. Särskilda föreskrifter och anvisningar kan tillåta andra fordon; det följer inte automatiskt av att bilen är taxi eller samåker.",
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 10,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": true
+    },
+    {
+      "id": "quick3-41",
+      "exam": "quickquiz3",
+      "original": "41",
+      "category": "Vägmärken",
+      "title": "Vägmärke 1",
+      "prompt": "Vilken anvisning ger vägmärket på bilden?",
+      "choices": [
+        "Huvudled",
+        "Huvudled upphör",
+        "Väjningsplikt"
+      ],
+      "answer": "Märke B4 i vägmärkesförordningen 2 kap. 6 § anger huvudled. Vid infart på huvudled blir bland annat TrF 3 kap. 21 § aktuell. Märket befriar inte föraren på huvudleden från omsorg, hastighetsanpassning eller andra anvisningar.",
+      "sources": [
+        "vmf",
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 11,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false,
+      "images": [
+        {
+          "src": "images/quick3-41.png",
+          "alt": "Gul romb med svart och vit kant.",
+          "width": 172,
+          "height": 175
+        }
+      ]
+    },
+    {
+      "id": "quick3-42",
+      "exam": "quickquiz3",
+      "original": "42",
+      "category": "Vägmärken",
+      "title": "Vägmärke 2",
+      "prompt": "Vad betyder det runda märket med horisontellt gult fält?",
+      "choices": [
+        "Förbud mot infart med fordon",
+        "Förbud mot trafik med fordon i båda riktningarna",
+        "Förbud mot parkering"
+      ],
+      "answer": "Märke C1 i vägmärkesförordningen 2 kap. 8 § förbjuder infart med fordon. Skilj det från C2, förbud mot trafik med fordon, som avser båda riktningarna. Förbud mot fordon omfattar inte automatiskt den som räknas som gående enligt TrF 1 kap. 4 §; se VMF 2 kap. 7 §.",
+      "sources": [
+        "vmf",
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 11,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false,
+      "images": [
+        {
+          "src": "images/quick3-42.png",
+          "alt": "Runt rött märke med ett horisontellt gult fält.",
+          "width": 128,
+          "height": 123
+        }
+      ]
+    },
+    {
+      "id": "quick3-43",
+      "exam": "quickquiz3",
+      "original": "43",
+      "category": "Vägmärken",
+      "title": "Vägmärke 3",
+      "prompt": "Vad betyder märket med röd ring och gult mittfält?",
+      "choices": [
+        "Förbud mot trafik med fordon i båda riktningarna",
+        "Förbud mot infart enbart i den riktning märket är vänt",
+        "Förbud bara mot motorfordon, cykel är alltid tillåten"
+      ],
+      "answer": "Märke C2 i vägmärkesförordningen 2 kap. 8 § avser trafik med fordon i båda riktningarna. Cykel är också ett fordon. Skilj C2 från C1 och från C3 som avser vissa motordrivna fordon. Tillämpliga tilläggstavlor och undantag behöver läsas tillsammans med märket.",
+      "sources": [
+        "vmf",
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 11,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false,
+      "images": [
+        {
+          "src": "images/quick3-43.png",
+          "alt": "Runt märke med röd ring och gult mittfält.",
+          "width": 133,
+          "height": 147
+        }
+      ]
+    },
+    {
+      "id": "quick3-44",
+      "exam": "quickquiz3",
+      "original": "44",
+      "category": "Vägmärken",
+      "title": "Vägmärke 4",
+      "prompt": "Vilken plats anger det blå märket med cykelsymbol?",
+      "choices": [
+        "Cykelöverfart",
+        "Obevakad cykelpassage utan cykelöverfart",
+        "Påbjuden cykelbana"
+      ],
+      "answer": "Märke B8 i vägmärkesförordningen 2 kap. 6 § anger cykelöverfart. TrF 3 kap. 61 a § ger förare väjningsplikt mot cyklande och moped klass II som är ute på eller just ska ut. Cyklisten ska också ta hänsyn till närmande fordons avstånd och hastighet enligt 6 kap. 6 §.",
+      "sources": [
+        "vmf",
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 11,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false,
+      "images": [
+        {
+          "src": "images/quick3-44.png",
+          "alt": "Blå skylt med vit triangel och svart cykelsymbol.",
+          "width": 128,
+          "height": 127
+        }
+      ]
+    },
+    {
+      "id": "quick3-45",
+      "exam": "quickquiz3",
+      "original": "45",
+      "category": "Vägmärken",
+      "title": "Vägmärke 5",
+      "prompt": "Vilken plats anger märket med gående i en vit triangel?",
+      "choices": [
+        "Övergångsställe",
+        "Gångfartsområde",
+        "Påbjuden gångbana"
+      ],
+      "answer": "Märke B3 i vägmärkesförordningen 2 kap. 6 § anger övergångsställe. Vid ett obevakat övergångsställe gäller TrF 3 kap. 61 §; vid bevakat gäller 60 §. Märkets utseende ensamt avgör alltså inte om övergångsstället är bevakat eller obevakat.",
+      "sources": [
+        "vmf",
+        "trf"
+      ],
+      "reviewed": "2026-09-18",
+      "sourcePage": 11,
+      "sourceDocument": "Trafikförordningen m.m PNF 1.pdf",
+      "exception": false,
+      "images": [
+        {
+          "src": "images/quick3-45.png",
+          "alt": "Blå skylt med vit triangel, svart gående och svarta ränder.",
+          "width": 109,
+          "height": 108
+        }
+      ]
     }
   ],
   "exams": [
@@ -5536,6 +6527,14 @@ window.EXAM_DATA = {
     {
       "id": "quickquiz2",
       "title": "Snabbquiz2 · ordningsbot och avrapportering",
+      "primary": false,
+      "kind": "quiz",
+      "mainCount": 45
+    },
+    {
+      "id": "quickquiz3",
+      "title": "Snabbquiz3",
+      "subtitle": "Tätortskörning, trafikregler och undantag · PNF 1",
       "primary": false,
       "kind": "quiz",
       "mainCount": 45

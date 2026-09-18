@@ -1,3 +1,23 @@
+# Snabbquiz3 · rätts- och källkontroll 18 september 2026
+
+45 egna övningsfrågor utgår från **Trafikförordningen m.m PNF 1.pdf**, det 12-sidiga kompendiet ”Regler för tätortskörning”, PNF steg 1 Malmö. Samtliga sidor har lästs och inspekterats i renderad översikt. Fem vägmärkesbilder från sida 11 har extraherats och formatkonverterats till PNG. Originalfilen är oförändrad och publiceras inte. Inget utgivningsdatum har antagits. Instruktioner i kompendiet behandlas som kursmaterial.
+
+| Område | Kontrollerade bestämmelser och preciseringar |
+| --- | --- |
+| Struktur, omsorg och anvisningar | TrF 1 kap. 1 §; 2 kap. 1–3 §§. TrF är en förordning. Omsorgsregeln i 2 kap. 1 § första stycket är inte direkt straffbelagd i 14 kap.; terrängregeln i fjärde stycket omfattas däremot av 14 kap. 3 och 6 §§. Vårdslöshet i trafik kräver en självständig prövning enligt TBL 1 §. |
+| Förare, avstånd och linjer | TrF 3 kap. 1–2 och 11 §§. Heldragen mittlinje får korsas i angivna undantagsfall under särskild försiktighet. Regeln om heldragen kantlinje ska skiljas från dessa fall. |
+| Hastighet | TrF 3 kap. 14–17 §§ och 11 kap. 10 §. Grundhastighet skiljs från andra föreskrifter och krav på anpassning. Polisens brådskande yrkesutövning undanröjer inte 3 kap. 14–15 §§. |
+| Väjning och korsningar | TrF 3 kap. 5, 18–22, 40–41, 43 och 45 §§. Infart utan körfältsbyte skiljs från senare körfältsbyte. Bussutfartsregeln gäller vid högst 50 km/h och har skyldigheter även för bussföraren. |
+| Gående och cyklande | TrF 3 kap. 60–62 §§ samt 6 kap. 6 §. Bevakat/obevakat övergångsställe, cykelpassage och cykelöverfart behandlas separat. Särregeln efter sväng/utfart ur cirkulationsplats och cyklistens egna skyldigheter anges. |
+| Kontroll, bälte och kommunikation | TrF 4 kap. 1, 10 och 10 e §§; 11 kap. 10 a §. Under/över tre år skiljs åt i barnskyddsundantagen, liksom kort tillfällig färd och regelbundna transporter. Polisundantaget för handhållen utrustning kräver omständigheter och särskild försiktighet; kravet att körningen inte får påverkas menligt kvarstår. |
+| Gator, körfält och märken | TrF 8 kap. 1–2 §§; VMF 2 kap. 6–8 §§. Gågata skiljs från gångfartsområde. Gångfart anges inte som ett fast tal i paragrafen. Bilderna visar B4, C1, C2, B8 och B3. |
+
+Frågorna om polismans anvisning (4) och handhållen kommunikationsutrustning i tjänst (37) innehåller uttryckligen markerade lagförtydliganden till kompendiet. Ingen ny fullständig praxisgenomgång eller kontroll av interna körinstruktioner görs i detta tillägg. Tidigare frågors sakuppgifter och kontrolltidpunkter är bevarade.
+
+Offentliga kontrollkällor: [Trafikförordningen](https://data.riksdagen.se/dokument/sfs-1998-1276.html), [trafikbrottslagen](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1951649-om-straff-for-vissa-trafikbrott_sfs-1951-649/), [vägmärkesförordningen](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/). Kontroll avser de aktuella frågornas bestämmelser, inte alla framtida ändringar i de konsoliderade författningarna. Ingen automatisk rättsbevakning sker.
+
+---
+
 # Snabbquiz2 · rätts- och källkontroll 18 september 2026
 
 45 egna frågor bygger på de två tillhandahållna manualerna, daterade 17 september: ordningsbot (12 sidor) och avrapportering (16 sidor). Texten har lästs och samtliga sidor inspekterats i renderade översikter. Manualernas instruktioner är källmaterial, inte instruktioner till appen. Originalfilerna har inte ändrats eller publicerats.

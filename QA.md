@@ -1,3 +1,16 @@
+# Snabbquiz3 · testprotokoll 2.3.0 · 18 september 2026
+
+- 261 unika frågor. 45 nya frågor med tre distinkta alternativ, förklaring, PDF-sida och offentliga källor; 19 undantags-/gränsfrågor och fem bildfrågor.
+- Jämförelse mot föregående version: samtliga 216 tidigare frågeposter, sex underlag, källregistret och 20 tidigare bilder är oförändrade. De tre rättskällornas länkar svarade med HTTP 200.
+- Kodtester godkända för alla tre quizens urval, rättning, sparformat, repetition, äldre tentor, 25 bilder och cachelistan. Versions- och syntaxkontroller godkända.
+- Webbläsare: ett helt 45-frågorspass visade 45 unika frågor och korrekt resultat för 45 överhoppade. Ett trefrågorspass med ett rätt, ett fel och ett överhoppat gav 1/2 rätt. Fel svar och förklaring bevarades efter omladdning.
+- Enfrågorspass samt paus/återupptagning testade. Resultatlänken går till Snabbquiz3. Ett begärt 45-frågorspass begränsas tydligt till 19 i undantagsurvalet och fem i bildurvalet, utan upprepning.
+- Tomt repetitionsurval visar ett tydligt meddelande och har inaktiverad startknapp.
+- Alla fem nya bilder laddade; bilddialogens öppna/stäng verifierat. Frågebanken visar 45 Snabbquiz3-frågor. Framstegslänken väljer rätt underlag. De båda tidigare quizens startvyer fungerar. Inga konsolfel eller varningar.
+- Mobilstorlek 390 × 844: quizstart visuellt kontrollerad, ingen horisontell överrinning på start- eller bildfrågesidor (375 px innehållsbredd efter scrollbar). Ingen fysisk mobil användes. Offlineomladdning har inte testats på nytt; alla nya bilder och quizdata finns med i cacheversion 2.3.0.
+
+---
+
 # Snabbquiz2 · testprotokoll 2.2.0 · 18 september 2026
 
 - 216 unika frågor. Alla 171 tidigare frågeposter och fem underlag jämförda med föregående gitversion och oförändrade.
