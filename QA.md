@@ -1,3 +1,14 @@
+# SUPERQUIZ · v2.4.0 · 21 september 2026
+
+- 311 unika frågor. 50 nya utan svarsalternativ. Tidigare 261 frågor och sju samlingar jämförda med föregående version och bevarade.
+- Automatiska kontroller: fråge-ID, källor, kategorifördelning, tomma alternativ, urval, sparad självbedömning, befintlig repetitionslogik och startsidans ordning.
+- Webbläsare: start, ämnesurval, begränsning till tillgängligt antal, svarsrullgardin, tangentbord, nästa/föregående, omladdning och resultat. Svarstext saknas i DOM före öppning och tas bort vid stängning. Tidigare öppnade svar visas inte automatiskt igen.
+- Resultat skiljer egna bedömningar från rättning och räknar ej öppnade svar separat. Testpass med en svår, en känd och en ej öppnad fråga gav rätt summering.
+- Mobil 390 × 844: visuell kontroll av frågevy, knappar och stängd svarsrullgardin. SUPERQUIZ ligger direkt efter inledningen, före andra quiz.
+- Källfilerna är orörda. Frågorna anger underlag och offentliga rättskällor.
+
+---
+
 # Snabbquiz3 · testprotokoll 2.3.0 · 18 september 2026
 
 - 261 unika frågor. 45 nya frågor med tre distinkta alternativ, förklaring, PDF-sida och offentliga källor; 19 undantags-/gränsfrågor och fem bildfrågor.

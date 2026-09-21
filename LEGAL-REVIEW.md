@@ -1,3 +1,17 @@
+# SUPERQUIZ · 21 september 2026
+
+50 frågor: båda inskickade träningslistorna (11 + 10), strategin (4), fordonsdefinitioner och gränsfall (18), samt kompletterande TBL-frågor (7). Bearbetade studiesvar; inte lärarens officiella facit. Källor visas först när svaret öppnas.
+
+Kontroll mot offentlig konsoliderad lagtext: TBL 1–7 §§ inklusive upphävda 6 §; TrF 2 kap. 8 §, 4 kap. 10 e § och 14 kap. 14 §; LFRA 10 §; VTSL 6 kap.; VTSF 12 §; trafikskadelagen 2 och 34–36 §§; RB 27 kap.; KKL 2 kap.; lagen om vägtrafikdefinitioner 2 och 2 a §§ samt övergångsbestämmelserna.
+
+Preciseringar omfattar uppsåt och grovhetsbedömning, blodrekvisitet och ordinerad narkotika, smitning utan att lämna platsen i vissa alternativ, förverkande kontra beslag, villkoren för besiktningsfärd och två kalendermånader vid skatteförbud. Enbart långsam körning innebär inte automatiskt vårdslöshet. EU-klassificering, äldre godkänd 30-moped, cykeldefinitionens olika kategorier och MC-effekt/vikt behandlas separat. Tung MC skiljs från körkortsbehörigheten A2.
+
+Strategins fyra mål återges från [PM 46/2016, avsnitt 2.1](https://polisen.se/siteassets/dokument/strategier/polismyndighetens-strategi-for-trafik.pdf). Fokusområdena finns i avsnitt 4 och är inte samma sak som målen. Dokumentets ålder och beteckning framgår i frågorna; ingen utfästelse om kontroll mot senare interna styrdokument. Strategin skapar inga egna tvångsbefogenheter.
+
+[Fordonsdefinitioner](https://data.riksdagen.se/dokument/sfs-2001-559.html), [TBL](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1951649-om-straff-for-vissa-trafikbrott_sfs-1951-649/), [körkortslagen](https://data.riksdagen.se/dokument/sfs-1998-488.html). Övriga laglänkar är knutna till respektive fråga. Tidigare 261 frågor är oförändrade; detta är ingen ny fullständig granskning av dem eller av all rättspraxis.
+
+---
+
 # Snabbquiz3 · rätts- och källkontroll 18 september 2026
 
 45 egna övningsfrågor utgår från **Trafikförordningen m.m PNF 1.pdf**, det 12-sidiga kompendiet ”Regler för tätortskörning”, PNF steg 1 Malmö. Samtliga sidor har lästs och inspekterats i renderad översikt. Fem vägmärkesbilder från sida 11 har extraherats och formatkonverterats till PNG. Originalfilen är oförändrad och publiceras inte. Inget utgivningsdatum har antagits. Instruktioner i kompendiet behandlas som kursmaterial.

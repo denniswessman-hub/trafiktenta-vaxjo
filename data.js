@@ -1,5 +1,5 @@
 window.EXAM_DATA = {
-  "version": "2.3.0",
+  "version": "2.4.0",
   "reviewed": "2026-09-15",
   "sources": {
     "kkl": {
@@ -213,6 +213,14 @@ window.EXAM_DATA = {
     "plq2": {
       "title": "Polislagen",
       "url": "https://data.riksdagen.se/dokument/sfs-1984-387.html"
+    },
+    "superstrategy": {
+      "title": "Polismyndighetens strategi för trafik som metod · PM 46/2016",
+      "url": "https://polisen.se/siteassets/dokument/strategier/polismyndighetens-strategi-for-trafik.pdf"
+    },
+    "vtsf": {
+      "title": "Vägtrafikskatteförordningen (2006:242)",
+      "url": "https://data.riksdagen.se/dokument/sfs-2006-242.html"
     }
   },
   "questions": [
@@ -6477,6 +6485,817 @@ window.EXAM_DATA = {
           "height": 108
         }
       ]
+    },
+    {
+      "id": "super-01",
+      "exam": "superquiz",
+      "original": "1",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 1",
+      "prompt": "En förare kör för fort in i en kurva, tittar ner i mobilen, tappar kontrollen och kommer över i mötande körfält. Ingen olycka sker. Vilket brott tänker du på och vilka är rekvisiten?",
+      "answer": "Vårdslöshet i trafik enligt 1 § första stycket TBL kan aktualiseras.\n\nKärnrekvisiten är:\n• gärningsmannen är vägtrafikant, förare av spårvagn eller för motordrivet fordon på annan plats än väg,\n• personen brister i den omsorg och varsamhet som omständigheterna kräver för att förebygga trafikolycka,\n• bristen sker i väsentlig mån.\n\nDet viktiga är att uttrycket ”i väsentlig mån” avser graden av omsorgs- och varsamhetsbrist, inte att det måste ha uppkommit en ”väsentlig fara”. En faktisk olycka behöver inte ha inträffat. \n\nMinnesregel:\nVäsentlig brist – inte väsentlig fara.\n\nFör grov vårdslöshet i trafik krävs enligt andra stycket grov oaktsamhet eller uppenbar likgiltighet för andra människors liv eller egendom. \n\nAlternativa/tilläggsbrott: Om mobilen faktiskt hålls i handen under färd är det förbjudet enligt 4 kap. 10 e § TrF. Även användning utan att hålla mobilen kan strida mot bestämmelsen om den inverkar menligt på körningen.  Hastighetsöverträdelsen kan också vara en bakomliggande trafiköverträdelse. Tänk dock på subsidiaritetsregeln i 14 kap. 14 § TrF när samma gärning är straffbar enligt TBL.\n\nPersonkretsen för grov vårdslöshet är snävare: förare av motordrivet fordon eller spårvagn.",
+      "choices": [],
+      "sources": [
+        "tbl",
+        "trf"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: trafikbrottslagen",
+      "sourceItem": "1"
+    },
+    {
+      "id": "super-02",
+      "exam": "superquiz",
+      "original": "2",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 2",
+      "prompt": "En förare kör medvetet omkring 20 km/h under tillåten hastighet under flera kilometer trots fri väg och goda förhållanden. En lång kö bildas och föraren ökar farten när andra försöker köra om. Vad kan bli aktuellt?",
+      "answer": "2 § TBL – hinder i trafik.\n\nRekvisiten är att en vägtrafikant eller spårvagnsförare:\n• hindrar eller stör trafiken på väg,\n• gör det onödigtvis,\n• och gör det i väsentlig mån.\n\nDessutom är 2 § subsidiär: den tillämpas endast om gärningen inte är straffbar enligt 1 § TBL. \n\nOnödigtvis: Det finns inte något godtagbart trafikmässigt skäl för beteendet.\n\nI väsentlig mån: Störningen måste vara påtaglig och mer än bagatellartad. Exempelvis en längre kö eller betydande hinder för annan trafik talar i den riktningen.\n\nMinnesregel:\n2 § = onödigt + väsentligt hinder/störning + inte 1 §.\n\nBedömningen är inte automatisk: det finns ingen fast regel att just 20 km/h under hastighetsgränsen är brottsligt. Skälen till körsättet, störningens omfattning och övriga rekvisit behöver utredas.",
+      "choices": [],
+      "sources": [
+        "tbl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: trafikbrottslagen",
+      "sourceItem": "2"
+    },
+    {
+      "id": "super-03",
+      "exam": "superquiz",
+      "original": "3",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 3",
+      "prompt": "En person kör trots att körkortet är återkallat. Bilägaren sitter bredvid och vet att föraren saknar behörighet. Vad blir aktuellt?",
+      "answer": "Föraren kan dömas för olovlig körning enligt 3 § första stycket TBL om han uppsåtligen för ett körkortspliktigt fordon utan att vara berättigad till det. \n\nBrottet kan bedömas som grovt när:\n\n1. personen tidigare innehaft körkort som blivit återkallat,\n2. brottet sker vanemässigt, eller\n3. brottet annars är att anse som grovt. \n\nDet viktiga från vårt förhör är att ”pågående spärrtid” inte är lagtextens rekvisit. Den uttryckliga grovhetsgrunden är att personen tidigare haft ett körkort som blivit återkallat.\n\nDe antal tidigare körningar som vi diskuterade – exempelvis tre eller fem tillfällen – står inte i 3 § och ska därför inte anges som lagens rekvisit.\n\nBilägaren: Den som uppsåtligen eller av oaktsamhet tillåter någon att föra ett körkortspliktigt fordon trots att denne saknar rätt att göra det kan dömas enligt 3 § tredje stycket TBL, ofta beskrivet som tillåtande av olovlig körning. \n\nMinnesregel för grovt:\nÅterkallat – vanemässigt – annars grovt.\n\nGrovhetsgraden ska bedömas i det enskilda fallet. En angiven grovhetsgrund är inte en ersättning för hela bedömningen.",
+      "choices": [],
+      "sources": [
+        "tbl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: trafikbrottslagen",
+      "sourceItem": "3"
+    },
+    {
+      "id": "super-04",
+      "exam": "superquiz",
+      "original": "4",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 4",
+      "prompt": "Föraren har 0,32 promille alkohol i blodet men kör normalt och visar inga tydliga tecken på påverkan. Vad blir brottet?",
+      "answer": "Rattfylleri enligt 4 § första stycket TBL.\n\nGränser:\n• minst 0,2 promille i blodet, eller\n• minst 0,10 mg alkohol per liter utandningsluft.\n\nNär gränsvärdet är uppnått behöver åklagaren inte dessutom visa att körförmågan faktiskt varit nedsatt. \n\n4 § omfattar dessutom två andra huvudfall:\n• Narkotika: narkotiskt ämne finns kvar i blodet under eller efter färden, med undantag för narkotika som intagits enligt behörig receptutfärdares ordination.\n• Påverkansfallet: föraren är så påverkad av alkohol eller annat medel att det kan antas att fordonet inte kan framföras på ett betryggande sätt. \n\nMinnesregel:\n0,2 promille – 0,10 mg/l – narkotika – inte betryggande.",
+      "choices": [],
+      "sources": [
+        "tbl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: trafikbrottslagen",
+      "sourceItem": "4"
+    },
+    {
+      "id": "super-05",
+      "exam": "superquiz",
+      "original": "5",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 5",
+      "prompt": "Föraren har 1,18 promille men ingen olycka eller annan konkret incident inträffar. Vilka omständigheter ska särskilt beaktas?",
+      "answer": "Brottet kan bedömas som grovt rattfylleri. Tre omständigheter ska särskilt beaktas:\n\n1. minst 1,0 promille i blodet eller 0,50 mg/l i utandningsluften,\n2. föraren har annars varit avsevärt påverkad av alkohol eller annat medel,\n3. körningen har inneburit påtaglig fara för trafiksäkerheten. \n\nAlla tre behöver alltså inte vara uppfyllda. Ett kriterium kan väga så tungt att brottet efter helhetsbedömningen bedöms som grovt.\n\n1,18 promille uppfyller direkt den första särskilt angivna grovhetsomständigheten.\n\nMinnesregel:\n1,0 – avsevärt påverkad – påtaglig fara.",
+      "choices": [],
+      "sources": [
+        "tbl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: trafikbrottslagen",
+      "sourceItem": "5"
+    },
+    {
+      "id": "super-06",
+      "exam": "superquiz",
+      "original": "6",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 6",
+      "prompt": "En förare backar in i en parkerad bil, ser skadan och kör därifrån utan att lämna uppgifter. Vad blir aktuellt?",
+      "answer": "Smitning från trafikolycksplats enligt 5 § TBL kan aktualiseras.\n\nDet krävs inte att personen orsakat olyckan genom skuld. Det räcker att vägtrafikanten med eller utan egen skuld haft del i uppkomsten av trafikolyckan.\n\nBrottet kan föreligga om personen genom att lämna platsen undandrar sig att:\n• efter förmåga medverka till de åtgärder olyckan skäligen föranleder,\n• uppge namn och hemvist,\n• eller lämna upplysningar om händelsen. \n\nDet finns alltså inget särskilt lagrekvisit som heter ”lämna en lapp”.\n\nTrafikförordningen kompletterar detta. Om egendom har skadats och ingen finns på plats som kan ta emot uppgifterna ska trafikanten snarast underrätta den skadelidande eller Polismyndigheten. \n\nGrovt brott: 5 § innehåller ingen uppräkning motsvarande 4 a §. Bedömningen görs utifrån omständigheterna i det enskilda fallet. \n\nMinnesregel:\nDel i olyckan – undandrar sig skyldigheterna. Avlägsnande krävs inte för alla alternativ i paragrafen.\n\nPrecisering: skyldigheten att uppge namn och hemvist eller lämna upplysningar kan undandras även utan att personen lämnar platsen. Smitning förutsätter uppsåt; enbart en oupptäckt skada visar inte detta.",
+      "choices": [],
+      "sources": [
+        "tbl",
+        "trf"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: trafikbrottslagen",
+      "sourceItem": "6"
+    },
+    {
+      "id": "super-07",
+      "exam": "superquiz",
+      "original": "7",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 7",
+      "prompt": "En person har upprepade gånger gjort sig skyldig till olovlig körning och rattfylleri och stoppas igen i en bil. Kan bilen tas ifrån honom?",
+      "answer": "7 § TBL reglerar förverkande, inte beslag.\n\nEtt fordon som har använts vid brott enligt TBL får förverkas om:\n• förverkandet behövs för att förebygga fortsatt sådan brottslighet, och\n• förverkandet inte är uppenbart oskäligt. \n\nVid olovlig körning, rattfylleri och grovt rattfylleri ska man vid bedömningen särskilt beakta om gärningsmannen tidigare gjort sig skyldig till sådan brottslighet. \n\nDet behöver alltså inte vara samma bil som använts vid tidigare brott. I detta fall behöver bilen knytas till TBL-brottet; enbart ägandet räcker inte. Bestämmelsen omfattar också annan egendom som använts som hjälpmedel. Tredje stycket omfattar egendom som varit avsedd som hjälpmedel om brottet har fullbordats.\n\nMinnesregel:\nAnvänts vid TBL-brott + förebygga fortsatt brottslighet + inte uppenbart oskäligt.",
+      "choices": [],
+      "sources": [
+        "tbl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: trafikbrottslagen",
+      "sourceItem": "7"
+    },
+    {
+      "id": "super-08",
+      "exam": "superquiz",
+      "original": "8",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 8",
+      "prompt": "Föraren kör 95 på 70-väg, tittar upprepade gånger på mobilen och glider över mittlinjen så att mötande måste bromsa. Vilket brott?",
+      "answer": "1 § TBL, vårdslöshet i trafik, ligger nära till hands om beteendet sammantaget innebär en väsentlig brist i den omsorg och varsamhet som situationen kräver. Det är alltså inte formuleringen ”väsentlig risk för olycka” du ska använda. \n\nDessutom: säg inte automatiskt mobilbrott om frågan bara säger att föraren ”tittade på mobilen”. Om den hålls i handen träffas handhållningsförbudet direkt; annars krävs att användningen inverkar menligt på körningen. \n\nTentafras:\n\n”Förarens samlade beteende innebär en väsentlig brist i den omsorg och varsamhet som omständigheterna kräver.”",
+      "choices": [],
+      "sources": [
+        "tbl",
+        "trf"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: trafikbrottslagen",
+      "sourceItem": "8"
+    },
+    {
+      "id": "super-09",
+      "exam": "superquiz",
+      "original": "9",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 9",
+      "prompt": "Personen har fått körkortet återkallat och kör ändå. Han har aldrig tidigare dömts för olovlig körning. Normal eller grov?",
+      "answer": "Att personen tidigare haft ett körkort som blivit återkallat är uttryckligen en grovhetsgrund i 3 § första stycket. Någon tidigare dom för olovlig körning krävs alltså inte för just den grunden. \n\nTentafälla:\nInte: ”grov därför att spärrtiden fortfarande löper”.\n\nHellre:\n\n”Han har tidigare innehaft körkort som blivit återkallat, vilket är en uttryckligen angiven grund för att bedöma den olovliga körningen som grov.”\n\nGrovhetsgraden ska bedömas i det enskilda fallet. En angiven grovhetsgrund är inte en ersättning för hela bedömningen.",
+      "choices": [],
+      "sources": [
+        "tbl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: trafikbrottslagen",
+      "sourceItem": "9"
+    },
+    {
+      "id": "super-10",
+      "exam": "superquiz",
+      "original": "10",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 10",
+      "prompt": "Föraren har 0,78 promille men vinglar över i mötande körfält så att andra måste väja. Kan det bli grovt rattfylleri?",
+      "answer": "Ja. Alkoholhalten ligger under 1,0 promille, men körningen kan innebära påtaglig fara för trafiksäkerheten enligt 4 a § första stycket 3 TBL. Därmed finns en självständig grovhetsomständighet. \n\nMinnesregel:\nDu behöver alltså inte komma över 1,0 om du har avsevärd påverkan eller påtaglig fara.",
+      "choices": [],
+      "sources": [
+        "tbl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: trafikbrottslagen",
+      "sourceItem": "10"
+    },
+    {
+      "id": "super-11",
+      "exam": "superquiz",
+      "original": "11",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 11",
+      "prompt": "Vad är skillnaden mellan att bilen tas i beslag och att den förverkas?",
+      "answer": "Beslag är ett processuellt tvångsmedel under utredningen. Ett föremål får bl.a. tas i beslag om det skäligen kan antas kunna bli förverkat. Reglerna finns i 27 kap. RB. \n\nFörverkande är den materiella, slutliga rättsföljden – i vårt fall enligt 7 § TBL. Fordonet förklaras då förverkat när förutsättningarna för detta är uppfyllda. \n\nEn polisman kan under vissa förutsättningar själv verkställa beslag, exempelvis vid fara i dröjsmål, men beslutet ska då skyndsamt underställas undersökningsledare eller åklagare för prövning. \n\nMinnesregel:\nBeslag = säkra nu. Förverkande = ta ifrån slutligt.",
+      "choices": [],
+      "sources": [
+        "tbl",
+        "rb"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: trafikbrottslagen",
+      "sourceItem": "11"
+    },
+    {
+      "id": "super-12",
+      "exam": "superquiz",
+      "original": "12",
+      "category": "Fordon, skatt och behörighet",
+      "title": "Fråga 12",
+      "prompt": "Du stoppar en påställd och registrerad personbil som saknar trafikförsäkring. Kan du ge föraren ordningsbot för att bilen är oförsäkrad?",
+      "answer": "Nej, inte enbart på den grunden. För ett registrerat och påställt fordon gäller försäkringsplikt enligt 2 § TSL, men följden är främst trafikförsäkringsavgift från Trafikförsäkringsföreningen enligt 34 § och möjlighet till vitesföreläggande enligt 35 §. Straffbestämmelsen i 36 § avser i stället ett oregistrerat eller avställt motordrivet fordon som brukas i trafik utan föreskriven försäkring. \n   Minnesregel: Påställd + oförsäkrad = avgift/vite, inte TSL 36-bot.",
+      "choices": [],
+      "sources": [
+        "tsl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: fordonsregler",
+      "sourceItem": "1"
+    },
+    {
+      "id": "super-13",
+      "exam": "superquiz",
+      "original": "13",
+      "category": "Fordon, skatt och behörighet",
+      "title": "Fråga 13",
+      "prompt": "Ett avställt fordon körs till en verkstad. Är det tillåtet eftersom bilen behöver repareras?",
+      "answer": "Nej, inte bara därför att färden går till verkstad. Ett fordon som ställts av på ägarens begäran får bl.a. köras kortaste lämpliga väg till eller från närmaste besiktningsorgan för besiktning, under förutsättning att angivna skatte- eller avgiftsförbud inte hindrar färden. \n   Minnesregel: Avställd → besiktning JA, verkstad NEJ som självständigt undantag.\n   Lagrum: 10 § LFRA.\n\nBesiktningsundantaget är villkorat, inte ett generellt JA: bland annat försäkring, fordonets skick och andra användningshinder måste också kontrolleras.",
+      "choices": [],
+      "sources": [
+        "lfra",
+        "tsl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: fordonsregler",
+      "sourceItem": "2"
+    },
+    {
+      "id": "super-14",
+      "exam": "superquiz",
+      "original": "14",
+      "category": "Fordon, skatt och behörighet",
+      "title": "Fråga 14",
+      "prompt": "En avställd bil är på väg till närmaste besiktningsorgan. Måste föraren kunna visa en bokad tid?",
+      "answer": "Det finns inte samma uttryckliga krav på att medföra handling om bokad tid för denna färd som för ett oregistrerat fordon enligt 6 § LFRA. Däremot måste förutsättningarna för undantaget faktiskt vara uppfyllda: avställt på ägarens begäran, besiktningsfärd, närmaste besiktningsorgan och kortaste lämpliga väg. \n   Lagrum: 10 § 4 LFRA.",
+      "choices": [],
+      "sources": [
+        "lfra"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: fordonsregler",
+      "sourceItem": "3"
+    },
+    {
+      "id": "super-15",
+      "exam": "superquiz",
+      "original": "15",
+      "category": "Fordon, skatt och behörighet",
+      "title": "Fråga 15",
+      "prompt": "Ett oregistrerat fordon körs till registreringsbesiktning. Vad måste föraren kunna visa?",
+      "answer": "Färden får ske kortaste lämpliga väg till eller från registreringsbesiktning. Föraren ska dessutom medföra handling som visar avtalad tid och visa den för polisman eller bilinspektör på begäran. Att inte medföra eller visa handlingen kan medföra penningböter. \n   Lagrum: 6 § första stycket 3 och andra stycket samt 24 § LFRA.\n   Minnesregel: Oregistrerad = bokningen ska med.",
+      "choices": [],
+      "sources": [
+        "lfra"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: fordonsregler",
+      "sourceItem": "4"
+    },
+    {
+      "id": "super-16",
+      "exam": "superquiz",
+      "original": "16",
+      "category": "Fordon, skatt och behörighet",
+      "title": "Fråga 16",
+      "prompt": "Fordonsskatten är obetald och bilen har haft användningsförbud i 70 dagar. Vad gör polisen med registreringsskyltarna?",
+      "answer": "Om fordonet används i strid med användningsförbudet och två månader har gått från sista betalningsdagen ska polisman eller bilinspektör ta hand om registreringsskyltarna. Detta är ett användningsförbud enligt VTSL, inte olovlig körning enligt trafikbrottslagen. \n   Lagrum: 6 kap. 1 och 3 §§ VTSL.\n\nRäkna från skattens sista betalningsdag, inte från när föraren fick kännedom om förbudet. Två månader är en kalendertid, inte en generell 60-dagarsregel.",
+      "choices": [],
+      "sources": [
+        "vtsl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: fordonsregler",
+      "sourceItem": "5"
+    },
+    {
+      "id": "super-17",
+      "exam": "superquiz",
+      "original": "17",
+      "category": "Fordon, skatt och behörighet",
+      "title": "Fråga 17",
+      "prompt": "Hur länge förvaras omhändertagna registreringsskyltar?",
+      "answer": "Polismyndigheten förvarar dem i en vecka. De kan lämnas tillbaka under den tiden om det visas att användningsförbudet inte längre gäller; annars ska de förstöras. \n   Lagrum: 12 § VTSF.\n   Minnesregel: 2 månader → ta skyltarna. 1 vecka → förvaring.",
+      "choices": [],
+      "sources": [
+        "vtsf"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: fordonsregler",
+      "sourceItem": "6"
+    },
+    {
+      "id": "super-18",
+      "exam": "superquiz",
+      "original": "18",
+      "category": "Fordon, skatt och behörighet",
+      "title": "Fråga 18",
+      "prompt": "Skatten är obetald och användningsförbud råder, men det har bara gått 30 dagar från sista betalningsdagen. Tar du skyltarna?",
+      "answer": "Nej. Tvåmånadersgränsen för skyltomhändertagande är ännu inte uppnådd. Däremot kan straffansvar för användningen redan vara aktuellt. Fordonsägaren kan dömas till penningböter om denne uppsåtligen eller av oaktsamhet använder eller låter använda fordonet i strid med förbudet. \n   Lagrum: 6 kap. 3–4 §§ VTSL.\n   Tentafälla: Inte olovlig körning.",
+      "choices": [],
+      "sources": [
+        "vtsl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: fordonsregler",
+      "sourceItem": "7"
+    },
+    {
+      "id": "super-19",
+      "exam": "superquiz",
+      "original": "19",
+      "category": "Fordon, skatt och behörighet",
+      "title": "Fråga 19",
+      "prompt": "Föraren är inte ägare och säger att han inte kände till användningsförbudet. Kan föraren dömas?",
+      "answer": "Föraransvar kräver att föraren kände till att fordonet inte fick användas. Ägaren kan däremot bli ansvarig om denne uppsåtligen eller av oaktsamhet använder eller låter använda fordonet i strid med förbudet. \n   Lagrum: 6 kap. 4 och 6 §§ VTSL.\n   Minnesregel: Förare = kännedom. Ägare = uppsåt eller oaktsamhet.\n\nVTSL 6 kap. 5 § har särskilda fall där brukaren ansvarar i ägarens ställe. 6 § undantar också vissa provkörningar vid föreskriven kontroll m.m.",
+      "choices": [],
+      "sources": [
+        "vtsl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: fordonsregler",
+      "sourceItem": "8"
+    },
+    {
+      "id": "super-20",
+      "exam": "superquiz",
+      "original": "20",
+      "category": "Fordon, skatt och behörighet",
+      "title": "Fråga 20",
+      "prompt": "Bilens totalvikt är 2 200 kg och släpets totalvikt är 1 500 kg. Föraren har B-körkort. Får han köra?",
+      "answer": "Nej. Totalvikterna blir 3 700 kg och släpet väger över 750 kg. Vanligt B räcker därför inte. Utökad B, B96, räcker behörighetsmässigt eftersom kombinationen är högst 4 250 kg, förutsatt att bilen även tekniskt får dra släpet. \n   Lagrum: 2 kap. 5 och 7 a §§ KKL samt 2 § LDEF.\n   Minnesregel: 2 200 + 1 500 = 3 700 → B96.",
+      "choices": [],
+      "sources": [
+        "kkl",
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: fordonsregler",
+      "sourceItem": "9"
+    },
+    {
+      "id": "super-21",
+      "exam": "superquiz",
+      "original": "21",
+      "category": "Fordon, skatt och behörighet",
+      "title": "Fråga 21",
+      "prompt": "Bilens totalvikt är 3 500 kg och släpets totalvikt är 750 kg. Räcker B-körkort?",
+      "answer": "Ja. Ett släp med totalvikt högst 750 kg är ett lätt släpfordon, så en B-behörig personbil med totalvikt 3 500 kg får behörighetsmässigt dra det. Kombinationen kan alltså i detta fall bli 4 250 kg med vanligt B. Bilen måste dock fortfarande vara tekniskt godkänd för släpet. \n    Minnesregel: B: bil max 3 500 + släp max 750 = max 4 250 kg i just detta fall.",
+      "choices": [],
+      "sources": [
+        "kkl",
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Träningslista: fordonsregler",
+      "sourceItem": "10"
+    },
+    {
+      "id": "super-22",
+      "exam": "superquiz",
+      "original": "22",
+      "category": "Polisens trafikstrategi",
+      "title": "Fråga 22",
+      "prompt": "Vilka fyra mål anges i Polismyndighetens strategi för trafik som metod?",
+      "answer": "1. Polisen ska bidra till att minska antalet döda och allvarligt skadade i vägtrafikmiljön.\n2. Polisens arbete i vägtrafikmiljön ska uppdaga även annan brottslighet än den som är trafikrelaterad.\n3. Polisens arbete i vägtrafikmiljön ska stödja trygghetsmålen utifrån lokala problembilder.\n4. Anställda vid Polismyndigheten ska följa den interna trafiksäkerhetspolicyn och därigenom förstå värdet av både sitt eget arbete och sitt beteende i vägtrafikmiljön.\n\nDetta är målen i PM 46/2016, avsnitt 2.1, sida 3. Skilj dem från fokusområdena.",
+      "choices": [],
+      "sources": [
+        "superstrategy"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Polisens strategi PM 46/2016 och användarens sammanställning",
+      "sourceItem": "1"
+    },
+    {
+      "id": "super-23",
+      "exam": "superquiz",
+      "original": "23",
+      "category": "Polisens trafikstrategi",
+      "title": "Fråga 23",
+      "prompt": "Vilken vision ligger bakom polisens trafiksäkerhetsarbete i den angivna strategin?",
+      "answer": "Nollvisionen: ingen ska dödas eller skadas allvarligt i vägtrafiken. Strategins övergripande polisuppdrag är att öka tryggheten och minska brottsligheten.\n\nKälla: PM 46/2016, avsnitt 2, sida 3. Det är en vision, inte ett påstående om att målet redan har nåtts.",
+      "choices": [],
+      "sources": [
+        "superstrategy"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Polisens strategi PM 46/2016 och användarens sammanställning",
+      "sourceItem": "2"
+    },
+    {
+      "id": "super-24",
+      "exam": "superquiz",
+      "original": "24",
+      "category": "Polisens trafikstrategi",
+      "title": "Fråga 24",
+      "prompt": "Vilka fyra fokusområden beskriver strategin, och är de samma sak som de fyra målen?",
+      "answer": "Trafiksäkerhetsarbete, trygghetsskapande arbete, yrkestrafik och brott på väg.\n\nNej. Fokusområdena strukturerar arbetet; de fyra målen beskriver vad det ska leda till. Strategins avsnitt 4 utvecklar områdena. Yrkestrafik innefattar kontroller som kan kräva specialistkompetens.",
+      "choices": [],
+      "sources": [
+        "superstrategy"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Polisens strategi PM 46/2016 och användarens sammanställning",
+      "sourceItem": "3"
+    },
+    {
+      "id": "super-25",
+      "exam": "superquiz",
+      "original": "25",
+      "category": "Polisens trafikstrategi",
+      "title": "Fråga 25",
+      "prompt": "Varför är trafikarbetet också en metod för bredare brottsbekämpning? Ge exempel.",
+      "answer": "Arbetet på vägnätet kan förebygga, förhindra och upptäcka även andra brott än trafikbrott. Kontroller kan exempelvis leda till upptäckt av narkotika, vapen, stöldgods eller efterlysta personer. Arbetet behöver kopplas till lokala problembilder och trygghet.\n\nExemplen illustrerar uppdraget; strategin ger inte i sig nya tvångsmedelsbefogenheter. Varje ingripande kräver tillämpligt lagstöd.",
+      "choices": [],
+      "sources": [
+        "superstrategy"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Polisens strategi PM 46/2016 och användarens sammanställning",
+      "sourceItem": "4"
+    },
+    {
+      "id": "super-26",
+      "exam": "superquiz",
+      "original": "26",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 26",
+      "prompt": "Hur definieras en vanlig cykel utan motor?",
+      "answer": "Ett fordon avsett att drivas med tramp- eller vevanordning som inte är ett lekfordon.\n\nLDEF 2 §, definitionen Cykel punkt 1. Cykelbegreppet omfattar dessutom vissa eldrivna fordon enligt punkterna 2–4.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "5"
+    },
+    {
+      "id": "super-27",
+      "exam": "superquiz",
+      "original": "27",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 27",
+      "prompt": "Vilka tre motorvillkor krävs för att en elassisterad trampcykel ska räknas som cykel?",
+      "answer": "Elmotorn ska endast förstärka kraften från tramp- eller vevanordningen, inte ge krafttillskott över 25 km/h och ha en kontinuerlig märkeffekt på högst 250 W. Alla villkoren ska vara uppfyllda.\n\nLDEF 2 §, Cykel punkt 2. Märkeffekt ska inte blandas ihop med tillfällig toppeffekt.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "6"
+    },
+    {
+      "id": "super-28",
+      "exam": "superquiz",
+      "original": "28",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 28",
+      "prompt": "Får en elassisterad cykel som uppfyller cykeldefinitionen rulla fortare än 25 km/h?",
+      "answer": "Ja. Gränsen i definitionen gäller motorns krafttillskott, inte all faktisk färdhastighet. Föraren kan exempelvis trampa eller rulla snabbare utan motorhjälp. Hastighets- och säkerhetsregler gäller ändå.\n\nLDEF 2 §, Cykel punkt 2.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "7"
+    },
+    {
+      "id": "super-29",
+      "exam": "superquiz",
+      "original": "29",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 29",
+      "prompt": "Vilka huvudvillkor gäller för att en vanlig elsparkcykel ska räknas som cykel?",
+      "answer": "Den ska vara eldriven utan tramp- eller vevanordning, huvudsakligen inrättad för en person som själv för fordonet, konstruerad för högst 20 km/h och ha högst 250 W kontinuerlig märkeffekt.\n\nLDEF 2 §, Cykel punkt 4 jämförd med 3 a–c. För självbalanserande fordon finns en alternativ bestämmelse; 250 W är därför inte en generell gräns för alla elfordon som räknas som cykel.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "8"
+    },
+    {
+      "id": "super-30",
+      "exam": "superquiz",
+      "original": "30",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 30",
+      "prompt": "Kan eldrivna fordon utan trampor vara cyklar även utanför den vanliga elsparkcykeltypen?",
+      "answer": "Ja. LDEF 2 §, Cykel punkt 3 omfattar vissa fordon avsedda för personer med fysisk funktionsnedsättning: huvudsakligen en person, förda av den åkande och konstruerade för högst 20 km/h. Punkt 4 omfattar även självbalanserande fordon med villkoren i 3 a–c. Dessa alternativ har inte den vanliga elsparkcykelns uttryckliga 250 W-gräns.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "9"
+    },
+    {
+      "id": "super-31",
+      "exam": "superquiz",
+      "original": "31",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 31",
+      "prompt": "Hur definieras en moped som fordonskategori enligt LDEF 2 §?",
+      "answer": "Ett motorfordon konstruerat för högst 45 km/h. Förbränningsmotor med gnisttändning: högst 50 cm³; kompressionständning: högst 500 cm³. Annan motor, exempelvis elmotor, kan också förekomma. Dessutom gäller följande alternativ:\n• Två hjul: högst 4 kW nettoeffekt.\n• Tre hjul: högst 270 kg i körklart skick och 4 kW.\n• Fyra hjul: högst 425 kg i körklart skick och 4 kW.\n• Fyra hjul med karosseri med högst tre dörrar: högst 425 kg och 6 kW.\nBatterier räknas inte in i en eldriven mopeds vikt enligt definitionen. EU-godkännande enligt 2 a § och äldre klassificering kan påverka bedömningen.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "10"
+    },
+    {
+      "id": "super-32",
+      "exam": "superquiz",
+      "original": "32",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 32",
+      "prompt": "Vad är moped klass I enligt lagens definition?",
+      "answer": "En moped som inte hör till klass II. Den måste alltså först uppfylla mopeddefinitionen; högsta konstruktiva hastighet är normalt 45 km/h.\n\nLDEF 2 §. Det är inte enbart faktisk hastighet som avgör klassen. Klass I betyder inte att varje fordon som kör 45 km/h automatiskt är en laglig moped.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "11"
+    },
+    {
+      "id": "super-33",
+      "exam": "superquiz",
+      "original": "33",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 33",
+      "prompt": "Vilka villkor definierar moped klass II enligt huvudregeln?",
+      "answer": "Det ska vara en moped med högst 1 kW nettoeffekt som antingen:\n1. är konstruerad för högst 25 km/h, eller\n2. är konstruerad för tramp- och vevdrift och vars motor inte ger krafttillskott över 25 km/h.\n\nLDEF 2 §. Skilj detta från elcykelns gräns 250 W och beakta äldre godkända mopeder enligt övergångsreglerna.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "12"
+    },
+    {
+      "id": "super-34",
+      "exam": "superquiz",
+      "original": "34",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 34",
+      "prompt": "Kan en äldre moped konstruerad för 30 km/h räknas som klass II?",
+      "answer": "Ja, under övergångsbestämmelserna. Det gäller bland annat en moped upptagen i äldre typintyg eller godkänd vid mopedbesiktning före den 1 november 1998 som inte därefter ändrats på det sätt övergångsregeln avser.\n\nLDEF, övergångsbestämmelserna till 2001:559 punkt 2. Att ett fordon bara körs i 30 km/h räcker inte; äldre godkännande och utförande behöver kontrolleras.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "13"
+    },
+    {
+      "id": "super-35",
+      "exam": "superquiz",
+      "original": "35",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 35",
+      "prompt": "Hur definieras lätt motorcykel? Ta med två/fyra hjul och tre hjul.",
+      "answer": "Två eller fyra hjul med förbränningsmotor: högst 125 cm³, högst 11 kW nettoeffekt och högst 0,1 kW/kg i förhållande till tjänstevikten. Samtliga gränser ska hållas.\nTvå eller fyra hjul med annan motor: högst 11 kW och högst 0,1 kW/kg; ingen slagvolymgräns för en elmotor.\nTre hjul: högst 15 kW nettoeffekt.\n\nLDEF 2 §. Fordonsdefinitionen ska skiljas från körkortsbehörigheterna.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "14"
+    },
+    {
+      "id": "super-36",
+      "exam": "superquiz",
+      "original": "36",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 36",
+      "prompt": "Hur definieras tung motorcykel?",
+      "answer": "Två eller fyra hjul: motor med slagvolym över 125 cm³, nettoeffekt över 11 kW eller förhållande mellan nettoeffekt och tjänstevikt över 0,1 kW/kg. Det räcker att en tillämplig gräns överskrids.\nTre hjul: nettoeffekt över 15 kW.\n\nLDEF 2 §. Tung motorcykel är en fordonsdefinition och betyder inte att A2 alltid är uteslutet; körkortsreglerna prövas separat.",
+      "choices": [],
+      "sources": [
+        "ldef",
+        "kkl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "15"
+    },
+    {
+      "id": "super-37",
+      "exam": "superquiz",
+      "original": "37",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 37",
+      "prompt": "Vilken betydelse har ett EU-godkännande när ett fordon registreras?",
+      "answer": "LDEF 2 a § säger att ett fordon som registreras med stöd av ett godkännande enligt en EU-rättsakt ska tillhöra det fordonsslag som motsvarar godkännandets fordonskategori, trots 2 §. Kontrollera därför godkännande och registreringsuppgifter; klassificera inte bara efter utseende eller säljarens namn på fordonet.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "16"
+    },
+    {
+      "id": "super-38",
+      "exam": "superquiz",
+      "original": "38",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 38",
+      "prompt": "En tvåhjulig motorcykel har 125 cm³, 11 kW och tjänstevikt 100 kg. Är den lätt eller tung?",
+      "answer": "Tung. Effekt/vikt blir 11 / 100 = 0,11 kW/kg, vilket överstiger 0,1. Att slagvolym och effekt var för sig ligger på tillåtna gränser för lätt motorcykel räcker inte.\n\nLDEF 2 §.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "17"
+    },
+    {
+      "id": "super-39",
+      "exam": "superquiz",
+      "original": "39",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 39",
+      "prompt": "En tvåhjulig motorcykel har 125 cm³, 11 kW och tjänstevikt 110 kg. Hur klassas den utifrån dessa uppgifter?",
+      "answer": "Lätt motorcykel: 125 cm³, 11 kW och 11 / 110 = 0,1 kW/kg ligger precis på de tillåtna gränserna.\n\nLDEF 2 §. Svaret gäller definitionens tekniska uppgifter; övriga krav för att köra fordonet prövas separat.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "18"
+    },
+    {
+      "id": "super-40",
+      "exam": "superquiz",
+      "original": "40",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 40",
+      "prompt": "En trehjulig motorcykel har 15 kW nettoeffekt. Vad händer med klassningen om effekten i stället är 16 kW?",
+      "answer": "Vid 15 kW är den lätt motorcykel. Vid 16 kW är den tung. För trehjulig motorcykel används 15 kW-gränsen i dessa definitioner, inte tvåhjulingens kombination av 125 cm³, 11 kW och 0,1 kW/kg.\n\nLDEF 2 §.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "19"
+    },
+    {
+      "id": "super-41",
+      "exam": "superquiz",
+      "original": "41",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 41",
+      "prompt": "En trampcykel har en hjälpmotor på 500 W kontinuerlig märkeffekt. Är den en vanlig elcykel enligt cykeldefinitionen?",
+      "answer": "Nej, den överskrider gränsen 250 W i LDEF 2 §, Cykel punkt 2. Den blir inte automatiskt en godkänd moped bara för att den inte är cykel. Utred konstruktion, motorvillkor, godkännande och övriga krav. Ett mopedalternativ kan finnas om samtliga villkor är uppfyllda.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "20"
+    },
+    {
+      "id": "super-42",
+      "exam": "superquiz",
+      "original": "42",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 42",
+      "prompt": "En modern tvåhjulig eldriven moped är konstruerad för 25 km/h men har 2 kW nettoeffekt. Klass I eller II enligt huvuddefinitionerna?",
+      "answer": "Klass I, förutsatt att den i övrigt är en moped. Klass II kräver högst 1 kW, så låg konstruktiv hastighet räcker inte. Tvåhjulig moped kan enligt huvuddefinitionen ha högst 4 kW.\n\nLDEF 2 §. Godkännande och registrering måste kontrolleras innan fordonet används.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "21"
+    },
+    {
+      "id": "super-43",
+      "exam": "superquiz",
+      "original": "43",
+      "category": "Fordonsdefinitioner",
+      "title": "Fråga 43",
+      "prompt": "Betyder ”tung motorcykel” automatiskt att föraren måste ha obegränsad A-behörighet?",
+      "answer": "Nej. Fordonsdefinitionen lätt/tung och körkortsreglernas A1/A2/A är olika indelningar. A2 kan ge rätt att köra en tvåhjulig motorcykel med eller utan sidvagn med högst 35 kW och högst 0,2 kW/kg, om den inte är strypt från ett fordon med mer än dubbla effekten.\n\nKKL 2 kap. 5 §. Pröva den faktiska behörigheten och motorcykelns uppgifter separat.",
+      "choices": [],
+      "sources": [
+        "kkl",
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "22"
+    },
+    {
+      "id": "super-44",
+      "exam": "superquiz",
+      "original": "44",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 44",
+      "prompt": "Kan en vanlig cyklist omfattas av både normalgraden och den grova formen av vårdslöshet i trafik?",
+      "answer": "En cyklist på väg är vägtrafikant och kan omfattas av normalgraden i TBL 1 § första stycket. Den grova formen i andra stycket avser däremot förande av motordrivet fordon eller spårvagn. En vanlig cykel omfattas inte av den snävare personkretsen. Andra brott kan ändå aktualiseras beroende på gärningen.",
+      "choices": [],
+      "sources": [
+        "tbl",
+        "ldef"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "23"
+    },
+    {
+      "id": "super-45",
+      "exam": "superquiz",
+      "original": "45",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 45",
+      "prompt": "Narkotika finns i förarens urin men blodprovet visar inget narkotiskt ämne. Räcker urinprovet ensamt för narkotikafallet i TBL 4 § andra stycket?",
+      "answer": "Nej. Andra stycket kräver att något narkotiskt ämne finns kvar i blodet under eller efter färden efter intag av sådan narkotika som paragrafen avser. Urinfynd ensamt uppfyller inte blodrekvisitet. Kliniskt rattfylleri enligt tredje stycket eller andra brott kan behöva prövas på annan bevisning.",
+      "choices": [],
+      "sources": [
+        "tbl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "24"
+    },
+    {
+      "id": "super-46",
+      "exam": "superquiz",
+      "original": "46",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 46",
+      "prompt": "Kan någon dömas för rattfylleri trots att narkotikaklassat läkemedel tagits exakt enligt ordination?",
+      "answer": "Ja, om påverkan är sådan att det kan antas att fordonet inte kan framföras betryggande enligt TBL 4 § tredje stycket. Ordinationsundantaget gäller narkotikafallet i andra stycket, inte ett generellt undantag från rattfylleriansvar. Att läkemedlet är ordinerat innebär inte att körningen alltid är tillåten.",
+      "choices": [],
+      "sources": [
+        "tbl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "25"
+    },
+    {
+      "id": "super-47",
+      "exam": "superquiz",
+      "original": "47",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 47",
+      "prompt": "Gäller alla rattfylleriregler för ett motordrivet fordon avsett att föras av gående?",
+      "answer": "Nej. TBL 4 § fjärde stycket undantar sådana förare från första och andra styckena, alltså alkoholgränsfallet och narkotikafallet. Påverkansfallet i tredje stycket är inte undantaget där. Skilj fordonets konstruktion från att någon råkar gå bredvid ett annat fordon.",
+      "choices": [],
+      "sources": [
+        "tbl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "26"
+    },
+    {
+      "id": "super-48",
+      "exam": "superquiz",
+      "original": "48",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 48",
+      "prompt": "Vad reglerar TBL 6 § i dag?",
+      "answer": "Ingenting: 6 § är upphävd genom lag 1988:944. Förverkande finns i 7 §. Fyll inte luckan med exempelvis olovligt brukande, som regleras i brottsbalken.\n\nMinnesregel: 6 upphävd – 7 förverkande.",
+      "choices": [],
+      "sources": [
+        "tbl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "27"
+    },
+    {
+      "id": "super-49",
+      "exam": "superquiz",
+      "original": "49",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 49",
+      "prompt": "En olycksdelaktig förare stannar kvar men vägrar lämna namn och hemvist. Utesluter kvarstannandet ansvar enligt TBL 5 §?",
+      "answer": "Nej. Bestämmelsen omfattar också att undandra sig att uppge namn och hemvist eller lämna upplysningar om händelsen. Dessa alternativ kräver inte att personen lämnar olycksplatsen. Övriga förutsättningar, bland annat delaktighet i olyckans uppkomst och uppsåt, måste vara uppfyllda.",
+      "choices": [],
+      "sources": [
+        "tbl"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "28"
+    },
+    {
+      "id": "super-50",
+      "exam": "superquiz",
+      "original": "50",
+      "category": "Trafikbrottslagen",
+      "title": "Fråga 50",
+      "prompt": "Kan samma körning aktualisera både rattfylleri och vårdslöshet i trafik, och hur behandlas en bakomliggande trafikförseelse?",
+      "answer": "Ja, båda TBL-brotten kan aktualiseras om respektive rekvisit självständigt är uppfyllt. Berusning innebär inte automatiskt vårdslöshet i trafik. Identifiera gärningarna och pröva brottskonkurrensen. TrF 14 kap. 14 § hindrar ansvar enligt förordningen när samma gärning är belagd med straff i brottsbalken eller TBL.\n\nTBL 1 och 4 §§ samt TrF 14 kap. 14 §.",
+      "choices": [],
+      "sources": [
+        "tbl",
+        "trf"
+      ],
+      "reviewed": "2026-09-21",
+      "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
+      "sourceItem": "29"
     }
   ],
   "exams": [
@@ -6538,6 +7357,14 @@ window.EXAM_DATA = {
       "primary": false,
       "kind": "quiz",
       "mainCount": 45
+    },
+    {
+      "id": "superquiz",
+      "title": "SUPERQUIZ",
+      "subtitle": "Träna ur minnet · trafikbrott, fordonsregler, strategi och definitioner",
+      "kind": "quiz",
+      "primary": false,
+      "mainCount": 50
     }
   ],
   "quickQuizReviewed": "2026-09-16"

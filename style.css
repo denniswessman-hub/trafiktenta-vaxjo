@@ -12,3 +12,5 @@
 
 .quick-entry{border-left:5px solid var(--accent,#bce86a)}
 .quiz-link{display:inline-block;padding:12px 0;font-weight:750}
+
+.super-entry{background:var(--deep);color:#fff;border:2px solid #bce86a}.super-entry .eyebrow{color:#bce86a}.super-entry h2{font-size:34px}.super-entry p{color:#f0f5ed}.super-link{display:inline-block;padding:14px 20px;border-radius:12px;background:#bce86a;color:#17320c;font-weight:750;text-decoration:none}.super-answer{margin-top:24px;border:1px solid var(--line);border-radius:14px;overflow:hidden}.super-answer>summary{padding:18px;font-weight:750;cursor:pointer;background:#eef2e9;min-height:48px}.super-answer>summary:focus-visible{outline:3px solid #49791b;outline-offset:-3px}.super-answer .answer{padding:18px;margin:0}.super-answer .answer p{white-space:pre-line}.super-answer .source-note{overflow-wrap:anywhere}
