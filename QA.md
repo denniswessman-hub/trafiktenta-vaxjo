@@ -1,3 +1,13 @@
+# Delgivningar och Trafikbilen · v2.5.0
+
+- Alla 311 befintliga övningar bevarade; data.js skiljer sig endast i versionsnumret. Originalbildens bytes är oförändrade.
+- JavaScript-syntax och befintliga regressionstester godkända. Både support.js och bilden ingår i offlinecachens tillgångar.
+- Mobilkontroll 390 × 844: öppningsbar delgivning, läsbar text, knappar, bild och ingen horisontell överströmning.
+- Kopieringsknappen fick lyckat svar från Clipboard API och visade bekräftelse; verktygets separata urklipp gav tomt resultat och kunde inte styrka innehållet.
+- Minnesbildens dölj/visa testat i båda riktningarna; bilden visuellt kontrollerad och textalternativ finns. Inga konsolfel.
+
+---
+
 # SUPERQUIZ · v2.4.0 · 21 september 2026
 
 - 311 unika frågor. 50 nya utan svarsalternativ. Tidigare 261 frågor och sju samlingar jämförda med föregående version och bevarade.

@@ -1,3 +1,11 @@
+# Delgivningar · 24 september 2026
+
+De åtta inskickade övningsförslagen bevaras, inklusive hakparenteser och påhittade körsätt/alkoholvärden. Separata kommentarer kontrollerade mot TBL 1, 3, 4 och 4 a §§ samt Åklagarmyndighetens RäV 2024:3, avsnitt 2–4 (inklusive hänvisad praxis NJA 1999 s. 380 om helhetsbedömning). Ingen fullständig ny praxisgenomgång. Uppsåt, spärrtid, oaktsamhet, enheter, blodrekvisit och ordinationsundantag tydliggörs. Texterna är inte officiella mallar.
+
+Trafikbilen publiceras oförändrad som inskickat pedagogiskt stöd. Bilden skiljer mål från arbetsområden och påminner om att strategin inte ger egna befogenheter. Bildens PL-hänvisningar är inte en uttömmande befogenhetsprövning. Strategikällan är PM 46/2016. Äldre frågebank är oförändrad.
+
+---
+
 # SUPERQUIZ · 21 september 2026
 
 50 frågor: båda inskickade träningslistorna (11 + 10), strategin (4), fordonsdefinitioner och gränsfall (18), samt kompletterande TBL-frågor (7). Bearbetade studiesvar; inte lärarens officiella facit. Källor visas först när svaret öppnas.
