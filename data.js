@@ -1,5 +1,5 @@
 window.EXAM_DATA = {
-  "version": "2.5.1",
+  "version": "2.5.2",
   "reviewed": "2026-09-15",
   "sources": {
     "kkl": {

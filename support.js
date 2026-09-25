@@ -13,7 +13,7 @@ window.TRAFFIC_SUPPORT = [
   [
     "3. Vårdslöshet i trafik",
     "1 § första stycket TBL",
-    "Du delges misstanke om vårdslöshet i trafik genom att den [datum] omkring klockan [tid] på [plats] i [kommun] ha fört personbil [registreringsnummer] och under en längre sträcka skrivit på din mobiltelefon utan att hålla uppsikt över trafiken. Du har därigenom av oaktsamhet i väsentlig mån brustit i den omsorg och varsamhet som trafiksituationen krävde."
+    "Du delges misstanke om vårdslöshet i trafik genom att den [datum] omkring klockan [tid] på [plats] i [kommun] ha fört personbil [registreringsnummer] och under en längre sträcka skrivit på din mobiltelefon utan att hålla uppsikt över trafiken. Du har därigenom i väsentlig mån brustit i den omsorg och varsamhet som trafiksituationen krävde."
   ],
   [
     "4. Grov vårdslöshet i trafik",

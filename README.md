@@ -2,7 +2,7 @@
 
 [Öppna appen](https://denniswessman-hub.github.io/trafiktenta-vaxjo/)
 
-Mobilanpassad tentaträning med **65 övningar från två nya huvudunderlag**, lärarsvar och 20 frågebilder. De 61 tidigare Växjöövningarna finns kvar som extra träning. Som komplement finns **45 snabbquizfrågor**, varav 31 om undantag och gränsfall. Version 2.5.1, 25 september 2026.
+Mobilanpassad tentaträning med **65 övningar från två nya huvudunderlag**, lärarsvar och 20 frågebilder. De 61 tidigare Växjöövningarna finns kvar som extra träning. Som komplement finns **45 snabbquizfrågor**, varav 31 om undantag och gränsfall. Version 2.5.2, 25 september 2026.
 
 ## Delgivningar och Trafik som metod
 
