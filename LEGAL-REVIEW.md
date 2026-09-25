@@ -1,3 +1,9 @@
+# Reviderade delgivningar · 25 september 2026
+
+De åtta delgivningarna ersatta enligt användarens revidering efter lärardiskussion. Samtliga använder [plats]. Kortare vårdslöshetsexempel, uppdaterade alkohol- och narkotikaformuleringar samt lagrum. Separata kommentarer och länkar kompletterade med HD B 4573-24 (NJA 2025 s. 211), skillnaden mellan TBL 4 § andra/tredje stycket och minimigräns kontra exempelvärde. Kontrollerat mot användarens fem officiella källor; RäV 2023:18 är uppdaterad mars 2026.
+
+---
+
 # Delgivningar · 24 september 2026
 
 De åtta inskickade övningsförslagen bevaras, inklusive hakparenteser och påhittade körsätt/alkoholvärden. Separata kommentarer kontrollerade mot TBL 1, 3, 4 och 4 a §§ samt Åklagarmyndighetens RäV 2024:3, avsnitt 2–4 (inklusive hänvisad praxis NJA 1999 s. 380 om helhetsbedömning). Ingen fullständig ny praxisgenomgång. Uppsåt, spärrtid, oaktsamhet, enheter, blodrekvisit och ordinationsundantag tydliggörs. Texterna är inte officiella mallar.

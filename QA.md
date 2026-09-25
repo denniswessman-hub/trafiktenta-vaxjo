@@ -1,3 +1,9 @@
+# Reviderade delgivningar · 25 september 2026
+
+Innehållsändring: åtta ersatta delgivningar; oförändrad öppnings- och kopieringsfunktion. Syntaxkontroll och befintliga tester körda. Versionsnummer och offlinecache uppdaterade till 2.5.1. Äldre quiz och Trafikbilen bevarade.
+
+---
+
 # Delgivningar och Trafikbilen · v2.5.0
 
 - Alla 311 befintliga övningar bevarade; data.js skiljer sig endast i versionsnumret. Originalbildens bytes är oförändrade.
