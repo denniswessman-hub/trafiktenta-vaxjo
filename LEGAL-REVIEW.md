@@ -1,3 +1,24 @@
+# Exempeltenta VT2025 · 29 september 2026
+
+Källa: användarens `20250214 PO141C 2401 - PROVFRÅGOR.doc`, 16 sidor. 28 huvudfrågor har delats i 34 övningar. Fall, datum, sju bältesalternativ och alla 12 frågebilder bevarade. Originalet innehåller inget facit; appens korta svar är självständiga svarsförslag. Originalpoäng används inte för automatisk bedömning.
+
+| Frågor | Kontroll och viktig precisering |
+| --- | --- |
+| 1a–c | TBL 1 §, BrB 3:8 och 3:12, TrF 3:61 a/4:10 e samt 14:14; RäV 2023:18, reviderad mars 2026. Skadan måste utredas, angivelse och allmänt intresse krävs för normalgraden. TrF:s subsidiaritet skiljs från faktisk regelöverträdelse. |
+| 2a–b | TBL 3 § och RäV 2024:3, LFRA 10/23 §§, FoF 6:15 och 8:9, TSL 36 §. Återfall bedöms på scenariots datum 2025-02-13. Siffergränserna för återfall/vanemässighet är vägledning med helhetsbedömning, inte lagtext. |
+| 3a–c | LAU 1–2 §§, RB 23:3 och 28:12–13, TBL 4 §, VTSL 6:1 och 6:4. Beslut om FU/bevisprov skiljs från utförandet och från blodprov. Beslutsordningen i SOU 2006:47 avsnitt 3.6.5 är historisk bakgrund; dagens interna delegation har inte verifierats. |
+| 4–5 | TBL 4 a §; KKL 6:1–2 (folkbokföring, inte bara ankomst); TrF, ordningsbotskatalog 1A, RB 48 kap. och FAP 261-1. Identitet/giltighet måste kontrolleras; avsaknad av svenskt personnummer hindrar inte i sig ordningsbot. |
+| 6–7 | Vägmärkesförordningen och Transportstyrelsens skyltöversikter. A19 visar häst och vildsvin; tilläggstavlans originaltext är 0,1–4,1 km. Sista registreringsskylten är provisorisk. |
+| 8–13 | VTSL 6:1, LFRA 10 §, FoF 6:21/6:32, TrF 4:20 och lagen om vägtrafikdefinitioner 2 §. Förbud och undantag hålls isär. Hastighetsbilden visar inte släpets tekniska uppgifter, fordonets registrerade klass eller motorväg; svaren anger antagandena. |
+| 14–18 | Polisens PM 46/2016 (fokusområden skiljs från mål), förordningen om vägtrafikdefinitioner, VMF M16/M14/B8, TrF 4:10 d och PL 22/8 §§. Bältesfrågans rätta alternativ: backning, angivet område och stillastående. Polis i yttre tjänst är inget generellt undantag. |
+| 19–21 | Transportstyrelsens däckregler. 1,6 mm sommar; normalt 3 mm vinter, PB klass II över 3,5 ton 5 mm; personbil 1 december–31 mars vid vinterväglag. Skilj från ändrade vinterdatum för tung lastbil/buss. |
+| 22–25 | Användarens Manual för att skriva ordningsbot, s. 4, 7 och 10; RB 48:15, FAP 261-1 och KKL. Fem gärningar är kursens blankett-/handläggningsrutin, inte påstådd allmän lagregel. Samtidig olovlig körning rapporteras samlat. |
+| 26–28 | Polisens publika information om snabbare lagföring: jourförundersökningsledaren. MSB:s stöd för tidig vindruterapport. Svaret på fråga 28 är ett praktiskt svarsförslag, inte en verifierad sjupunktsmall från läraren. |
+
+Källänkar finns vid varje svar. Kontrollen avser regler i kraft 29 september 2026; framtida ikraftträdanden i konsoliderad lagtext ska inte användas i förtid. Ingen fullständig praxisinventering eller verifiering av interna tjänsterutiner. De 311 tidigare övningarna och delgivningarna har inte ändrats eller granskats på nytt i denna release.
+
+---
+
 # Reviderade delgivningar · 25 september 2026
 
 De åtta delgivningarna ersatta enligt användarens revidering efter lärardiskussion. Samtliga använder [plats]. Kortare vårdslöshetsexempel, uppdaterade alkohol- och narkotikaformuleringar samt lagrum. Separata kommentarer och länkar kompletterade med HD B 4573-24 (NJA 2025 s. 211), skillnaden mellan TBL 4 § andra/tredje stycket och minimigräns kontra exempelvärde. Kontrollerat mot användarens fem officiella källor; RäV 2023:18 är uppdaterad mars 2026.

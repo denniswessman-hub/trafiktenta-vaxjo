@@ -1,3 +1,17 @@
+# Exempeltenta VT2025 · v2.6.0 · 29 september 2026
+
+- 28 huvudfrågor, 34 delövningar och 12 originalbilder. Alla 311 tidigare frågor och deras källor jämförda med föregående version och bevarade. Delgivningarna är oförändrade.
+- Alla 16 sidor i PDF-konverteringen visuellt kontrollerade. Den publicerbara PDF:ens sidtexter jämförda med konverteringen; alla tolv publicerade bilder är identiska med DOC-filens bildfiler.
+- Befintliga regressionstester, nya täckningskontroller, syntaxkontroller och diffkontroll godkända. Totalt 345 övningar och 37 unika frågebilder (Trafikbilen tillkommer).
+- Mobil 390 × 844: samtliga 34 frågor öppnade och svar visade; alla bilder laddade. En lång rad i bältesförklaringen upptäcktes och rättades; därefter ingen sidledes överströmning där eller i bildfrågan.
+- Sparat fritextsvar bevarat efter omladdning. Svar dolda i nytt pass. Bildförstoring, större bild, stängning, självskattning, Öva mer, nästa fråga, avslutat pass och omstart testade.
+- Bältesfrågan: sju originalalternativ, exakt tre rätta markeringar godkända; test av extra felmarkering underkänt. Antalet rätta alternativ avslöjas inte i förväg.
+- Helt pass: 34/34; blandat: 10; bildpass: 6 delövningar. Framstegslänken väljer VT2025. Inga konsolfel vid funktionstesterna.
+- Bilder och original-PDF finns med i service workerns offlineförteckning. Versionsmarkören i HTML, data och cache är 2.6.0.
+- Svarsförslag och begränsningar redovisas i LEGAL-REVIEW.md och vid varje fråga. Ingen automatisk fritexträttning, officiell tentapoängsättning eller lärarfacit påstås.
+
+---
+
 # Reviderade delgivningar · 25 september 2026
 
 Innehållsändring: åtta ersatta delgivningar; oförändrad öppnings- och kopieringsfunktion. Syntaxkontroll och befintliga tester körda. Versionsnummer och offlinecache uppdaterade till 2.5.1. Äldre quiz och Trafikbilen bevarade.

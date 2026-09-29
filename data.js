@@ -1,5 +1,5 @@
 window.EXAM_DATA = {
-  "version": "2.5.2",
+  "version": "2.6.0",
   "reviewed": "2026-09-15",
   "sources": {
     "kkl": {
@@ -221,6 +221,46 @@ window.EXAM_DATA = {
     "vtsf": {
       "title": "Vägtrafikskatteförordningen (2006:242)",
       "url": "https://data.riksdagen.se/dokument/sfs-2006-242.html"
+    },
+    "alkoprov": {
+      "title": "Lag om alkoholutandningsprov · 1–2 §§",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-19761090-om-alkoholutandningsprov_sfs-1976-1090/"
+    },
+    "ravolovlig": {
+      "title": "Åklagarmyndigheten · olovlig körning",
+      "url": "https://www.aklagare.se/globalassets/dokument/rattsliga-vagledningar/rav-2024-03-olovlig-korning.pdf"
+    },
+    "ravvardslos": {
+      "title": "Åklagarmyndigheten · vårdslöshet i trafik, mars 2026",
+      "url": "https://www.aklagare.se/globalassets/dokument/rattsliga-vagledningar/rav-202318-vardsloshet-i-trafik-och-trafikrelaterade-vallandebrott.pdf"
+    },
+    "fordef": {
+      "title": "Förordning om vägtrafikdefinitioner",
+      "url": "https://data.riksdagen.se/dokument/sfs-2001-651.html"
+    },
+    "marken": {
+      "title": "Vägmärkesförordningen",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/"
+    },
+    "slf": {
+      "title": "Polisen · snabbare lagföring",
+      "url": "https://polisen.se/om-polisen/polisens-arbete/snabbare-lagforing/"
+    },
+    "vindruta": {
+      "title": "MSB · tidig vindruterapport, s. 32",
+      "url": "https://rib.msb.se/Filer/pdf/28461.pdf#page=32"
+    },
+    "dacksommar": {
+      "title": "Transportstyrelsen · däck",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/"
+    },
+    "bevisbeslut": {
+      "title": "SOU 2006:47 · avsnitt 3.6.5, beslutsordning (bakgrund)",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/statens-offentliga-utredningar/okade-mojligheter-till-trafiknykterhetskontroller_gub347/html/"
+    },
+    "vt2025regskylt": {
+      "title": "Transportstyrelsen · registreringsskyltar",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/registreringsskyltar/bilder-och-matt-pa-registreringsskyltar/"
     }
   },
   "questions": [
@@ -7296,9 +7336,760 @@ window.EXAM_DATA = {
       "reviewed": "2026-09-21",
       "sourceLabel": "Kompletterande definitions- och repetitionsfrågor",
       "sourceItem": "29"
+    },
+    {
+      "id": "vt2025-1a",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "1a",
+      "title": "Fråga 1a",
+      "category": "Trafikbrott",
+      "prompt": "Vilket eller vilka brott kan Gert misstänkas för? (4p)",
+      "answer": "Vårdslöshet i trafik (TBL 1 §) och vållande till kroppsskada, om skadan inte är ringa (BrB 3:8). Utred mobilanvändningen och väjningsplikten vid cykelöverfarten; samma gärning ska inte dubbelbestraffas enligt TrF (14:14).",
+      "choices": [],
+      "sources": [
+        "tbl",
+        "brb",
+        "trf",
+        "ravvardslos"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 4,
+      "context": "Gert framför den vita bilen MLB 007, på Pildammsvägen söderut mot cirkulationsplatsen i korsning med John Ericssons väg i Malmö, enligt bilden. Dagens datum och klockslag, Gert observerar inte cyklisten som är snett framför honom utan ”rammar” denna rakt i sidan när deras kurser skär varandra… Gert färdas ca 30–40 km/h och har haft fokus på gångtrafikanten under sin färd vilken han saktade ned farten något för att släppa över. De senaste ca 100 meterna fram mot platsen kollade han också ett sms med en inköpslista från sin fru och när han läste så höll han mobiltelefonen i sin högra hand.\n\nCyklisten närmade sig platsen söderifrån på cykelbanan och saktade ned innan utfart på gatan för att försäkra sig om att den mörka bilen söderifrån hade sett henne. Cyklade uppskattningsvis i 10 km/h.\n\nCyklisten omhändertas av ambulans på plats och som tur är verkar skadorna begränsas till en mindre sårskada i huvudet, allmänna skrapsår på ben och armar samt att höger överarm förefaller vara bruten.\n\nBåde cyklisten (målsägande) och fotgängare har observerat Gerts användande av mobiltelefon.",
+      "images": [
+        {
+          "src": "images/vt2025-01.png",
+          "alt": "Originalbild 1 till fråga 1a",
+          "width": 945,
+          "height": 471,
+          "sourcePage": 3
+        }
+      ]
+    },
+    {
+      "id": "vt2025-1b",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "1b",
+      "title": "Fråga 1b",
+      "category": "Trafikbrott",
+      "prompt": "Skriv en underrättelse om brottsmisstanke till Gert. (4p)",
+      "answer": "Du delges misstanke om vårdslöshet i trafik och vållande till kroppsskada genom att den [datum] kl. [tid] på Pildammsvägen vid John Ericssons väg i Malmö ha kört personbil MLB 007, läst sms i en handhållen mobil och brustit i uppsikten, varigenom du i väsentlig mån brustit i erforderlig omsorg och varsamhet samt av oaktsamhet kört på cyklisten och orsakat [utredd skada som inte är ringa].",
+      "choices": [],
+      "sources": [
+        "tbl",
+        "brb",
+        "ravvardslos"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 4,
+      "context": "Gert framför den vita bilen MLB 007, på Pildammsvägen söderut mot cirkulationsplatsen i korsning med John Ericssons väg i Malmö, enligt bilden. Dagens datum och klockslag, Gert observerar inte cyklisten som är snett framför honom utan ”rammar” denna rakt i sidan när deras kurser skär varandra… Gert färdas ca 30–40 km/h och har haft fokus på gångtrafikanten under sin färd vilken han saktade ned farten något för att släppa över. De senaste ca 100 meterna fram mot platsen kollade han också ett sms med en inköpslista från sin fru och när han läste så höll han mobiltelefonen i sin högra hand.\n\nCyklisten närmade sig platsen söderifrån på cykelbanan och saktade ned innan utfart på gatan för att försäkra sig om att den mörka bilen söderifrån hade sett henne. Cyklade uppskattningsvis i 10 km/h.\n\nCyklisten omhändertas av ambulans på plats och som tur är verkar skadorna begränsas till en mindre sårskada i huvudet, allmänna skrapsår på ben och armar samt att höger överarm förefaller vara bruten.\n\nBåde cyklisten (målsägande) och fotgängare har observerat Gerts användande av mobiltelefon.",
+      "images": [
+        {
+          "src": "images/vt2025-01.png",
+          "alt": "Originalbild 1 till fråga 1b",
+          "width": 945,
+          "height": 471,
+          "sourcePage": 3
+        }
+      ],
+      "change": "Bekräfta skadan; fallet anger bara att överarmen förefaller bruten. Underrättelsen anpassas till den konkreta misstanken."
+    },
+    {
+      "id": "vt2025-1c",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "1c",
+      "title": "Fråga 1c",
+      "category": "Trafikbrott",
+      "prompt": "Vilken fråga är viktig att ställa till målsäganden (cyklisten) i samband med\n\nförhöret som är avgörande för den fortsatta handläggningen? (1p)",
+      "answer": "”Vill du ange brottet till åtal?” Vållande till kroppsskada av normalgraden kräver målsägandens angivelse och att åtal är påkallat ur allmän synpunkt (BrB 3:12).",
+      "choices": [],
+      "sources": [
+        "brb"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 4,
+      "context": "Gert framför den vita bilen MLB 007, på Pildammsvägen söderut mot cirkulationsplatsen i korsning med John Ericssons väg i Malmö, enligt bilden. Dagens datum och klockslag, Gert observerar inte cyklisten som är snett framför honom utan ”rammar” denna rakt i sidan när deras kurser skär varandra… Gert färdas ca 30–40 km/h och har haft fokus på gångtrafikanten under sin färd vilken han saktade ned farten något för att släppa över. De senaste ca 100 meterna fram mot platsen kollade han också ett sms med en inköpslista från sin fru och när han läste så höll han mobiltelefonen i sin högra hand.\n\nCyklisten närmade sig platsen söderifrån på cykelbanan och saktade ned innan utfart på gatan för att försäkra sig om att den mörka bilen söderifrån hade sett henne. Cyklade uppskattningsvis i 10 km/h.\n\nCyklisten omhändertas av ambulans på plats och som tur är verkar skadorna begränsas till en mindre sårskada i huvudet, allmänna skrapsår på ben och armar samt att höger överarm förefaller vara bruten.\n\nBåde cyklisten (målsägande) och fotgängare har observerat Gerts användande av mobiltelefon.",
+      "images": [
+        {
+          "src": "images/vt2025-01.png",
+          "alt": "Originalbild 1 till fråga 1c",
+          "width": 945,
+          "height": 471,
+          "sourcePage": 3
+        }
+      ]
+    },
+    {
+      "id": "vt2025-2a",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "2a",
+      "title": "Fråga 2a",
+      "category": "Behörighet och fordonsförbud",
+      "prompt": "Vilket/ vilka brott är aktuella att rapportera? (4p)",
+      "answer": "Olovlig körning, normalt grovt brott på grund av återfall inom två år från lagföringen; brukande av avställt fordon, körning trots körförbud och brukande utan trafikförsäkring. Utred respektive skuldkrav. TBL 3 §, LFRA 10 och 23 §§, FoF 6:15 och 8:9, TSL 36 §.",
+      "choices": [],
+      "sources": [
+        "tbl",
+        "ravolovlig",
+        "lfra",
+        "fof",
+        "tsl"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 5,
+      "context": "Du och din kollega Nilsson i Rb 97–7140 kör på Idalavägen i Veberöd 2025-02-13 kl 19.00. Ni hamnar bakom PB MLB 007 och ni slår en mPMF-fråga på fordonet. Bilen ägs av en Erik och pb:n är avställd och oförsäkrad sedan 2024-07-30 och har ett inträtt (automatiskt) körförbud sedan 2024-05-31. Registrerad ägare Erik saknar körkort men har körkortstillstånd sedan 2024-10-08. Ni slår stopp och det visar sig att det är ägaren själv bakom ratten och han är ensam i bilen. Han uppger att han var på väg till sin flickvän i Skivarp som han inte träffat på en vecka. Bilen köpte han förra sommaren för 5000 kr för att kunna använda vid övningskörning med en kompis som inte har egen bil men körkort. Vid kontroll i MR/BR så framkommer att han tidigare stoppats för olovlig körning 2023-11-09 och blev dömd till 30 dagsböter för denna körning 2023-12-19. Erik har inga andra förseelser i MR/BR.",
+      "change": "Bedöm återfallet vid scenariots datum 2025-02-13, inte dagens datum. Körkortstillstånd räcker inte för ensam körning."
+    },
+    {
+      "id": "vt2025-2b",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "2b",
+      "title": "Fråga 2b",
+      "category": "Behörighet och fordonsförbud",
+      "prompt": "Beskriv de tre typexemplen när en olovlig körning bedöms som grovt brott och var nivån ligger för att det skall falla över till grovt brott. (3p)",
+      "answer": "1. Återkallat körkort: normalt grovt under spärrtiden. 2. Återfall: normalt inom två år från senaste lagföring. 3. Vanemässighet utan tidigare lagföring: normalt tredje körningen inom sex månader eller femte inom ett år. Alltid helhetsbedömning.",
+      "choices": [],
+      "sources": [
+        "tbl",
+        "ravolovlig"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 5,
+      "context": "Du och din kollega Nilsson i Rb 97–7140 kör på Idalavägen i Veberöd 2025-02-13 kl 19.00. Ni hamnar bakom PB MLB 007 och ni slår en mPMF-fråga på fordonet. Bilen ägs av en Erik och pb:n är avställd och oförsäkrad sedan 2024-07-30 och har ett inträtt (automatiskt) körförbud sedan 2024-05-31. Registrerad ägare Erik saknar körkort men har körkortstillstånd sedan 2024-10-08. Ni slår stopp och det visar sig att det är ägaren själv bakom ratten och han är ensam i bilen. Han uppger att han var på väg till sin flickvän i Skivarp som han inte träffat på en vecka. Bilen köpte han förra sommaren för 5000 kr för att kunna använda vid övningskörning med en kompis som inte har egen bil men körkort. Vid kontroll i MR/BR så framkommer att han tidigare stoppats för olovlig körning 2023-11-09 och blev dömd till 30 dagsböter för denna körning 2023-12-19. Erik har inga andra förseelser i MR/BR.",
+      "change": "Trösklarna för återfall/vanemässighet är Åklagarmyndighetens vägledning, inte fasta siffergränser i TBL. Efter spärrtidens slut är grovt brott inte automatiskt givet."
+    },
+    {
+      "id": "vt2025-3a",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "3a",
+      "title": "Fråga 3a",
+      "category": "Rattfylleri och provtagning",
+      "prompt": "Vem beslutar om sållningsprovet? (1p)",
+      "answer": "Polismannen, enligt 2 § lagen om alkoholutandningsprov; brottsmisstanke behövs inte.",
+      "choices": [],
+      "sources": [
+        "alkoprov"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 6,
+      "context": "Du och dina kollegor har upprättat en trafikkontroll på väg 207 i Näsby, Örebro kommun. Dagens datum och klockslag.\n\nDu stoppar en Volvo XC60, MLB 002 med ägaren Nils Svensson som förare. Nils har svenskt körkort med behörigheten AM B. Han får göra ett alkoholutandningsprov i ditt sållningsinstrument och detta visar POS i displayen och en jämn ton hörs från instrumentet.\n\nDu kontrollerar bilen genom en mPMF slagning i din telefon och du får då fram att det råder användningsförbud på bilen på grund av obetald skatt. Nils berättar dock att han är på väg till Besikta bilprovning på Skottvägen i Örebro, för kontrollbesiktning av bilen. Han tänker betala skatten när han vet att bilen är godkänd på besiktningen."
+    },
+    {
+      "id": "vt2025-3b",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "3b",
+      "title": "Fråga 3b",
+      "category": "Rattfylleri och provtagning",
+      "prompt": "Eftersom det blev positivt vid sållningsprovet vill du ta ett bevisprov. Vilken typ av beslut behöver du då och vem beslutar om detta? (2p)",
+      "answer": "Beslut om bevisprov inom en inledd förundersökning; kontakta förundersökningsledare om egen beslutsdelegation saknas. Utandningsprov: 1 § lagen om alkoholutandningsprov. Blodprov: kroppsbesiktning enligt RB 28:12–13.",
+      "choices": [],
+      "sources": [
+        "alkoprov",
+        "rb",
+        "bevisbeslut"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 6,
+      "context": "Du och dina kollegor har upprättat en trafikkontroll på väg 207 i Näsby, Örebro kommun. Dagens datum och klockslag.\n\nDu stoppar en Volvo XC60, MLB 002 med ägaren Nils Svensson som förare. Nils har svenskt körkort med behörigheten AM B. Han får göra ett alkoholutandningsprov i ditt sållningsinstrument och detta visar POS i displayen och en jämn ton hörs från instrumentet.\n\nDu kontrollerar bilen genom en mPMF slagning i din telefon och du får då fram att det råder användningsförbud på bilen på grund av obetald skatt. Nils berättar dock att han är på väg till Besikta bilprovning på Skottvägen i Örebro, för kontrollbesiktning av bilen. Han tänker betala skatten när han vet att bilen är godkänd på besiktningen.",
+      "change": "Skilj behörigheten att utföra provet från behörigheten att besluta och inleda förundersökning. Delegation måste kontrolleras. Blodprov beslutas normalt av förundersökningsledare/åklagare; polisman får besluta vid fara i dröjsmål. SOU 2006:47 avsnitt 3.6.5 beskriver beslutsordningen för utandningsprov; den är bakgrund, inte en aktuell intern delegationsordning."
+    },
+    {
+      "id": "vt2025-3c",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "3c",
+      "title": "Fråga 3c",
+      "category": "Rattfylleri och provtagning",
+      "prompt": "Skriv en underrättelse om brottsmisstanke till Nils. (3p)",
+      "answer": "Du delges misstanke om rattfylleri genom att den [datum] kl. [tid] på väg 207 i Näsby, Örebro, uppsåtligen ha kört Volvo MLB 002 efter alkoholintag, med 0,14 mg/l alkohol i utandningsluften under eller efter färden. Du delges även misstanke om brott mot vägtrafikskattelagen genom att som ägare uppsåtligen ha använt bilen vid samma tillfälle trots användningsförbud på grund av obetald skatt.",
+      "choices": [],
+      "sources": [
+        "tbl",
+        "vtsl"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 6,
+      "context": "Du och dina kollegor har upprättat en trafikkontroll på väg 207 i Näsby, Örebro kommun. Dagens datum och klockslag.\n\nDu stoppar en Volvo XC60, MLB 002 med ägaren Nils Svensson som förare. Nils har svenskt körkort med behörigheten AM B. Han får göra ett alkoholutandningsprov i ditt sållningsinstrument och detta visar POS i displayen och en jämn ton hörs från instrumentet.\n\nDu kontrollerar bilen genom en mPMF slagning i din telefon och du får då fram att det råder användningsförbud på bilen på grund av obetald skatt. Nils berättar dock att han är på väg till Besikta bilprovning på Skottvägen i Örebro, för kontrollbesiktning av bilen. Han tänker betala skatten när han vet att bilen är godkänd på besiktningen.\n\nPå polishuset blåste Nils i en Evidenzer (Portabelt bevisinstrument för alkohol) och resultatet blev 0,14 mg/l i utandningsluften",
+      "change": "Färd till besiktning undantar inte ett gällande skatteförbud. Utred vetskap/uppsåt eller oaktsamhet; påstå inte ett okänt provresultat."
+    },
+    {
+      "id": "vt2025-4",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "4",
+      "title": "Fråga 4",
+      "category": "Rattfylleri och provtagning",
+      "prompt": "Lag om straff för vissa trafikbrott (TBL) 4a§ handlar om Grovt rattfylleri. Vad ska särskilt bedömas för att brottet ska beaktas som grovt? (4p)",
+      "answer": "Särskilt: minst 1,0 ‰ i blod eller 0,50 mg/l i utandningsluft; annars avsevärd påverkan; eller påtaglig fara för trafiksäkerheten. Helhetsbedömning – alla behöver inte vara uppfyllda.",
+      "choices": [],
+      "sources": [
+        "tbl"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 7
+    },
+    {
+      "id": "vt2025-5a",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "5a",
+      "title": "Fråga 5a",
+      "category": "Behörighet och fordonsförbud",
+      "prompt": "Vad misstänker ni Mehdi för? (1p)",
+      "answer": "Hastighetsöverträdelse, 49 på 40-väg. Inte olovlig körning enbart för lång vistelse: kontrollera giltigheten och om han varit folkbokförd i Sverige mer än ett år (KKL 6:1–2).",
+      "choices": [],
+      "sources": [
+        "trf",
+        "kkl"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 7,
+      "context": "Du och din kollega har en hastighetskontroll på Linnégatan i Malmö, dagens datum och klockslag. En personbil, MLB 123 Röd VW Golf kör för fort, mätningen visar 49 km/h där det är tillåtet att köra i 40km/h. Ni bestämmer er för att stoppa bilen och föraren Mehdi Taremi överlämnar sitt iranska körkort till dig. Han överlämnar även en bestyrkt översättning i vilken det framgår att han har körkort med behörighet B. Körkortet är giltigt till 2027-10-19. Han kom till Sverige 2021-02-09 och har ansökt om permanent uppehållstillstånd. På frågan om Mehdi har ett svenskt personnummer svarar han att han inte har det. Dessa uppgifter kontrollerar du med Gränspolisen och de meddelar att de stämmer. Han har en fast adress i Malmö. Mehdi erkänner att han körde för fort.",
+      "change": "Ankomstdatum och avsaknad av personnummer ersätter inte kontroll av folkbokföring och körkortets giltighet."
+    },
+    {
+      "id": "vt2025-5b",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "5b",
+      "title": "Fråga 5b",
+      "category": "Ordningsbot och rapportering",
+      "prompt": "Hur avrapporterar ni detta? (1p)",
+      "answer": "Ordningsbot, normalt 2 000 kr för 1–10 km/h över på 40-väg, om 49 är rapporterbar hastighet, identiteten är styrkt och hinder saknas. Svenskt personnummer krävs inte; dokumentera identitet, körkort och adress.",
+      "choices": [],
+      "sources": [
+        "1a",
+        "rb",
+        "obotfap"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 7,
+      "context": "Du och din kollega har en hastighetskontroll på Linnégatan i Malmö, dagens datum och klockslag. En personbil, MLB 123 Röd VW Golf kör för fort, mätningen visar 49 km/h där det är tillåtet att köra i 40km/h. Ni bestämmer er för att stoppa bilen och föraren Mehdi Taremi överlämnar sitt iranska körkort till dig. Han överlämnar även en bestyrkt översättning i vilken det framgår att han har körkort med behörighet B. Körkortet är giltigt till 2027-10-19. Han kom till Sverige 2021-02-09 och har ansökt om permanent uppehållstillstånd. På frågan om Mehdi har ett svenskt personnummer svarar han att han inte har det. Dessa uppgifter kontrollerar du med Gränspolisen och de meddelar att de stämmer. Han har en fast adress i Malmö. Mehdi erkänner att han körde för fort."
+    },
+    {
+      "id": "vt2025-6",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "6",
+      "title": "Fråga 6",
+      "category": "Vägmärken och bilder",
+      "prompt": "Vad innebär vägmärkena? (4p)",
+      "answer": "Uppifrån: huvudled (B4), korsande trafik har normalt väjningsplikt; förbud mot infart med fordon (C1); varning för djur – häst och vildsvin (A19). Tilläggstavlan anger sträckan 0,1–4,1 km från märket.",
+      "choices": [],
+      "sources": [
+        "marken"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 8,
+      "images": [
+        {
+          "src": "images/vt2025-02.png",
+          "alt": "Originalbild 1 till fråga 6",
+          "width": 275,
+          "height": 183
+        },
+        {
+          "src": "images/vt2025-03.png",
+          "alt": "Originalbild 2 till fråga 6",
+          "width": 263,
+          "height": 166
+        },
+        {
+          "src": "images/vt2025-04.png",
+          "alt": "Originalbild 3 till fråga 6",
+          "width": 263,
+          "height": 166
+        }
+      ]
+    },
+    {
+      "id": "vt2025-7",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "7",
+      "title": "Fråga 7",
+      "category": "Vägmärken och bilder",
+      "prompt": "Vad är det för registreringsskyltar? (4p)",
+      "answer": "Uppifrån: diplomat-/beskickningsskylt; saluvagnsskylt; taxiskylt; provisorisk registreringsskylt.",
+      "choices": [],
+      "sources": [
+        "vt2025regskylt"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 9,
+      "images": [
+        {
+          "src": "images/vt2025-05.png",
+          "alt": "Originalbild 1 till fråga 7",
+          "width": 267,
+          "height": 152
+        },
+        {
+          "src": "images/vt2025-06.png",
+          "alt": "Originalbild 2 till fråga 7",
+          "width": 272,
+          "height": 154
+        },
+        {
+          "src": "images/vt2025-07.png",
+          "alt": "Originalbild 3 till fråga 7",
+          "width": 272,
+          "height": 75
+        },
+        {
+          "src": "images/vt2025-08.png",
+          "alt": "Originalbild 4 till fråga 7",
+          "width": 200,
+          "height": 66
+        }
+      ],
+      "change": "Bilderna är originalets exempel. Giltigheten för en viss skylt måste kontrolleras; grön skylt är inte i sig ett allmänt körtillstånd."
+    },
+    {
+      "id": "vt2025-8",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "8",
+      "title": "Fråga 8",
+      "category": "Behörighet och fordonsförbud",
+      "prompt": "Vilka färder är tillåtna med ett fordon där skatten inte är betald? (1p)",
+      "answer": "När skatteförbud gäller: ingen vanlig färd, inte heller till besiktning. Obetald men ännu inte förfallen skatt innebär inte automatiskt förbud. Särskilda lagundantag/dispens kan finnas (VTSL 6:1).",
+      "choices": [],
+      "sources": [
+        "vtsl"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 10
+    },
+    {
+      "id": "vt2025-9",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "9",
+      "title": "Fråga 9",
+      "category": "Behörighet och fordonsförbud",
+      "prompt": "Vilka färder är tillåtna med ett fordon som är avställt av ägaren? (2p)",
+      "answer": "Kortaste lämpliga väg till eller från närmaste besiktningsorgan, med trafikförsäkring och utan hindrande skatteförbud. Andra undantag kräver särskilt stöd, t.ex. giltig saluvagnslicens. Avställning medger inte vanlig verkstadsfärd.",
+      "choices": [],
+      "sources": [
+        "lfra",
+        "tsl"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 10,
+      "change": "LFRA 10 § innehåller även särskilda undantag för bl.a. inhägnade områden och totalförsvarsändamål. Andra körförbud och trafiksäkerhetskrav gäller samtidigt."
+    },
+    {
+      "id": "vt2025-10",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "10",
+      "title": "Fråga 10",
+      "category": "Behörighet och fordonsförbud",
+      "prompt": "Vilka färder är tillåtna med ett fordon som har ett meddelat körförbud (kvalificerat körförbud)? (1p)",
+      "answer": "Bärga till reparation. När bilen är trafiksäker: kortaste lämpliga väg till besiktning; vid flygande inspektion från reparationsplatsen. Ingen vanlig körning till verkstad.",
+      "choices": [],
+      "sources": [
+        "fof"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 10,
+      "change": "FoF 6:21 och 6:32. Särundantag: olastad släpvagn med bromsbrist får under angivna villkor köras till verkstad i högst 30 km/h."
+    },
+    {
+      "id": "vt2025-11",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "11",
+      "title": "Fråga 11",
+      "category": "Behörighet och fordonsförbud",
+      "prompt": "Vad är skillnaden mellan ett inträtt (automatiskt) körförbud och ett meddelat (kvalificerat) körförbud? (3p)",
+      "answer": "Inträtt: automatiskt när besiktnings-/efterkontrollfristen missas. Meddelat: beslutas vid så allvarliga brister att fordonet innebär uppenbar trafikfara. Vid meddelat förbud krävs normalt bärgning till verkstad.",
+      "choices": [],
+      "sources": [
+        "fof"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 10
+    },
+    {
+      "id": "vt2025-12",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "12",
+      "title": "Fråga 12",
+      "category": "Vägmärken och bilder",
+      "prompt": "Vilken hastighet gäller för nedanstående fordon/fordonskombinationer då de passerat dessa skyltar? (3p)",
+      "answer": "Uppifrån: bil med släp normalt 80 km/h; tung lastbil 80 km/h på vanlig väg (90 på motorväg/motortrafikled); A-traktor 30 km/h. Skylten 100 höjer inte fordonens egna gränser.",
+      "choices": [],
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 11,
+      "images": [
+        {
+          "src": "images/vt2025-09.png",
+          "alt": "Originalbild 1 till fråga 12",
+          "width": 217,
+          "height": 279
+        },
+        {
+          "src": "images/vt2025-10.png",
+          "alt": "Originalbild 2 till fråga 12",
+          "width": 284,
+          "height": 177
+        },
+        {
+          "src": "images/vt2025-11.png",
+          "alt": "Originalbild 3 till fråga 12",
+          "width": 259,
+          "height": 194
+        },
+        {
+          "src": "images/vt2025-12.png",
+          "alt": "Originalbild 4 till fråga 12",
+          "width": 297,
+          "height": 170
+        }
+      ],
+      "change": "Antaganden: släpet uppfyller 80-villkoren i TrF 4:20, lastbilen är tung och LGF-bilen är en A-traktor. Bilderna ensamma bevisar inte detta. Obromsat släp kan begränsas till 40 km/h; E14 och huvudled visar inte motorväg/motortrafikled."
+    },
+    {
+      "id": "vt2025-13",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "13",
+      "title": "Fråga 13",
+      "category": "Behörighet och fordonsförbud",
+      "prompt": "Vad är ett lätt släpfordon? (3p)",
+      "answer": "Släpfordon med totalvikt högst 750 kg, eller över 750 kg om dragfordonets och släpets sammanlagda totalvikt är högst 3 500 kg.",
+      "choices": [],
+      "sources": [
+        "ldef"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 12
+    },
+    {
+      "id": "vt2025-14",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "14",
+      "title": "Fråga 14",
+      "category": "Strategi och säkerhet",
+      "prompt": "Polisens strategi för trafik som metod handlar bland annat om olika fokusområde. Vilka är de? (4p)",
+      "answer": "Trafiksäkerhetsarbete, trygghetsskapande arbete, yrkestrafik och brott på väg.",
+      "choices": [],
+      "sources": [
+        "superstrategy"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 12,
+      "change": "Fokusområden enligt PM 46/2016; skilj dem från strategins fyra mål."
+    },
+    {
+      "id": "vt2025-15",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "15",
+      "title": "Fråga 15",
+      "category": "Strategi och säkerhet",
+      "prompt": "Vad krävs för att en trafikmiljö ska vara en cykelöverfart? (4p)",
+      "answer": "Lokal trafikföreskrift; vägmärket B8; föreskriven vägmarkering (M16 och väjningslinje M14); utformning som säkrar högst 30 km/h.",
+      "choices": [],
+      "sources": [
+        "fordef",
+        "marken",
+        "trf"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 12
+    },
+    {
+      "id": "vt2025-16",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "16",
+      "title": "Fråga 16",
+      "category": "Strategi och säkerhet",
+      "prompt": "I trafikförordningen finns beskrivet vid vilka tillfälle bilbälte inte behöver användas. Ringa in de rätta alternativen. Flera kan vara rätt. Minuspoäng vid fel alternativ!",
+      "answer": "Rätt: vid backning; vid färd inom parkeringsplats, parkeringshus, bensinstations- eller verkstadsområde eller liknande; när fordonet står stilla. TrF 4:10 d. Övriga roller ger inget generellt undantag enligt dessa alternativ.",
+      "choices": [
+        "Förare av fordon som används i taxitrafik",
+        "Vid backning",
+        "Vid färd inom parkeringsplats, parkeringshus, bensinstations- eller verkstadsområde eller liknande område",
+        "Förare av tung lastbil i tätort",
+        "När fordonet inte är i rörelse",
+        "Förare av buss i linjetrafik",
+        "Polis i yttre tjänst"
+      ],
+      "sources": [
+        "trf"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 13,
+      "change": "Originalet anger minuspoäng men ingen poängmodell. Appen räknar inga officiella tentapoäng. Särskilda tjänsteundantag måste prövas separat; ”polis i yttre tjänst” räcker inte i sig.",
+      "correct": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "vt2025-17",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "17",
+      "title": "Fråga 17",
+      "category": "Strategi och säkerhet",
+      "prompt": "Vad innebär nollvisionen? (1p)",
+      "answer": "Ingen ska dödas eller skadas allvarligt i vägtrafiken.",
+      "choices": [],
+      "sources": [
+        "superstrategy"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 14
+    },
+    {
+      "id": "vt2025-18",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "18",
+      "title": "Fråga 18",
+      "category": "Strategi och säkerhet",
+      "prompt": "Var hittar du stödet för att en polis ska kunna stoppa ett fordon? (2p)",
+      "answer": "Polislagen 22 §, särskilt punkt 4 vid trafik-/fordonskontroll. Föraren ska följa polisens anvisning enligt TrF 2:3; behov och proportionalitet enligt PL 8 §.",
+      "choices": [],
+      "sources": [
+        "pl",
+        "trf"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 14
+    },
+    {
+      "id": "vt2025-19",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "19",
+      "title": "Fråga 19",
+      "category": "Däck",
+      "prompt": "Vad ska mönsterdjupet vara på en personbils sommardäck? (1p)",
+      "answer": "Minst 1,6 mm i huvudmönstret.",
+      "choices": [],
+      "sources": [
+        "dacksommar"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 14
+    },
+    {
+      "id": "vt2025-20",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "20",
+      "title": "Fråga 20",
+      "category": "Däck",
+      "prompt": "Vad ska mönsterdjupet vara på en personbils vinterdäck då det är vinterväglag? (1p)",
+      "answer": "Minst 3 mm under vinterdäckskravet. För personbil klass II över 3,5 ton: minst 5 mm.",
+      "choices": [],
+      "sources": [
+        "dack"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 14,
+      "change": "Vinterdäckskrav för personbil gäller 1 december–31 mars när vinterväglag råder; grundkrav och trafiksäkerhet gäller även annars."
+    },
+    {
+      "id": "vt2025-21",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "21",
+      "title": "Fråga 21",
+      "category": "Däck",
+      "prompt": "Om det råder vinterväglag, mellan vilka datum måste man ha vinterdäck på sin personbil? (1p)",
+      "answer": "1 december–31 mars, när vinterväglag råder.",
+      "choices": [],
+      "sources": [
+        "dack",
+        "trf"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 14
+    },
+    {
+      "id": "vt2025-22",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "22",
+      "title": "Fråga 22",
+      "category": "Ordningsbot och rapportering",
+      "prompt": "Hur många brott/förseelser är max på en ordningsbot? (1p)",
+      "answer": "Fem gärningar enligt kursens blankett-/handläggningsrutin. Vid fler: rapportera samlat till åklagare; kontrollera aktuell rutin.",
+      "choices": [],
+      "sources": [
+        "rb",
+        "obotfap"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 15,
+      "change": "Kursstöd: Manual för att skriva ordningsbot, sida 7. Femgränsen presenteras inte som en allmän lagregel i RB 48 kap."
+    },
+    {
+      "id": "vt2025-23",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "23",
+      "title": "Fråga 23",
+      "category": "Ordningsbot och rapportering",
+      "prompt": "Vad innebär * vid en ordningsbotskod, ex 002*? (1p)",
+      "answer": "Stjärnmarkerad, körkortsrelevant förseelse: dokumentera trafikmiljön och omständigheterna för Transportstyrelsens prövning. Det betyder inte automatisk körkortsåterkallelse.",
+      "choices": [],
+      "sources": [
+        "kkl",
+        "obotfap"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 15,
+      "change": "Kursstöd: Manual för att skriva ordningsbot, sidorna 4 och 10; använd aktuell katalog och systemanvisning."
+    },
+    {
+      "id": "vt2025-24",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "24",
+      "title": "Fråga 24",
+      "category": "Ordningsbot och rapportering",
+      "prompt": "Vad måste du alltid kontrollera innan du utfärdar en ordningsbot? (1p)",
+      "answer": "Styrk identiteten och kontrollera körkortsbehörigheten samt att inget hindrar ordningsbot, särskilt andra samtidiga brott. Kontrollera rätt kod/belopp och den misstänktes inställning.",
+      "choices": [],
+      "sources": [
+        "obotfap",
+        "rb"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 15
+    },
+    {
+      "id": "vt2025-25",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "25",
+      "title": "Fråga 25",
+      "category": "Ordningsbot och rapportering",
+      "prompt": "Du stoppar en personbil eftersom föraren kört för fort. Det visar sig vid kontroll att föraren även saknar körkort. Hur avrapporterar du hastighetsöverträdelsen och den olovliga körningen? (2p)",
+      "answer": "Rapportera båda brotten samlat till utredning/åklagare. Utfärda inte separat ordningsbot för hastigheten när olovlig körning ska utredas samtidigt (RB 48:15).",
+      "choices": [],
+      "sources": [
+        "rb",
+        "tbl"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 15
+    },
+    {
+      "id": "vt2025-26",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "26",
+      "title": "Fråga 26",
+      "category": "Ordningsbot och rapportering",
+      "prompt": "Vem beslutar om att använda snabbare lagföring i samband med vissa brott? (1p)",
+      "answer": "Jourförundersökningsledaren, efter kontakt med patrullen.",
+      "choices": [],
+      "sources": [
+        "slf"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 15
+    },
+    {
+      "id": "vt2025-27",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "27",
+      "title": "Fråga 27",
+      "category": "Trafikolycka",
+      "prompt": "Var ska du befinna dig när du lämnar en vindruterapport i samband med en trafikolycka? (1p)",
+      "answer": "I polisfordonet vid framkomsten, innan du går ur, med säker placering och överblick över olycksplatsen.",
+      "choices": [],
+      "sources": [
+        "vindruta"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 16
+    },
+    {
+      "id": "vt2025-28",
+      "exam": "vt2025",
+      "year": 2025,
+      "original": "28",
+      "title": "Fråga 28",
+      "category": "Trafikolycka",
+      "prompt": "Vad bör en vindruterapport innehålla för information? (7p)",
+      "answer": "Exakt plats; olyckstyp; antal/inblandade fordon; antal skadade och synligt tillstånd; risker; framkomlighet/lämplig tillfart; resursbehov och inledda åtgärder. Säg vad som är okänt.",
+      "choices": [],
+      "sources": [
+        "vindruta"
+      ],
+      "reviewed": "2026-09-29",
+      "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
+      "sourcePage": 16,
+      "change": "Kort praktiskt svarsförslag, inte en verifierad sjupunktsmall från läraren. Rapportera omedelbara iakttagelser – gissa inte skador eller antal."
     }
   ],
   "exams": [
+    {
+      "id": "vt2025",
+      "title": "Exempeltenta VT2025",
+      "subtitle": "14 februari 2025 · korta svarsförslag",
+      "year": 2025,
+      "mainCount": 28,
+      "primary": false,
+      "kind": "exam",
+      "teacherKey": false
+    },
     {
       "id": "vt22",
       "title": "Övningsfrågor VT22",

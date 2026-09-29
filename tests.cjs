@@ -5,7 +5,7 @@ const L = require('./learning.js');
 const context = {window:{}};
 vm.runInNewContext(fs.readFileSync('data.js','utf8'),context);
 const data=context.window.EXAM_DATA, ids=data.questions.map(q=>q.id);
-assert.equal(ids.length,311);assert.equal(new Set(ids).size,311);
+assert.equal(ids.length,345);assert.equal(new Set(ids).size,345);
 assert.equal(data.questions.filter(q=>q.exam==='vt22').length,25);
 assert.equal(data.questions.filter(q=>q.exam==='dk1').length,40);
 assert.equal(data.exams.filter(e=>e.primary).length,2);
@@ -22,7 +22,7 @@ for(const q of quick2){assert.equal(q.choices.length,3);assert.equal(new Set(q.c
 const quick3=data.questions.filter(q=>q.exam==='quickquiz3');assert.equal(quick3.length,45);
 assert.equal(quick3.filter(q=>q.exception).length,19);assert.equal(quick3.filter(q=>q.images?.length).length,5);
 for(const q of quick3){assert.equal(q.choices.length,3);assert.equal(new Set(q.choices).size,3);assert.equal(q.sourceDocument,'Trafikförordningen m.m PNF 1.pdf');assert(q.sourcePage>=2&&q.sourcePage<=12);assert.equal(q.reviewed,'2026-09-18');assert(!q.teacher);assert(L.isCorrect(q,{choice:0}));assert(!L.isCorrect(q,{choice:1}));}
-const images=[...new Set(data.questions.flatMap(q=>(q.images||[]).map(i=>i.src)))];assert.equal(images.length,25);
+const images=[...new Set(data.questions.flatMap(q=>(q.images||[]).map(i=>i.src)))];assert.equal(images.length,37);
 const sw=fs.readFileSync('sw.js','utf8');for(const path of images)assert(sw.includes('./'+path));
 const multi=data.questions.find(q=>q.id==='dk1-18');assert.equal(multi.choices.length,6);assert.deepEqual(Array.from(multi.correct),[1,2,4]);
 assert(L.isCorrect(multi,{selected:[4,1,2]}));
@@ -77,4 +77,15 @@ for(const [c,t,result] of [[3500,750,'B'],[2500,1000,'B'],[2500,1001,'B96'],[350
 for(const f of ['index.html','app.js','data.js','sw.js','learning.js'])assert(!fs.readFileSync(f,'utf8').includes('\ufffd'));
 assert(fs.readFileSync('index.html','utf8').includes('data-version="'+data.version+'"'));
 assert(fs.readFileSync('sw.js','utf8').includes('trafiktenta-'+data.version));
-console.log('PASS: 311 exercises including 50 SUPERQUIZ questions without choices; source labels, all quiz filters, saved self-assessment, legacy quizzes, 25 images, offline assets, scoring, repetition, imports, licence boundaries and versions.');
+console.log('PASS: 345 exercises including 50 SUPERQUIZ questions without choices; source labels, all quiz filters, saved self-assessment, legacy quizzes, 37 images, offline assets, scoring, repetition, imports, licence boundaries and versions.');
+
+const vt2025=data.questions.filter(q=>q.exam==='vt2025');
+assert.equal(vt2025.length,34);
+assert.deepEqual([...new Set(vt2025.map(q=>Number(q.original.replace(/[abc]$/,''))))],Array.from({length:28},(_,i)=>i+1));
+assert.equal(new Set(vt2025.flatMap(q=>(q.images||[]).map(i=>i.src))).size,12);
+assert.equal(vt2025.filter(q=>q.images?.length).length,6);
+for(const q of vt2025){assert(!q.teacher);assert.equal(q.reviewed,'2026-09-29');assert(q.sourcePage>=4&&q.sourcePage<=16);assert(q.sourceDocument);if(/^[1235][abc]$/.test(q.original))assert(q.context?.length>400);}
+const belts2025=vt2025.find(q=>q.original==='16');
+assert.equal(belts2025.choices.length,7);assert(L.isCorrect(belts2025,{selected:[1,2,4]}));assert(!L.isCorrect(belts2025,{selected:[1,2,4,6]}));
+assert(sw.includes('./documents/exempeltenta-vt2025.pdf'));assert(fs.existsSync('documents/exempeltenta-vt2025.pdf'));
+console.log('PASS: VT2025 all 28 questions / 34 exercises, scenario coverage, 12 original images, seven-option seatbelt marking and offline PDF.');

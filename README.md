@@ -2,7 +2,13 @@
 
 [Öppna appen](https://denniswessman-hub.github.io/trafiktenta-vaxjo/)
 
-Mobilanpassad tentaträning med **65 övningar från två nya huvudunderlag**, lärarsvar och 20 frågebilder. De 61 tidigare Växjöövningarna finns kvar som extra träning. Som komplement finns **45 snabbquizfrågor**, varav 31 om undantag och gränsfall. Version 2.5.2, 25 september 2026.
+Mobilanpassad tentaträning med **65 övningar från två nya huvudunderlag**, lärarsvar och 20 frågebilder. De 61 tidigare Växjöövningarna finns kvar som extra träning. Som komplement finns **45 snabbquizfrågor**, varav 31 om undantag och gränsfall. Version 2.6.0, 29 september 2026.
+
+## Exempeltenta VT2025
+
+[Öppna exempeltentan](https://denniswessman-hub.github.io/trafiktenta-vaxjo/#tenta2025). Hela PO141C-tentan från 14 februari 2025: **28 huvudfrågor, 34 delövningar och 12 originalbilder**. Egen ingång överst på startsidan, hela tentan i ordning, tio blandade frågor, bildfrågor, bokmärken och repetition. Fullständiga fallbeskrivningar, egna sparade fritextsvar och öppningsbara korta svarsförslag. Fråga 16 behåller samtliga sju alternativ.
+
+[Originalfrågorna som PDF](documents/exempeltenta-vt2025.pdf), konverterade från användarens DOC-fil. Ingen lärarsvarsmall ingick: svaren är självständiga studieförslag med nödvändiga förbehåll och offentliga kontrollkällor, granskade 29 september 2026. Interna rutiner/poängmallar är inte verifierade. Ingen automatisk fritexträttning eller officiell poängsättning. Frågor, bilder och PDF ingår i offlinecachen.
 
 ## Delgivningar och Trafik som metod
 
@@ -20,7 +26,7 @@ Mobilanpassad tentaträning med **65 övningar från två nya huvudunderlag**, l
 
 [Öppna Snabbquiz3](https://denniswessman-hub.github.io/trafiktenta-vaxjo/#quiz3). 45 frågor utifrån **Trafikförordningen m.m PNF 1.pdf**, kompendiet om tätortskörning. Välj **1–45 frågor**, ämne, **19 undantags- och gränsfrågor**, **fem bildfrågor**, svåra frågor eller dagens repetition. Varje svar visar förklaring, lagstöd och PDF-sida. Vägmärkesbilderna kommer från kompendiets sida 11 och kan förstoras. Rättskontroll: 18 september 2026. Det är egna övningsfrågor, inte en lärarsvarsmall.
 
-Totalt finns 311 övningar i appen. Huvudtentorna, Växjömaterialet, tidigare snabbquiz och sparformatet är bevarade.
+Totalt finns 345 övningar i appen. Huvudtentorna, Växjömaterialet, tidigare snabbquiz och sparformatet är bevarade.
 
 ## Underlag och svar
 
@@ -28,6 +34,7 @@ Totalt finns 311 övningar i appen. Huvudtentorna, Växjömaterialet, tidigare s
 | --- | --- | --- |
 | Övningsfrågor inför Tentamen VT-22, med svarsmall-1.docx | 14 huvudfrågor → 25 delövningar; 6 bilder | Svarsmallen i samma fil |
 | Tentamen Dk1 Polisiärt arbete i trafikmiljö-1.pdf | 21 frågeblock → 40 delövningar; 14 bilder | Den separata filen Tentamen VT 22 Rättningsmall-1.doc |
+| Exempeltenta PO141C 14 februari 2025 | 28 huvudfrågor → 34 delövningar; 12 bilder | Inget medföljande facit; korta egna svarsförslag |
 | Växjö 2023 | 20 huvudfrågor | Tidigare bearbetade svarsförslag |
 | Växjö 2024 | 20 huvudfrågor | Tidigare bearbetade svarsförslag |
 
