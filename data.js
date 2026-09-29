@@ -1,5 +1,5 @@
 window.EXAM_DATA = {
-  "version": "2.6.0",
+  "version": "2.6.1",
   "reviewed": "2026-09-15",
   "sources": {
     "kkl": {
@@ -8068,15 +8068,13 @@ window.EXAM_DATA = {
       "title": "Fråga 28",
       "category": "Trafikolycka",
       "prompt": "Vad bör en vindruterapport innehålla för information? (7p)",
-      "answer": "Exakt plats; olyckstyp; antal/inblandade fordon; antal skadade och synligt tillstånd; risker; framkomlighet/lämplig tillfart; resursbehov och inledda åtgärder. Säg vad som är okänt.",
+      "answer": "Plats för händelsen\nOmfattning och typ av händelse\nLägesbild, risker och hot\nInkommande körväg till platsen\nSkadade, antal, typ\nExtra resurser som krävs\nNödvändig kompletterande information",
       "choices": [],
-      "sources": [
-        "vindruta"
-      ],
+      "sources": [],
       "reviewed": "2026-09-29",
       "sourceDocument": "20250214 PO141C 2401 – PROVFRÅGOR.doc",
       "sourcePage": 16,
-      "change": "Kort praktiskt svarsförslag, inte en verifierad sjupunktsmall från läraren. Rapportera omedelbara iakttagelser – gissa inte skador eller antal."
+      "note": "Svaret följer den kompletterande bilden med sju punkter."
     }
   ],
   "exams": [

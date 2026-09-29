@@ -1,3 +1,9 @@
+# Rättelse fråga 28 · v2.6.1
+
+Svaret jämfört med den inskickade bilden: alla sju punkter i rätt ordning och med oförändrad ordalydelse. Alla övriga 344 frågor oförändrade. Befintliga regressionstester och diffkontroll godkända. Versionsnummer och offlinecache uppdaterade till 2.6.1.
+
+---
+
 # Exempeltenta VT2025 · v2.6.0 · 29 september 2026
 
 - 28 huvudfrågor, 34 delövningar och 12 originalbilder. Alla 311 tidigare frågor och deras källor jämförda med föregående version och bevarade. Delgivningarna är oförändrade.

@@ -1,3 +1,9 @@
+# Rättelse fråga 28 · v2.6.1
+
+Vindruterapportens svar ersatt med bildens sju punkter i samma ordning och med oförändrad ordalydelse. Den tidigare kommentaren om ett eget sjupunktsförslag har tagits bort. Övriga frågor är oförändrade.
+
+---
+
 # Exempeltenta VT2025 · 29 september 2026
 
 Källa: användarens `20250214 PO141C 2401 - PROVFRÅGOR.doc`, 16 sidor. 28 huvudfrågor har delats i 34 övningar. Fall, datum, sju bältesalternativ och alla 12 frågebilder bevarade. Originalet innehåller inget facit; appens korta svar är självständiga svarsförslag. Originalpoäng används inte för automatisk bedömning.
@@ -13,7 +19,7 @@ Källa: användarens `20250214 PO141C 2401 - PROVFRÅGOR.doc`, 16 sidor. 28 huvu
 | 14–18 | Polisens PM 46/2016 (fokusområden skiljs från mål), förordningen om vägtrafikdefinitioner, VMF M16/M14/B8, TrF 4:10 d och PL 22/8 §§. Bältesfrågans rätta alternativ: backning, angivet område och stillastående. Polis i yttre tjänst är inget generellt undantag. |
 | 19–21 | Transportstyrelsens däckregler. 1,6 mm sommar; normalt 3 mm vinter, PB klass II över 3,5 ton 5 mm; personbil 1 december–31 mars vid vinterväglag. Skilj från ändrade vinterdatum för tung lastbil/buss. |
 | 22–25 | Användarens Manual för att skriva ordningsbot, s. 4, 7 och 10; RB 48:15, FAP 261-1 och KKL. Fem gärningar är kursens blankett-/handläggningsrutin, inte påstådd allmän lagregel. Samtidig olovlig körning rapporteras samlat. |
-| 26–28 | Polisens publika information om snabbare lagföring: jourförundersökningsledaren. MSB:s stöd för tidig vindruterapport. Svaret på fråga 28 är ett praktiskt svarsförslag, inte en verifierad sjupunktsmall från läraren. |
+| 26–28 | Polisens publika information om snabbare lagföring: jourförundersökningsledaren. MSB:s stöd för tidig vindruterapport. Svaret på fråga 28 återger de sju punkterna i användarens kompletterande bild, enligt rättelsen i v2.6.1. MSB-länken gäller fråga 27 och anges inte som källa till bildens formulering. |
 
 Källänkar finns vid varje svar. Kontrollen avser regler i kraft 29 september 2026; framtida ikraftträdanden i konsoliderad lagtext ska inte användas i förtid. Ingen fullständig praxisinventering eller verifiering av interna tjänsterutiner. De 311 tidigare övningarna och delgivningarna har inte ändrats eller granskats på nytt i denna release.
 
